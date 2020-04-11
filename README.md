@@ -17,3 +17,5 @@ Achillea __millefolium__
 
 1. Fruits blancs.
 2. Sur pédicelles.
+3. Épais (pachypoda) rouge.
+4. Revert de la feuille.
