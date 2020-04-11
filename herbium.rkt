@@ -6,11 +6,13 @@
     #("Actée blanche" "(RENONCULACÉES)" "[232]"
                       "Actea pachypoda"
                       "Fruits blancs sur pédicelles épais (pachypoda) rouges.
-                       Revers de la feuille moins poilu que A. rubra." "toxique")
+                       Revers de la feuille moins poilu que A. rubra."
+                      "toxique")
 
     #("Actée rouge" "(RENONCULACÉES)" "[233]"
                     "Actea rubra"
-                    #f "toxique")
+                    #f
+                    "toxique")
     
     #("Adiante du Canada" "(POLYPODIACÉES)" "[124]"
                           "Adiantum pedatum"
@@ -18,7 +20,7 @@
     
     #("Agrostide blanche" "(GRAMINÉES)" "[793]"
                           "Agrostis stolonifera"
-                                "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines.
+                          "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines.
                                  Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
 
 
