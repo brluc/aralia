@@ -4,20 +4,20 @@
 
 (provide (all-defined-out))
 
-(define database-filename
+(define herbium-database-filename
   (make-parameter "herbium.rkt"))
 
-(struct plant (schema rows) #:prefab)
+(struct herbium (schema rows) #:prefab)
 
-(define (read-plants)
-  (call-with-input-file (database-filename) read))
+(define (read-herbium)
+  (call-with-input-file (herbium-database-filename) read))
 
 (define conn (make-parameter #f))
 
 (define (connect)
   (conn (sqlite3-connect #:database 'memory)))
 
-(define (create-plant-table)
+(define (create-herbium-table)
   (query-exec (conn)
               "create table plant (
                  uid integer primary key,
@@ -29,10 +29,10 @@
                  edibility text
                );"))
 
-(define (drop-plant-table)
+(define (drop-herbium-table)
   (query-exec (conn) "drop table if exists plant"))
 
-(define (populate-plant-table)
+(define (populate-herbium-table)
   (call-with-transaction
    (conn)
    (lambda ()
@@ -48,7 +48,7 @@
              values 
                ($1,$2,$3,$4,$5,$6);"
             french-name family ref-victorin latin-name index edibility))))
-      (plant-rows (read-plants))))))
+      (plant-rows (read-herbium))))))
 
 
 

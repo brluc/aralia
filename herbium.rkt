@@ -1,4 +1,4 @@
-#s(plant
+#s(herbium
    ('nom-francais 'famille 'ref-victorin 'nom-latin 'indice 'comestibilite )
    (#("Achillée millefeuille" "COMPOSÉES" 592
                               "Achillea Millefolium" #f #f)
