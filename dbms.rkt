@@ -1,6 +1,14 @@
+;;; dbms.rkt
+;;;
+;;; Run this in terminal to test;
+;;;
+;;;   racket dbms.rkt
+;;;
+
 #lang racket
 
-(require db)
+(require db
+         "format-table.rkt")
 
 (provide (all-defined-out))
 
@@ -19,18 +27,18 @@
 
 (define (create-herbium-table)
   (query-exec (conn)
-              "create table plant (
+              "create table herbium (
                  uid integer primary key,
                  french_name text not null,
                  family text,
                  ref_victorin integer,
                  latin_name text,
-                 index text,
+                 idx text,
                  edibility text
                );"))
 
 (define (drop-herbium-table)
-  (query-exec (conn) "drop table if exists plant"))
+  (query-exec (conn) "drop table if exists herbium"))
 
 (define (populate-herbium-table)
   (call-with-transaction
@@ -43,28 +51,35 @@
                    latin-name index edibility)
            (query-exec
             (conn)
-            "insert into publication
-               (french_name,family,ref_victorin,latin_name,index,edibility)
+            "insert into herbium
+               (french_name,family,ref_victorin,latin_name,idx,edibility)
              values 
                ($1,$2,$3,$4,$5,$6);"
             french-name family ref-victorin latin-name index edibility))))
-      (plant-rows (read-herbium))))))
+      (herbium-rows (read-herbium))))))
+
+(define (start)
+  (if (conn)
+      (begin (drop-herbium-table)
+             (create-herbium-table)
+             (populate-herbium-table))
+      (begin (connect)
+             (create-herbium-table)
+             (populate-herbium-table))))
 
 
 
 
+(start)
 
-;; (define (fetch-ticket-args-by-code code)
-;;   (query-maybe-row (conn)
-;;                    "select title,cover_h,cover_w,color
-;;                     from publication
-;;                     where code=$1;" code))
+(define (fetch-all)
+  (map (lambda (row) (vector-map sql-null->false row))
+       (query-rows (conn)
+                   "select * from herbium order by french_name asc")))
 
-;; (define (fetch-rows-by-title search-string)
-;;   (map (lambda (row)
-;;          (vector-map sql-null->false row))
-;;        (query-rows (conn)
-;;                    "select * from publication
-;;                     where title like $1
-;;                     order by title asc;"
-;;                    (format "~a" search-string))))
+(displayln
+ (format-table/default
+  (map (lambda (row)
+         (take (vector->list row) 4))
+       (fetch-all))))
+
