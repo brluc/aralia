@@ -22,59 +22,59 @@
                           "Agrostis stolonifera"
                           "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
 
-    #("Aigremoine striée" "(ROSACÉES)" "[344]"
+    #("Aigremoine striée" "ROSACÉES" "[344]"
                           "Agrimonia striata" #f #f)
 
-    #("Ail des bois" "(LILIACÉES)" "[660]"
+    #("Ail des bois" "LILIACÉES" "[660]"
                      "Allium tricoccum" #f "comestible")
 
-    #("Alpiste roseau" "(GRAMINÉES)" "[804]"
+    #("Alpiste roseau" "GRAMINÉES" "[804]"
                        "Phalaris arundinacea" #f #f)
 
-    #("Amélanchier spp" "(ROSACÉES)" "[315]"
+    #("Amélanchier spp" "ROSACÉES" "[315]"
                         "Amelanchier" #f "fruit comestible")
 
-    #("Anaphale marguerite" "(COMPOSÉES)" "[574]"
+    #("Anaphale marguerite" "COMPOSÉES" "[574]"
                             "Anaphalis margaritacea" #f #f)
 
-    #("Ancolie du Canada" "(RENONCULACÉES)" "[228]"
+    #("Ancolie du Canada" "RENONCULACÉES" "[228]"
                           "Aquilegia canadensis" "Fleurs écarlates à éperons droits." #f)
 
-    #("Ancolie vulgaire" "(RENONCULACÉES)" #f
+    #("Ancolie vulgaire" "RENONCULACÉES" #f
                          "Aquilegia vulgaris" "Fleurs bleues, pourpres ou blanches à éperons fortement recourbés." #f)
 
-    #("Antennaire" "(COMPOSÉES)" "[574]"
+    #("Antennaire" "COMPOSÉES" "[574]"
                    "Antennaria howelii" #f #f)
 
 
-    #("Anthrisque des bois (persil sauvage)" "(OMBELLIFÈRES)" "[420]"
+    #("Anthrisque des bois (persil sauvage)" "OMBELLIFÈRES" "[420]"
                                              "Anthriscus sylvestris" #f #f)
 
-    #("Apocyn à feuilles d’Androsème" "(APOCYNACÉES)" "[517]"
+    #("Apocyn à feuilles d’Androsème" "APOCYNACÉES" "[517]"
                                       "Apocynum androsaemifolium" #f "toxique")
 
-    #("Aralie à grappes" "(ARALIACÉES)" "[412]"
+    #("Aralie à grappes" "ARALIACÉES" "[412]"
                          "Aralia racemosa" #f "fruit comestible")
 
-    #("Aralie à tige nue" "(ARALIACÉES)" #f
+    #("Aralie à tige nue" "ARALIACÉES" #f
                           "Aralia nudicaulis" #f "fruit comestible")
 
-    #("Arisème petit-prêcheur" "(ARACÉES)" "[840]"
+    #("Arisème petit-prêcheur" "ARACÉES" "[840]"
                                "Arisaema triphyllum (atrorubens)" #f "toxique")
 
-    #("Asaret du Canada" "(ARISTOLOCHIACÉES)" "[219]"
+    #("Asaret du Canada" "ARISTOLOCHIACÉES" "[219]"
                          "Asarum canadense" #f "rhizome comestible")
 
-    #("Asclépiade commune" "(ASCLÉPIADACÉES)" "[519]"
+    #("Asclépiade commune" "ASCLÉPIADACÉES" "[519]"
                            "Asclepias syriaca" #f #f)
 
-    #("Aster de la Nouvelle-Angleterre" "(COMPOSÉES)" "[608]"
+    #("Aster de la Nouvelle-Angleterre" "COMPOSÉES" "[608]"
                                         "Aster (virgulus)  novae-angliae" #f #f)
 
-    #("Aster simple" "(COMPOSÉES)" "[609]"
+    #("Aster simple" "COMPOSÉES" "[609]"
                      "Aster simplex Symphyotrichum lanceolatum" #f #f)
 
-    #("Athyrie fausse-thelyptère" "(POLYPODIACÉES)" "[132]"
+    #("Athyrie fausse-thelyptère" "POLYPODIACÉES" "[132]"
                                   "Athyrium thelypteroides (-ridoides)" "Limbe doublement divisé. Sores allongés (bâtonnets)." #f)
 
 
