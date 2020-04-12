@@ -77,6 +77,32 @@
     #("Athyrie fausse-thelyptère" "POLYPODIACÉES" "[132]"
                                   "Athyrium thelypteroides (-ridoides)" "Limbe doublement divisé. Sores allongés (bâtonnets)." #f)
 
+    #("Athyrie fougère-femelle" "POLYPODIACÉES" "[133]"
+                                "Athyrium Filix-femina" #f #f)
+
+    #("Aubépine spp" "ROSACÉES" "[296-314]"
+                     "Crataegus" "Rameaux épineux." "fruit comestible")
+
+    #("Aulne crispé" "BÉTULACÉES" "[151]"
+                     "Alnus crispa (viridis)" "Rare au Qc (vulnérable). Cocottes persistantes sur longues queues. Feuilles avec dents fines non doublement dentées." #f)
+
+    #("Aulne rugueux" "BÉTULACÉES" #f
+                      "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec A. viridis. Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées."
+
+    #("Barbarée vulgaire" "CRUCIFÈRES" "[269]"
+                          "Barbarea vulgaris" "Floraison : mai-juillet."  #f)
+
+    #("Bardane majeure" "COMPOSÉES" "[570]"
+                        "Arctium Lappa" "Hauteur : 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec A. minus." #f)
+
+    #("Bardane mineure" "COMPOSÉES"
+			"Arctium minus" "Hauteur : 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)." #f)
+
+    #("Benoîte des ruisseaux" "ROSACÉES" "[344]"			
+                              "Geum rivale" #f "rhizome tisane")
+
+    #("Benoîte du Canada" "ROSACÉES"
+                          "Geum canadense" "Fleurs blanches, feuilles plus serrées, ne pas confondre avec G. aleppicum : fleurs jaunes." #f)
 
 
 
