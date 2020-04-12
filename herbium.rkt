@@ -1,24 +1,24 @@
 #s(herbium
    ('nom-francais 'famille 'ref-victorin 'nom-latin 'indice 'comestibilite )
-   (#("Achillée millefeuille" "COMPOSÉES" 592
+   (#("Achillée millefeuille" "COMPOSÉES" "[592]"
                               "Achillea Millefolium" #f #f)
 
-    #("Actée blanche" "RENONCULACÉES" 232
+    #("Actée blanche" "RENONCULACÉES" "[232]"
                       "Actea pachypoda"
                       "Fruits blancs sur pédicelles épais (pachypoda) rouges.
                        Revers de la feuille moins poilu que A. rubra."
                       "toxique")
 
-    #("Actée rouge" "RENONCULACÉES" 233
+    #("Actée rouge" "RENONCULACÉES" "[233]"
                     "Actea rubra"
                     #f
                     "toxique")
     
-    #("Adiante du Canada" "POLYPODIACÉES" 124
+    #("Adiante du Canada" "POLYPODIACÉES" "[124]"
                           "Adiantum pedatum"
                           #f #f)
     
-    #("Agrostide blanche" "GRAMINÉES" 793
+    #("Agrostide blanche" "GRAMINÉES" "[793]"
                           "Agrostis stolonifera"
                           "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
 
@@ -103,6 +103,33 @@
 
     #("Benoîte du Canada" "ROSACÉES"
                           "Geum canadense" "Fleurs blanches, feuilles plus serrées, ne pas confondre avec G. aleppicum : fleurs jaunes." #f)
+
+    #("Benoîte d’Alep" "ROSACÉES" "[345]"
+                       "Geum aleppicum" #f #f)
+
+    #("Bermudienne commune" "IRIDACÉES" "[669]"
+                            "Sisyrinchium montanum" #f #f)
+
+    #("Bident feuillu" "COMPOSÉES" "[566]"
+                       "Bidens frondosa" #f #f)
+
+    #("Bleuet fausse myrtille" "ÉRICACÉES" "[442]"
+                               "Vaccinium myrtilloides" "Rameaux nettement velus, feuilles poilues sur les deux faces." "fruit comestible")
+
+    #("Bleuet (airelle) à feuille étroite" "ÉRICACÉES" #f
+                                           "Vaccinium angustifolium" "Feuilles glabres." "fruit comestible")
+
+    #("Bouleau gris (à feuilles de peuplier)" "BÉTULACÉES" "[149]"
+                                              "Betula populifolia" "Feuilles triangulaires longuement acuminées. Écorce ne s’exfoliant pas. Taches noires sous les branches." #f)
+
+    #("Bouleau blanc" "BÉTULACÉES" "[150]"
+                      "Betula papyrifera" #f "sève comestible")
+    
+    #("Bouleau jaune (merisier)" "BÉTULACÉES" #f
+                                 "Betula alleghaniensis" #f #f)
+
+    #("Bouleau à feuilles cordées" "BÉTULACÉES" #f
+                                   "Betula cordifolia ou Betula papyrifera var. cordifolia." #f #f)
 
 
 
