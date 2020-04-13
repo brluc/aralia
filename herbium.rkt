@@ -163,6 +163,37 @@
     #("Carotte sauvage" "OMBELLIFÈRES" 418
                         "Daucus Carota" #f "rhizome comestible")
 
+    #("Centaurée noire" "COMPOSÉES" 568
+                        "Centaurea nigra" "Bractées à sommet élargi, noir, finement frangé." #f)
+
+    #("Centaurée jacée" "COMPOSÉES" #f
+			"Centaurea Jacea" #f #f)
+
+    #("Centaurée des montagnes" "COMPOSÉES" #f
+                                "Centaurea montana" #f #f)
+
+    #("Céraiste vulgaire" "CARYOPHYLLACÉES" "208"
+                          "Cerastium vulgatum" "Fortement pubescent. Ne pas confondre avec S. graminea." #f)
+
+    #("Cerisier de Pennsylvanie" "ROSACÉES" "320"
+                                 "Prunus pensylvanica" #f "Comestible: fruits sans noyau")
+
+    #("Cerisier tardif" "ROSACÉES" "321"
+                        "Prunus serotina" #f #f)
+
+    #("Cerisier à grappes" "ROSACÉES" "322"
+                           "Prunus virginiana" "Petit arbuste (3-4 m), jusqu’à 9 m." "Comestible: fruit sans noyau.")
+
+    #("Chardon vulgaire" "COMPOSÉES" "582"
+                         "Cirsium vulgare" "Plante fortement épineuse. Capitules épineux (4-5 cm)." #f)
+
+    #("Chardon des champs" "COMPOSÉES" "583"
+                           "Cirsium arvense" "Petits capitules (2-2,5 cm) non épineux." #f)
+
+    #("Chélidoine majeure" "PAPAVÉRACÉES" 248
+                           "Chelidonium majus" #f #f)
+
+
 
     
 
