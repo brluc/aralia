@@ -193,6 +193,45 @@
     #("Chélidoine majeure" "PAPAVÉRACÉES" 248
                            "Chelidonium majus" #f #f)
 
+    #("Chêne rouge" "FAGACÉES" "154"
+                    "Quercus rubra" "Feuilles lobées (7-9 lobes) à pointes acérées." #f)
+
+    #("Chêne bicolore" "FAGACÉES" #f
+                       "Quercus bicolor" "Feuilles très pâles et pubescentes en-dessous. Lobes peu découpés à largeur maximale au-dessus du milieu." #f)
+
+    #("Chêne blanc" "FAGACÉES" #f					
+                    "Quercus alba" "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis." "Glands comestible")
+
+    #("Chêne à gros fruits" "FAGACÉES" "155"
+                            "Quercus macrocarpa" "Feuilles pubescentes en-dessous à lobe terminal souvent grand." #f)
+
+    #("Chénopode blanc" "CHÉNOPODIACÉES" "194"
+			"Chenopodium album" #f "graines comestible")
+
+    #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" "537"
+                                  "Lonicera tatarica" #f #f)
+
+    #("Chèvrefeuille du Canada" "CAPRIFOLIACÉES" #f
+                                "Lonicera canadensis" #f #f) 
+
+    #("Chicorée sauvage" "COMPOSÉES" "551"
+                         "Cichorium Intybus" #f #f)
+
+    #("Chiendent" "GRAMINÉES" "788"
+                  "Agropyron repens" #f #f)
+
+    #("Claytonie de Caroline" "PORTULACACÉES" "202"
+                              "Claytonia caroliniana" "Ne pas confondre avec C. virginica : feuilles étroites (8 fois plus longues que larges). Rare au Qc, plus grégaire; colonies denses." "bulbe comestible")
+
+    #("Clématite de Virginie" "RENONCULACÉES" "222"
+                              "Clematis virginiana" #f #f)
+
+    #("Clintonie boréale" "LILIACÉES" "647"
+                          "Clintonia borealis" #f #f)
+
+    #("Cohosh bleu" "BERBÉRIDACÉES" "237"
+                    "Caulophyllum thalictroides" #f #F)
+
 
 
     
