@@ -4,23 +4,16 @@
                               "Achillea Millefolium" #f #f)
 
     #("Actée blanche" "RENONCULACÉES" 232
-                      "Actea pachypoda"
-                      "Fruits blancs sur pédicelles épais (pachypoda) rouges.
-                       Revers de la feuille moins poilu que A. rubra."
-                      "toxique")
+                      "Actea pachypoda" "Fruits blancs sur pédicelles épais (pachypoda) rouges. Revers de la feuille moins poilu que A. rubra." "toxique")
 
     #("Actée rouge" "RENONCULACÉES" 233
-                    "Actea rubra"
-                    #f
-                    "toxique")
+                    "Actea rubra" #f "toxique")
     
     #("Adiante du Canada" "POLYPODIACÉES" 124
-                          "Adiantum pedatum"
-                          #f #f)
+                          "Adiantum pedatum" #f #f)
     
     #("Agrostide blanche" "GRAMINÉES" 793
-                          "Agrostis stolonifera"
-                          "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
+                          "Agrostis stolonifera" "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
 
     #("Aigremoine striée" "ROSACÉES" 344
                           "Agrimonia striata" #f #f)
@@ -87,7 +80,7 @@
                      "Alnus crispa (viridis)" "Rare au Qc (vulnérable). Cocottes persistantes sur longues queues. Feuilles avec dents fines non doublement dentées." #f)
 
     #("Aulne rugueux" "BÉTULACÉES" #f
-                      "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec A. viridis. Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées."
+                      "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec A. viridis. Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées." #f)
 
     #("Barbarée vulgaire" "CRUCIFÈRES" 269
                           "Barbarea vulgaris" "Floraison : mai-juillet."  #f)
@@ -134,7 +127,44 @@
     #("Bourse à pasteur" "CRUCIFÈRES" 251
                          "Capsella Bursu-pastoris" #f #f)
 
+    #("Brome inerme" "GRAMINÉES" 777
+		     "Bromus inermis" #f #f)
 
+    #("Camomille des chiens" "COMPOSÉES" 592
+                             "Anthemis Cotula" "Feuilles très divisées, comme les matricaires. Ne pas confondre avec C. Leucanthemum." #f)
+
+    #("Campanule fausse-raiponce" "CAMPANULACÉES" 544
+                                  "Campanula rapunculoides" #f "racines comestible")
+
+    #("Cardamine carcajou" "CRUCIFÈRES" 258
+                           "Cardamine (dentaria) diphylla" #f "rhizome comestible")
+
+    #("Carex stipité" "CYPÉRACÉES" 709
+                      "Carex stipita" #f #f)
+
+    #("Carex étoilé" "CYPÉRACÉES" 714
+                     "Carex echinata (angustior)" #f #f)
+
+    #("Carex à balais" "CYPÉRACÉES" 719
+                       "Carex scoparia" #f #f)
+
+    #("Carex plantain" "CYPÉRACÉES" 730
+                       "Carex plantaginea" "Floraison très printanière" #f)
+
+    #("Carex crépu" "CYPÉRACÉES" 745
+                    "Carex crinita" #f #f)
+
+    #("Carex réfléchi" "CYPÉRACÉES" 754
+                       "Carex retrorsa" #f #f)
+
+    #("Carex gonflé" "CYPÉRACÉES" 756
+                     "Carex intumescens" #f #f)
+
+    #("Carotte sauvage" "OMBELLIFÈRES" 418
+                        "Daucus Carota" #f "rhizome comestible")
+
+
+    
 
 
     ))
