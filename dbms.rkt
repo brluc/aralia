@@ -1,9 +1,7 @@
+;;;
 ;;; dbms.rkt
 ;;;
-;;; Run this in terminal to test;
-;;;
-;;;   racket dbms.rkt
-;;;
+
 
 #lang racket
 
