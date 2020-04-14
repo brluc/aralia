@@ -1,9 +1,14 @@
 TARGET1=aralia
+TARGET2=book
 
-all: $(TARGET1).rkt 
+aralia: $(TARGET1).rkt 
 	racket $(TARGET1).rkt
 	pdflatex $(TARGET1)
 	pdflatex $(TARGET1)
+
+book: $(TARGET2).tex
+	pdflatex $(TARGET2)
+	pdflatex $(TARGET2)
 
 .PHONY: clean
 clean:
