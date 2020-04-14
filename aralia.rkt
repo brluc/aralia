@@ -1,6 +1,7 @@
 #lang racket
 
-(require "dbms.rkt")
+(require db
+         "dbms.rkt")
 
 (provide (all-defined-out))
 
@@ -37,16 +38,26 @@
 
    "\n\n\\vfill\n\\end{document}\n"))
 
-
+(start)
 
 (define (make-body)
-  )
+  (string-join
+   (map (lambda (row)
+          (string-join
+           (take (map (lambda (u)
+                        (format "~a" (sql-null->false u)))
+                      (vector->list row)) 3)
+           " "))
+        (query-rows (conn)
+                    "select * from herbium order by french_name asc;"))
+   "\n\n"))
+
 
 (define (write-to-tex-file body)
   (call-with-output-file "aralia.tex" #:exists 'replace
     (lambda (out)
       (display
-       (document body)
+       (document (make-body))
        out))))
 
 (write-to-tex-file "foo")
