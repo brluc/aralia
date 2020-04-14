@@ -232,7 +232,49 @@
     #("Cohosh bleu" "BERBÉRIDACÉES" "237"
                     "Caulophyllum thalictroides" #f #F)
 
+    #("Coptide savoyane" "RENONCULACÉES" "230"
+                         "Coptis trifolia" #f #f)
 
+    #("Cornouiller du Canada" "CORNACÉES" "407"	
+                              "Cornus canadensis" #f "Fruits comestible")
+
+    #("Cornouiller stolonifère (Hart rouge)" "CORNACÉES" "409"
+                                             "Cornus stolonifera" #f #f)
+
+    #("Cornouiller à feuilles alternes" "CORNACÉES" #f
+                                        "Cornus alternifolia" #f #f)
+
+    #("Cypripède rose" "ORCHIDACÉES" "820"
+                       "Cypripedium acaule" #f #f)
+
+    #("Dalibarde rampante" "ROSACÉES" "342"
+                           "Dalibarda repens" #f #f)
+
+    #("Dennstaedtie à lobules ponctués" "POLYPODIACÉES" "124"
+                                        "Dennstaedtia punctilobula" "Limbe triplement divisé." #f)
+
+    #("Dicentre capuchon jaune" "FUMARIACÉES" "245"
+				"Dicentra cucullaria" #f #f)
+
+    #("Dicentre capuchon rose" "FUMARIACÉES" #f
+				"Dicentra canadensis" "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec D. cucullaria : lobes étirés." #f)
+
+    #("Digitaire sanguine" "GRAMINÉES" "808"
+                           "Digitaria sanguinalis" #f #f)
+
+    #("Diplotaxis (drave) des murailles" "CRUCIFÈRES" #f
+                                         "Diplotaxis muralis" #f #F)
+
+    #("Dryoptéride du hêtre (moustaches)" "POLYPODIACÉES" "129"
+				"Phegopteris connectilis ou Dryopteris phegopteris" #f #f)
+
+    #("Dryoptère spinuleuse" "POLYPODIACÉES" "130"
+                             "Dryopteris spinulosa (intermedia)" "Limbe triplement divisé. Sores ronds. Ne pas confondre avec A. Filix-femina. Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé." #f)
+
+    #("Dryoptère à sores marginaux" "POLYPODIACÉES" #f
+                                    "Dryopteris marginalis" "Limbe triplement divisé. Sores en forme de virgules. Écailles brun noir sur la crosse." #f)
+
+    
 
     
 
