@@ -1,6 +1,8 @@
 #lang racket
 
-(require "dbms.rkt")
+(require db
+         "format-table.rkt"
+         "dbms.rkt")
 
 (start)
 

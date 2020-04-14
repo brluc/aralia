@@ -5,8 +5,7 @@
 
 #lang racket
 
-(require db
-         "format-table.rkt")
+(require db)
 
 (provide (all-defined-out))
 
