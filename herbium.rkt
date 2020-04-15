@@ -274,6 +274,94 @@
     #("Dryoptère à sores marginaux" "POLYPODIACÉES" #f
                                     "Dryopteris marginalis" "Limbe triplement divisé. Sores en forme de virgules. Écailles brun noir sur la crosse." #f)
 
+    #("Égopode podagraire" "OMBELLIFÈRES" "425"
+                           "Aegopodium Podagraria" #f #f)
+
+    #("Épervière florentine" "COMPOSÉES" "559"
+                             "Hieracium florentinum" "Très similaire à H. pratense. Feuilles lancéolées, peu ou pas poilues sur le dessus."#f)
+
+    #("Épervière orangée" "COMPOSÉES" #f
+                          "Hieracium aurantiacum" #f #f)
+
+    #("Épervière piloselle" "COMPOSÉES" "560"
+                            "Hieracium Pilosella" "Un seul capitule. Fortement stolonifère (tapis)." #F)
+
+    #("Épervière des prés" "COMPOSÉES" #f
+                           "Hieracium pratense" "Plusieurs capitules. Feuilles toutes basilaires et lancéolées, poilues sur les deux faces, ne pas confondre avec H. florentinum." #f)
+
+    #("Épervière vulgaire" "COMPOSÉES" #f
+                           "Hieracium vulgatum" #f #f)
+
+    #("Épiaire des marais" "LABIÉES" "499"
+                           "Stachys palustris" #f "tubercule comestible")
+
+    #("Épifage de Virginie" "OROBANCHACÉES" "488"
+                            "Epifagus virginiana" #f #f)
+    
+    #("Épilobe cilié (glanduleux)" "ONAGRACÉES" "372"
+                                   "Epilobium ciliatum" "Fleurs à quatre pétales divisés en deux." #f)
+
+    #("Épinette blanche" "PINACÉES" "143"
+                         "Picea glauca" "Pour toutes les épinettes, coupe transversale des aiguilles en losange. Rameaux pâles et glabres. Cônes cylindriques (3-6 cm). Aiguilles vert bleuâtre." #f)
+
+    #("Épinette noire" "PINACÉES" #f
+                       "Picea mariana" "Rameaux rougeâtres et pubescents. Cônes sphériques (2-3 cm) dont le bord des écailles est denté." #f)
+
+    #("Épinette bleue (du Colorado)" "PINACÉES" #f
+                                     "Picea pungens" #f #f)
+
+    #("Épinette rouge" "PINACÉES" #f
+                       "Picea rubens" "Aiguilles recourbées en finale. Cônes ovoïdes (3-5 cm) à écailles lisses, ne pas confondre avec P. mariana." #f)
+
+    #("Épinette de Norvège" "PINACÉES" #f
+                            "Picea abies" #f #f)
+                                
+    #("Épipacte petit-hellébore" "ORCHIDACÉES" "829"
+                                 "Epipactis Helleborine" #f #f)
+
+    #("Érable de Pennsylvanie" "ACÉRACÉES" "395"
+                               "Acer pensylvanicum" #f #f)
+
+    #("Érable à épis" "ACÉRACÉES" #f
+                      "Acer spicatum" #f #f)
+
+    #("Érable argenté" "ACÉRACÉES" "396"
+                       "Acer saccharinum" "Feuilles simples lobées, à sinus profonds étroits et non dentés. Grandes samares (40-70 mm) dont les ailes forment un angle de 90 degrés." #f)
+
+    #("Érable rouge" "ACÉRACÉES" #f
+                     "Acer rubrum" "Feuilles lobées, grossièrement dentées à sinus peu profonds larges et anguleux. Petites samares (12-25 mm) dont l’angle des ailes est de 60 degrés." "samares comestibles")
+
+    #("Érable à sucre" "ACÉRACÉES" "398"
+                       "Acer saccharum" "Feuilles à sinus arrondis, non dentés." "eau comestible: sirop")
+
+
+    #("Érigéron du Canada (Vergerette)" "COMPOSÉES" "603"
+                                        "Erigeron canadensis" "Capitules très petits (2-4 mm). Rayons peu apparents." #f)
+
+    #("Érigéron de Philadelphie" "COMPOSÉES" "604"
+                                 "Erigeron philadelphicus" "Fleurs rosées." #f)
+
+    #("Érigéron annuel" "COMPOSÉES" #f
+                        "Erigeron annuus" "Fleurs blanches." #f)
+
+    #("Érythrone d’Amérique" "LILIACÉES" "656"
+                             "Erythronium americanum" #f #f)
+
+    #("Eupatoire maculée" "COMPOSÉES" "583"
+                          "Eupatorium maculatum" #f #f)
+
+    #("Eupatoire perfoliée" "COMPOSÉES" #f
+                            "Eupatorium perfoliatum" #f #f)
+
+    #("Eupatoire rugueuse" "COMPOSÉES" "584"
+                           "Eupatorium rugosum" #f "toxique")
+
+    #("Fétuque rouge" "GRAMINÉES" "774"
+                      "Festuca rubra" #f #F)
+
+
+
+
     
 
     
