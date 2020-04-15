@@ -359,6 +359,59 @@
     #("Fétuque rouge" "GRAMINÉES" "774"
                       "Festuca rubra" #f #F)
 
+    #("Fougère-aigle commune" "POLYPODIACÉES" "125"
+                              "Pteridium aquilinum" #f #f)
+    
+    #("Fraisier des bois" "ROSACÉES" "342"
+                          "Fragaria vesca (americana)" "Se distingue de F. virginiana surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions." "comestible")
+
+    #("Fraisier des champs" "ROSACÉES" #f
+                            "Fragaria virginiana" "Lieux ouverts et secs. Graines en surface mais dans une dépression." "comestible")
+
+    #("Frêne blanc" "OLÉACÉES" "521"
+                    "Fraxinus americana" "7 à 9 folioles non sessiles." #f)
+
+    #("Frêne rouge" "OLÉACÉES" "522"
+                    "Fraxinus pennsylvanica" "7 à 9 folioles non sessiles. Feuilles dentées du milieu à l’apex, au dessous duveteux." #f)
+
+    #("Frêne noir" "OLÉACÉES" #f
+                   "Fraxinus nigra" "7 à 11 folioles. Folioles sessiles sur le pétiole central. Écorce comme du liège." #f)
+
+    #("Gadellier américain" "SAXIFRAGACÉES" "290"
+                            "Ribes americanum" "Fruits : baies noires sans piquant." #f)
+
+    #("Gaillet piquant" "RUBIACÉES" "528"
+                        "Galium asprellum" #f #f)
+
+    #("Galane glabre" "SCROPHULARIACÉES" "482"
+                      "Chelone glabra" #f #f)
+
+    #("Galéopside à tige carrée" "LABIÉES" "499"
+                                 "Galeopsis Tetrahit" #f #f)
+    
+    #("Galinsoga cilié" "COMPOSÉES" "585"
+                        "Galinsoga ciliata" #f #f)
+
+    #("Gesse à larges feuilles" "LÉGUMINEUSES" "352"
+                                "Lathyrus latifolius" #f #f)
+
+    #("Ginseng à trois folioles" "ARALIACÉES" "411"
+                                 "Panax trifolius" #f "tubercule comestible")
+
+    #("Glécome lierre-terrestre" "LABIÉES" "495"
+                                 "Glecoma hederacea" #f #f)
+
+    #("Gnaphale des vases" "COMPOSÉES" "576"
+                           "Gnaphalium uliginosum" #f #f)
+
+    #("Groseillier des chiens" "SAXIFRAGACÉES" "291"
+                               "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3)." "Baies comestible")
+
+    #("Glycérie striée" "GRAMINÉES" "768"
+                        "Glyceria striata" #f #f)
+
+    #("Gymnocarpe fougère du chêne" "POLYPODIACÉES" "129"
+                                    "Gymnocarpium dryopteris ou Dryopteris disjuncta" #f #f)
 
 
 
