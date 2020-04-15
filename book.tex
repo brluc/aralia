@@ -1,29 +1,55 @@
-\documentclass{article}
-\textwidth = 3.5 in
-\textheight = 5 in
+\documentclass[book,12pt,a4paper,onecolumn,openany]{memoir}
+\setlrmarginsandblock{15mm}{15mm}{*}
+\setulmarginsandblock{20mm}{20mm}{*}
+\fixthelayout
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+
+\pretitle{\begin{center}\Huge\bfseries}
+\title{The Title}
+\posttitle{\par\vskip1em{\normalfont\normalsize\scshape the subtitle\par\vfill}\end{center}}
+\author{The Author}
+\predate{\vfill\begin{center}\large}
+
+
 \begin{document}
-	
- \begin{titlepage}
-	\begin{center}
-	\huge{\bfseries LES NOMS DE NOS PLANTES} \\
-	[4cm]
-	\textsc{\LARGE SBL Bushcraft Project} \\
-	[2cm]
-	\textsc{\Large Mars 2019} \\
-	[2cm]
-	\textsc{\Large 3e édition} \\
-	\end{center}
-\end{titlepage}
 
-A
+\begin{titlingpage}
+\maketitle
+\end{titlingpage}
 
-Achillée millefeuille (COMPOSÉES)  [592]
-				Achillea Millefolium\\
 
-Actée blanche (RENONCULACÉES)  [232]			
-				Actea pachypoda
+%% I'll try to make it like this title page soon.
+%% 
+%%  \begin{titlepage}
+%% 	\begin{center}
+%% 	\huge{\bfseries LES NOMS DE NOS PLANTES} \\
+%% 	[4cm]
+%% 	\textsc{\LARGE SBL Bushcraft Project} \\
+%% 	[2cm]
+%% 	\textsc{\Large Mars 2019} \\
+%% 	[2cm]
+%% 	\textsc{\Large 3e édition} \\
+%% 	\end{center}
+%% \end{titlepage}
+
+\chapter*{A}
+
+\textbf{Achillée millefeuille} (COMPOSÉES)  [592]
+\emph{Achillea Millefolium}
+
+\medskip
+
+\noindent\textbf{Actée blanche} (RENONCULACÉES)  [232]			
+\emph{Actea pachypoda}
 Fruits blancs sur pédicelles épais (pachypoda) rouges.
-Revers de la feuille moins poilu que A. rubra.\\
+Revers de la feuille moins poilu que \emph{A. rubra.}
+
+\medskip
+
+\newpage
 
 Actée rouge  [233]							
 				Actea rubra\\
