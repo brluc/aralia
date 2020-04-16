@@ -437,7 +437,26 @@
     #("Huperzie brillante" "LYCOPODIACÉES" 108
                            "Huperzia lucidula" "Fructification : sporanges jaunes à l’aisselle des feuilles." #f)
 
+    #("Impatiente du Cap" "BALSAMINACÉES" 399
+                          "Impatiens capensis" #f #f)
 
+    #("Iris versicolore" "IRIDACÉES" 667
+                         "Iris versicolor" #f #f)
+
+    #("Julienne des dames" "CRUCIFÈRES" 256
+                           "Hesperis matronalis" #f #f)
+
+    #("Laiteron des champs" "COMPOSÉES" 557
+                            "Sonchus arvensis" "Capitules 3-5 cm. Tige 1-1,5 m." #f)
+
+    #("Laiteron potager" "COMPOSÉES" 558
+                         "Sonchus oleraceus" "Capitules 1-3 cm. Tige 0,5-1 m. Feuilles non épineuses." #f)
+
+    #("Laiteron épineux" "COMPOSÉES" #f
+                         "Sonchus asper" "Capitules plus petits (1,5-2,5 cm). Tige 0,5-1 m. Feuilles non découpées et fortement épineuses." #f)
+
+    #("Léontodon automnal" "COMPOSÉES" 552
+                           "Leontodon autumnalis" "Floraison : juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. ? Épervières (feuilles lancéolées)." #f)
 
     
 
