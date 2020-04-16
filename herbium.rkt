@@ -172,28 +172,28 @@
     #("Centaurée des montagnes" "COMPOSÉES" #f
                                 "Centaurea montana" #f #f)
 
-    #("Céraiste vulgaire" "CARYOPHYLLACÉES" "208"
+    #("Céraiste vulgaire" "CARYOPHYLLACÉES" 208
                           "Cerastium vulgatum" "Fortement pubescent. Ne pas confondre avec S. graminea." #f)
 
-    #("Cerisier de Pennsylvanie" "ROSACÉES" "320"
+    #("Cerisier de Pennsylvanie" "ROSACÉES" 320
                                  "Prunus pensylvanica" #f "Comestible: fruits sans noyau")
 
-    #("Cerisier tardif" "ROSACÉES" "321"
+    #("Cerisier tardif" "ROSACÉES" 321
                         "Prunus serotina" #f #f)
 
-    #("Cerisier à grappes" "ROSACÉES" "322"
+    #("Cerisier à grappes" "ROSACÉES" 322
                            "Prunus virginiana" "Petit arbuste (3-4 m), jusqu’à 9 m." "Comestible: fruit sans noyau.")
 
-    #("Chardon vulgaire" "COMPOSÉES" "582"
+    #("Chardon vulgaire" "COMPOSÉES" 582
                          "Cirsium vulgare" "Plante fortement épineuse. Capitules épineux (4-5 cm)." #f)
 
-    #("Chardon des champs" "COMPOSÉES" "583"
+    #("Chardon des champs" "COMPOSÉES" 583
                            "Cirsium arvense" "Petits capitules (2-2,5 cm) non épineux." #f)
 
     #("Chélidoine majeure" "PAPAVÉRACÉES" 248
                            "Chelidonium majus" #f #f)
 
-    #("Chêne rouge" "FAGACÉES" "154"
+    #("Chêne rouge" "FAGACÉES" 154
                     "Quercus rubra" "Feuilles lobées (7-9 lobes) à pointes acérées." #f)
 
     #("Chêne bicolore" "FAGACÉES" #f
@@ -202,88 +202,88 @@
     #("Chêne blanc" "FAGACÉES" #f					
                     "Quercus alba" "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis." "Glands comestible")
 
-    #("Chêne à gros fruits" "FAGACÉES" "155"
+    #("Chêne à gros fruits" "FAGACÉES" 155
                             "Quercus macrocarpa" "Feuilles pubescentes en-dessous à lobe terminal souvent grand." #f)
 
-    #("Chénopode blanc" "CHÉNOPODIACÉES" "194"
+    #("Chénopode blanc" "CHÉNOPODIACÉES" 194
 			"Chenopodium album" #f "graines comestible")
 
-    #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" "537"
+    #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537
                                   "Lonicera tatarica" #f #f)
 
     #("Chèvrefeuille du Canada" "CAPRIFOLIACÉES" #f
                                 "Lonicera canadensis" #f #f) 
 
-    #("Chicorée sauvage" "COMPOSÉES" "551"
+    #("Chicorée sauvage" "COMPOSÉES" 551
                          "Cichorium Intybus" #f #f)
 
-    #("Chiendent" "GRAMINÉES" "788"
+    #("Chiendent" "GRAMINÉES" 788
                   "Agropyron repens" #f #f)
 
-    #("Claytonie de Caroline" "PORTULACACÉES" "202"
+    #("Claytonie de Caroline" "PORTULACACÉES" 202
                               "Claytonia caroliniana" "Ne pas confondre avec C. virginica : feuilles étroites (8 fois plus longues que larges). Rare au Qc, plus grégaire; colonies denses." "bulbe comestible")
 
-    #("Clématite de Virginie" "RENONCULACÉES" "222"
+    #("Clématite de Virginie" "RENONCULACÉES" 222
                               "Clematis virginiana" #f #f)
 
-    #("Clintonie boréale" "LILIACÉES" "647"
+    #("Clintonie boréale" "LILIACÉES" 647
                           "Clintonia borealis" #f #f)
 
-    #("Cohosh bleu" "BERBÉRIDACÉES" "237"
+    #("Cohosh bleu" "BERBÉRIDACÉES" 237
                     "Caulophyllum thalictroides" #f #F)
 
-    #("Coptide savoyane" "RENONCULACÉES" "230"
+    #("Coptide savoyane" "RENONCULACÉES" 230
                          "Coptis trifolia" #f #f)
 
-    #("Cornouiller du Canada" "CORNACÉES" "407"	
+    #("Cornouiller du Canada" "CORNACÉES" 407	
                               "Cornus canadensis" #f "Fruits comestible")
 
-    #("Cornouiller stolonifère (Hart rouge)" "CORNACÉES" "409"
+    #("Cornouiller stolonifère (Hart rouge)" "CORNACÉES" 409
                                              "Cornus stolonifera" #f #f)
 
     #("Cornouiller à feuilles alternes" "CORNACÉES" #f
                                         "Cornus alternifolia" #f #f)
 
-    #("Cypripède rose" "ORCHIDACÉES" "820"
+    #("Cypripède rose" "ORCHIDACÉES" 820
                        "Cypripedium acaule" #f #f)
 
-    #("Dalibarde rampante" "ROSACÉES" "342"
+    #("Dalibarde rampante" "ROSACÉES" 342
                            "Dalibarda repens" #f #f)
 
-    #("Dennstaedtie à lobules ponctués" "POLYPODIACÉES" "124"
+    #("Dennstaedtie à lobules ponctués" "POLYPODIACÉES" 124
                                         "Dennstaedtia punctilobula" "Limbe triplement divisé." #f)
 
-    #("Dicentre capuchon jaune" "FUMARIACÉES" "245"
+    #("Dicentre capuchon jaune" "FUMARIACÉES" 245
 				"Dicentra cucullaria" #f #f)
 
     #("Dicentre capuchon rose" "FUMARIACÉES" #f
 				"Dicentra canadensis" "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec D. cucullaria : lobes étirés." #f)
 
-    #("Digitaire sanguine" "GRAMINÉES" "808"
+    #("Digitaire sanguine" "GRAMINÉES" 808
                            "Digitaria sanguinalis" #f #f)
 
     #("Diplotaxis (drave) des murailles" "CRUCIFÈRES" #f
                                          "Diplotaxis muralis" #f #F)
 
-    #("Dryoptéride du hêtre (moustaches)" "POLYPODIACÉES" "129"
+    #("Dryoptéride du hêtre (moustaches)" "POLYPODIACÉES" 129
 				"Phegopteris connectilis ou Dryopteris phegopteris" #f #f)
 
-    #("Dryoptère spinuleuse" "POLYPODIACÉES" "130"
+    #("Dryoptère spinuleuse" "POLYPODIACÉES" 130
                              "Dryopteris spinulosa (intermedia)" "Limbe triplement divisé. Sores ronds. Ne pas confondre avec A. Filix-femina. Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé." #f)
 
     #("Dryoptère à sores marginaux" "POLYPODIACÉES" #f
                                     "Dryopteris marginalis" "Limbe triplement divisé. Sores en forme de virgules. Écailles brun noir sur la crosse." #f)
 
-    #("Égopode podagraire" "OMBELLIFÈRES" "425"
+    #("Égopode podagraire" "OMBELLIFÈRES" 425
                            "Aegopodium Podagraria" #f #f)
 
-    #("Épervière florentine" "COMPOSÉES" "559"
+    #("Épervière florentine" "COMPOSÉES" 559
                              "Hieracium florentinum" "Très similaire à H. pratense. Feuilles lancéolées, peu ou pas poilues sur le dessus."#f)
 
     #("Épervière orangée" "COMPOSÉES" #f
                           "Hieracium aurantiacum" #f #f)
 
-    #("Épervière piloselle" "COMPOSÉES" "560"
+    #("Épervière piloselle" "COMPOSÉES" 560
                             "Hieracium Pilosella" "Un seul capitule. Fortement stolonifère (tapis)." #F)
 
     #("Épervière des prés" "COMPOSÉES" #f
@@ -292,16 +292,16 @@
     #("Épervière vulgaire" "COMPOSÉES" #f
                            "Hieracium vulgatum" #f #f)
 
-    #("Épiaire des marais" "LABIÉES" "499"
+    #("Épiaire des marais" "LABIÉES" 499
                            "Stachys palustris" #f "tubercule comestible")
 
-    #("Épifage de Virginie" "OROBANCHACÉES" "488"
+    #("Épifage de Virginie" "OROBANCHACÉES" 488
                             "Epifagus virginiana" #f #f)
     
-    #("Épilobe cilié (glanduleux)" "ONAGRACÉES" "372"
+    #("Épilobe cilié (glanduleux)" "ONAGRACÉES" 372
                                    "Epilobium ciliatum" "Fleurs à quatre pétales divisés en deux." #f)
 
-    #("Épinette blanche" "PINACÉES" "143"
+    #("Épinette blanche" "PINACÉES" 143
                          "Picea glauca" "Pour toutes les épinettes, coupe transversale des aiguilles en losange. Rameaux pâles et glabres. Cônes cylindriques (3-6 cm). Aiguilles vert bleuâtre." #f)
 
     #("Épinette noire" "PINACÉES" #f
@@ -316,102 +316,126 @@
     #("Épinette de Norvège" "PINACÉES" #f
                             "Picea abies" #f #f)
                                 
-    #("Épipacte petit-hellébore" "ORCHIDACÉES" "829"
+    #("Épipacte petit-hellébore" "ORCHIDACÉES" 829
                                  "Epipactis Helleborine" #f #f)
 
-    #("Érable de Pennsylvanie" "ACÉRACÉES" "395"
+    #("Érable de Pennsylvanie" "ACÉRACÉES" 395
                                "Acer pensylvanicum" #f #f)
 
     #("Érable à épis" "ACÉRACÉES" #f
                       "Acer spicatum" #f #f)
 
-    #("Érable argenté" "ACÉRACÉES" "396"
+    #("Érable argenté" "ACÉRACÉES" 396
                        "Acer saccharinum" "Feuilles simples lobées, à sinus profonds étroits et non dentés. Grandes samares (40-70 mm) dont les ailes forment un angle de 90 degrés." #f)
 
     #("Érable rouge" "ACÉRACÉES" #f
                      "Acer rubrum" "Feuilles lobées, grossièrement dentées à sinus peu profonds larges et anguleux. Petites samares (12-25 mm) dont l’angle des ailes est de 60 degrés." "samares comestibles")
 
-    #("Érable à sucre" "ACÉRACÉES" "398"
+    #("Érable à sucre" "ACÉRACÉES" 398
                        "Acer saccharum" "Feuilles à sinus arrondis, non dentés." "eau comestible: sirop")
 
 
-    #("Érigéron du Canada (Vergerette)" "COMPOSÉES" "603"
+    #("Érigéron du Canada (Vergerette)" "COMPOSÉES" 603
                                         "Erigeron canadensis" "Capitules très petits (2-4 mm). Rayons peu apparents." #f)
 
-    #("Érigéron de Philadelphie" "COMPOSÉES" "604"
+    #("Érigéron de Philadelphie" "COMPOSÉES" 604
                                  "Erigeron philadelphicus" "Fleurs rosées." #f)
 
     #("Érigéron annuel" "COMPOSÉES" #f
                         "Erigeron annuus" "Fleurs blanches." #f)
 
-    #("Érythrone d’Amérique" "LILIACÉES" "656"
+    #("Érythrone d’Amérique" "LILIACÉES" 656
                              "Erythronium americanum" #f #f)
 
-    #("Eupatoire maculée" "COMPOSÉES" "583"
+    #("Eupatoire maculée" "COMPOSÉES" 583
                           "Eupatorium maculatum" #f #f)
 
     #("Eupatoire perfoliée" "COMPOSÉES" #f
                             "Eupatorium perfoliatum" #f #f)
 
-    #("Eupatoire rugueuse" "COMPOSÉES" "584"
+    #("Eupatoire rugueuse" "COMPOSÉES" 584
                            "Eupatorium rugosum" #f "toxique")
 
-    #("Fétuque rouge" "GRAMINÉES" "774"
+    #("Fétuque rouge" "GRAMINÉES" 774
                       "Festuca rubra" #f #F)
 
-    #("Fougère-aigle commune" "POLYPODIACÉES" "125"
+    #("Fougère-aigle commune" "POLYPODIACÉES" 125
                               "Pteridium aquilinum" #f #f)
     
-    #("Fraisier des bois" "ROSACÉES" "342"
+    #("Fraisier des bois" "ROSACÉES" 342
                           "Fragaria vesca (americana)" "Se distingue de F. virginiana surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions." "comestible")
 
     #("Fraisier des champs" "ROSACÉES" #f
                             "Fragaria virginiana" "Lieux ouverts et secs. Graines en surface mais dans une dépression." "comestible")
 
-    #("Frêne blanc" "OLÉACÉES" "521"
+    #("Frêne blanc" "OLÉACÉES" 521
                     "Fraxinus americana" "7 à 9 folioles non sessiles." #f)
 
-    #("Frêne rouge" "OLÉACÉES" "522"
+    #("Frêne rouge" "OLÉACÉES" 522
                     "Fraxinus pennsylvanica" "7 à 9 folioles non sessiles. Feuilles dentées du milieu à l’apex, au dessous duveteux." #f)
 
     #("Frêne noir" "OLÉACÉES" #f
                    "Fraxinus nigra" "7 à 11 folioles. Folioles sessiles sur le pétiole central. Écorce comme du liège." #f)
 
-    #("Gadellier américain" "SAXIFRAGACÉES" "290"
+    #("Gadellier américain" "SAXIFRAGACÉES" 290
                             "Ribes americanum" "Fruits : baies noires sans piquant." #f)
 
-    #("Gaillet piquant" "RUBIACÉES" "528"
+    #("Gaillet piquant" "RUBIACÉES" 528
                         "Galium asprellum" #f #f)
 
-    #("Galane glabre" "SCROPHULARIACÉES" "482"
+    #("Galane glabre" "SCROPHULARIACÉES" 482
                       "Chelone glabra" #f #f)
 
-    #("Galéopside à tige carrée" "LABIÉES" "499"
+    #("Galéopside à tige carrée" "LABIÉES" 499
                                  "Galeopsis Tetrahit" #f #f)
     
-    #("Galinsoga cilié" "COMPOSÉES" "585"
+    #("Galinsoga cilié" "COMPOSÉES" 585
                         "Galinsoga ciliata" #f #f)
 
-    #("Gesse à larges feuilles" "LÉGUMINEUSES" "352"
+    #("Gesse à larges feuilles" "LÉGUMINEUSES" 352
                                 "Lathyrus latifolius" #f #f)
 
-    #("Ginseng à trois folioles" "ARALIACÉES" "411"
+    #("Ginseng à trois folioles" "ARALIACÉES" 411
                                  "Panax trifolius" #f "tubercule comestible")
 
-    #("Glécome lierre-terrestre" "LABIÉES" "495"
+    #("Glécome lierre-terrestre" "LABIÉES" 495
                                  "Glecoma hederacea" #f #f)
 
-    #("Gnaphale des vases" "COMPOSÉES" "576"
+    #("Gnaphale des vases" "COMPOSÉES" 576
                            "Gnaphalium uliginosum" #f #f)
 
-    #("Groseillier des chiens" "SAXIFRAGACÉES" "291"
+    #("Groseillier des chiens" "SAXIFRAGACÉES" 291
                                "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3)." "Baies comestible")
 
-    #("Glycérie striée" "GRAMINÉES" "768"
+    #("Glycérie striée" "GRAMINÉES" 768
                         "Glyceria striata" #f #f)
 
-    #("Gymnocarpe fougère du chêne" "POLYPODIACÉES" "129"
+    #("Gymnocarpe fougère du chêne" "POLYPODIACÉES" 129
                                     "Gymnocarpium dryopteris ou Dryopteris disjuncta" #f #f)
+
+    #("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218
+                              "Hamamelis virginiana" #f #f)
+
+    #("Hémérocalle fauve" "LILIACÉES" 654
+                          "Hemerocalis fulva" #f #f)
+
+    #("Hépatique noble (acutilobée)" "RENONCULACÉES" 229
+                                     "Hepatica nobilis" #f #f)
+
+    #("Herbe à la puce" "ANACARDIACÉES" 392		
+                        "Rhus toxicodendron ou Toxicodendron radicans" #f "toxique")
+
+    #("Herbe à poux (Ambroisie)" "COMPOSÉES" 562
+                                 "Ambrosia artemisiifolia" #f #f)
+
+    #("Hêtre à grandes feuilles" "FAGACÉES" 156		
+                                 "Fagus grandifolia" #f "faînes comestibles")
+
+    #("Houx verticillé" "AQUIFOLIACÉES" 401	
+                        "Ilex verticillata" #f "toxique")
+
+    #("Huperzie brillante" "LYCOPODIACÉES" 108
+                           "Huperzia lucidula" "Fructification : sporanges jaunes à l’aisselle des feuilles." #f)
 
 
 
