@@ -458,7 +458,60 @@
     #("Léontodon automnal" "COMPOSÉES" 552
                            "Leontodon autumnalis" "Floraison : juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. ? Épervières (feuilles lancéolées)." #f)
 
+    #("Lenticule mineure (Lentille d’eau)" "LEMNACÉES" 848
+                                           "Lemna minor" #f #f)
+
+    #("Lépidie densiflore" "CRUCIFÈRES" 252
+                           "Lepidium densiflorum" #f #f)
+
+    #("Lilas vulgaire" "OLÉACÉES" 520
+                       "Syringa vulgaris" #f #f)
+
+    #("Linaire vulgaire" "SCROPHULARIACÉES" 470
+                         "Linaria vulgaris" #f #f)
+
+    #("Lis du Canada (jaune)" "LILIACÉES" 658
+                              "Lilium canadense" #f #f)
+
+    #("Liseron des champs (petit)" "CONVOLVULACÉES" 452
+                                   "Convolvulus arvensis" #f #f)
+
+    #("Liseron des haies (grand)" "CONVOLVULACÉES" 451
+                                  "Convolvulus sepium" "Présence de bractées. Ne pas confondrE avec C. arvensis : sans bractée." #f)
+
+    #("Lobélie gonflée (Indian Tobacco)" "LOBÉLIACÉES" 546
+                                         "Lobelia inflata" #f #f)
+
+    #("Lotier corniculé" "LÉGUMINEUSES" 345
+                         "Lotus corniculatus" #f #f)
     
+    #("Lupuline" "LÉGUMINEUSES" 358
+                 "Medicago lupulina" #f #f)
+
+    #("Luzerne cultivée" "LÉGUMINEUSES" 358
+                         "Medicago sativa" #f #f)
+
+    #("Lysimaque ponctuée" "PIRMULACÉES" 430
+                           "Lysimachia punctata" "Feuilles verticillées pubescentes. Anneau marron distinctif sur la fleur." #f)
+
+    #("Lysimaque Nummulaire" "PIRMULACÉES" 431
+                             "Lysimachia Nummularia" #f #f)
+
+    #("Lysimaque terrestre" "PIRMULACÉES" #f
+                            "Lysimachia terrestris" #f #f)
+
+    #("Lycopode claviforme (à massue)" "LYCOPODIACÉES" 109
+                                       "Lycopodium clavatum" "????? : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification." #f)
+
+    #("Lycopode foncé (dendroïde)" "PIRMULACÉES" #f
+                                   "Lycopodium dendroideum (obscurum)" #f #f)
+    
+    #("Lycopode innovant" "PIRMULACÉES" 110
+                          "Lycopodium annotinum" "Fructification: strobile terminal solitaire. Ne pas confondre avec L. clavatum." #f)
+
+    #("Lycopode aplati" "PIRMULACÉES" #f
+                        "Diphasiastrum complanatum" #f #f)
+
 
     
 
