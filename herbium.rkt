@@ -1000,6 +1000,30 @@
     #("Vigne des rivages" "VITACÉES" 405	
                           "Vitis raparia" #f "fruits comestibles")  
 
+    #("Vigne vierge" "VITACÉES" 406						
+                     "Parthenocissus quinquefolia" #f "toxique")
+
+    #("Vinaigrier" "ANACARDIACÉES" 391
+                   "Rhus typhina" #f #f)
+
+    #("Violette pâle" "VIOLACÉES" 278
+                      "Viola macloskeyi (pallens)" #f #f)
+
+    #("Violette du Labrador" "VIOLACÉES" 280
+                             "Viola labradorica (conspersa)" #f #f)
+
+    #("Viorne bois-d’orignal" "CAPRIFOLIACÉES" 533
+                              "Viburnum lantanoides ou Viburnum alnifolium" #f #f)
+    
+    #("Viorne trilobée" "CAPRIFOLIACÉES" #f					
+                        "Viburnum trilobum" #f "fruit comestible")
+
+    #("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534
+                             "Viburnum Rafinesquianum" #f #f)
+
+    #("Zizia doré" "OMBELLIFÈRES" 417
+                   "Zizia aurea" "Ziz: botaniste alleamand" #f)
+
     ))
    
 
