@@ -512,9 +512,381 @@
     #("Lycopode aplati" "PIRMULACÉES" #f
                         "Diphasiastrum complanatum" #f #f)
 
+    #("Patience (rumex) crépue" "POLYGONACÉES" 190
+				"Rumex crispus" #f #f)
+
+    #("Pâturin des prés" "GRAMINÉES" 771
+				"Poa pratensis"
+                                "Taille : 30 cm. Inflorescence verte teintée de rouge. Feuilles basilaires pliées en 2 sur le long avec une nervure centrale rappelant une piste de ski. Nombreux épillets contenant 3 à 5 fleurs." #f)
+
+    #("Pervenche mineure" "APOCYNACÉES" 516
+				"Vinca minor" #f #f)
+
+    #("Peuplier blanc" "SALICACÉES" 162
+				"Populus alba" #f #f)
+
+    #("Peuplier baumie" "SALICACÉES" #f
+				"Populus balsamifera" 
+                                "Feuilles ovales finement dentées." #f)
+
+    #("Peuplier à grandes dents" "SALICACÉES" #f
+				"Populus grandidentata" #f #f)
+
+    #("Peuplier faux-tremble" "SALICACÉES" 163
+				"Populus tremuloides" 
+                                "Petites feuilles réniformes sur longs pétioles. Jeune arbre, écorce vert pâle." #f)
+
+    #("Peuplier deltoïde" "SALICACÉES" #f
+				"Populus deltoides" 
+                                "Feuilles triangulaires grossièrement dentées." #f)
+
+    #("Peuplier noir d’Italie (de Lombardie)" "SALICACÉES" 164
+				"Populus nigra" #f #f)
+
+    #("Phragmite commun" "GRAMINÉES" 765
+				"Phragmites australis" #f #f)
+
+    #("Pigamon pubescent" "RENONCULACÉES" 234
+				"Thalictrum pubescens" #f #f)
+
+    #("Pin blanc" "PINACÉES" 140
+				"Pinus Strobus"
+                                "Pour tous les pins, coupe transversale des aiguilles en triangle. Aiguilles fasciculées par 5." #f)
+
+    #("Pin rouge" "PINACÉES" 141
+				"Pinus resinosa" "Aiguilles réunies par 2." #f)
+
+    #("Pin gris divariqué" "PINACÉES" 142
+				"Pinus banksiana"
+                                "Aiguilles courtes (2-4 cm), réunies par 2." #f)
+
+    #("Pissenlit officinal" "COMPOSÉES" 553
+				"Taraxacum officinale" #f #f)
+
+    #("Plantain majeur" "PLANTAGINACÉES" 509
+				"Plantago major" #f #f)
+
+    #("Plantain lancéolé" "PLANTAGINACÉES" 510
+				"Plantago lanceolata" #f #f)
+
+    #("Polystic faux-acrostic" "POLYPODIACÉES" 128
+				"Polystichum acrostichoides" #f #f)
+
+    #("Pommier" "ROSACÉES" 318
+				"Malus" #f #f)
+
+    #("Populage des marais" "RENONCULACÉES" 222
+				"Caltha palustris" #f #f)
+
+    #("Potentille frutescente" "ROSACÉES" 338
+				"Potentilla fruticosa" 
+                                "Arbustive." #f)
+
+    #("Potentille ansérine" "ROSACÉES" #f
+				"Potentilla Anserina"
+                                "Feuilles basilaires composées de 9 à 31 folioles." #f)
+
+    #("Potentille simple" "ROSACÉES" #f
+				"Potentilla simplex"
+                                "Rhizome court ressemblant à un bulbe. Ne pas confondre avec P. reptans : rhizome noirâtre presque vertical." #f)
+
+    #("Potentille de Norvège" "ROSACÉES" 339
+                              "Potentilla norvegica"
+                              "Tige dressée (30-80 cm), rigide, très poilue." #f)
+
+    #("Potentille argentée"  "ROSACÉES" 340
+				"Potentilla argentea" #f #f)	
+
+    #("Potentille dressée" "ROSACÉES" #f
+                           "Potentilla recta"
+                           "Fleurs jaune-crème." #f)
+
+    #("Prêle (fém.) faux-scirpe" "EQUISETACÉES" 114
+				 "Equisetum scirpoides" #f #f)
+
+    #("Prêle panachée" "EQUISETACÉES" #f
+                       "Equisetum variegatum" #f #f)
+
+    #("Prêle des champs" "EQUISETACÉES" #f
+                         "Equisetum arvense"
+                         "Pointes libres des gaines : brunes." #f)
+
+    #("Prêle des prés" "EQUISETACÉES" #f
+                       "Equisetum pratense"
+                       "Pointes libres des gaines : blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec E. arvense : dressées."#f)
+
+    #("Prêle des bois" "EQUISETACÈES" 115
+                       "Equisetum sylvaticum"
+                       "Pointes libres des gaines : rousses et très développées, à texture de papier. Ramifications elles-mêmes ramifiées (rameaux divisés)."#f)
+
+    #("Pruche du Canada" "PINACÉES" 145
+				"Tsuga canadensis" #f #f)
+
+    #("Prunelle vulgaire" "LABIÉES" 497
+				"Prunella vulgaris" #f #f)
+
+    #("Pulmonaire officinale" #f #f
+				"Pulmonaria officinalis" #f #f)
+
+    #("Pyrole elliptique" "ÉRICACÉES" 436
+				"Pyrola elliptica" #f #f)
+
+    #("Quenouille à feuilles étroites" "TYPHACÉES" 854	
+				"Typha angustifolia" #f #f)
+
+    #("Quenouille à feuilles larges" "TYPHACÉES" 855					
+				"Typha latifolia" #f #f)
+
+    #("Renoncule âcre" "RENONCULACÉES" 227
+				"Ranunculus acris" #f #f)
+
+    #("Renouée à nœuds ciliés" "POLYGONACÉES" 181
+				"Polygonum cilinode" #f #f)
+
+    #("Renouée liseron" "POLYGONACÉES" #f
+				"Polygonum Convolvulus" #f #f)
+
+    #("Renouée sagittée (gratte-cul)" "POLYGONACÉES" #f
+				"Polygonum sagittatum" #f #f)
+
+    #("Renouée de Pennsylvanie" "POLYGONACÉES" 185
+				"Polygonum pensylvanicum"
+                                "Inflorescence rose." #f)
+
+    #("Renouée persicaire"  "POLYGONACÉES" 187
+                            "Polygonum Persicaria"
+                            "Inflorescence rose. Poils en bordure de la gaine, ne pas confondre avec P. pensylvanicum" #f)
+
+    #("Renouée du Japon" "POLYGONACÉES" #f
+				"Polygonum cuspidatum" #f #f)
+
+    #("Rhinanthe crête-de-coq" "SCROPHULARIACÉES" 468
+				"Rhinanthus Crista-galli" #f #f)
+
+    #("Ronce odorante" "ROSACÉES" 330		
+				"Rubus odoratus" #f "Baies comestibles")
+
+    #("Ronce pubescente"  "ROSACÉES" 331
+				"Rubus pubescens" #f "Baies comestibles")
+
+    #("Ronce du mont Ida framboisier" "ROSACÉES" #f	
+                          "Rubus idaeus" #f "Baies comestibles")
+
+
+    #("Ronce alléghanienne mûrier" "ROSACÉES" 334	
+                            "Rubus allegheniensis" #f "Baies comestibles")
+
+    #("Rorippe sylvestre" "CRUCIFÈRES" 263
+                          "Rorippa sylvestris" #f #f)
+
+    #("Rosier" "ROSACÉES" 324
+               "Rosa" #f #f)
+
+    #("Rudbeckie hérissée" "COMPOSÉES"  593
+                           "Rudbeckia hirta" #f #f)
+
+    #("Rumex petit-oseille" "POLYGONACÉES" 188
+                            "Rumex Acetosella" #f "Feuilles comestibles")
+
+    #("Salicaire pourpre" "LYTHRACÉES" 366
+                          "Lythrum Salicaria" #f #f)
+
+    #("Salsifis des prés" "COMPOSÉES" 552
+                          "Tragopogon pratensis" #f #f)
+
+
+    #("Sanguinaire du Canada" "PAPAVÉRACÉES" 248
+                              "Sanguinaria canadensis" #f #f)
+
+    #("Sapin baumier" "PINACÉES" 146
+                      "Abies balsamea"
+                      "Épines aplaties de forme ovale." #f )
+
+    #("Saule" "SALICACÉES" 166
+              "Salix" #f #f)
+
+    #("Sceau-de-Salomon pubescent" "LILIACÉES" 644
+                                   "Polygonatum pubescens" #f #f)
+
+    #("Scirpe à gaines rouges" "CYPÉRACÉES" 696
+                               "Scirpus rubrotinctus" #f #f)
+
+    #("Scirpe noirâtre" "CYPÉRACÉES" #f
+                        "Scirpus atrovirens" #f #f)
+
+    #("Scirpe souchet" "CYPÉRACÉES" 697
+                       "Scirpus cyperinus" #f #f)
+
+    #("Scutellaire à fleurs latérales" "LABIÉES" 493
+                                       "Scutellaria lateriflora" #f #f)
+
+    #("Séneçon vulgaire" "COMPOSÉES" 579
+                         "Senecio vulgaris" #f #f)
+
+    #("Silène enflée" "CARYOPHYLLACÉES" 205
+                      "Silene vulgaris cucubalus" #f #f)
+
+    #("Silène blanc (lychnis)" "CARYOPHYLLACÉES" #f
+                               "Silene latifolia"
+                               "Calice plus gros, fortement gonflé, à nervures rouge-vin." #f)
+
+    #("Smilacine à grappes" "LILIACÉES" 650	
+                            "Smilacina racemosa" #f "Fruits comestibles")
+
+    #("Sorbier d’Amérique" "ROSACÉES" 319
+                           "Sorbus americana" 
+                           "Fruits : baies orangées (4-6 mm)." "Fruits comestibles")
+
+    #("Sorbier décoratif"  "ROSACÉES" #f
+                           "Sorbus decora"
+                           "Fruits : baies orangées (8-10 mm)." #f)
+
+    #("Souchet comestible" "CYPÉRACÉES" 684	
+                           "Cyperus esculentus" #f "Fruits comestibles")
+
+    #("Spirée tomenteuse" "ROSACÉES" 322
+                          "Spiraea tomentosa" #f #f)
+
+    #("Spirée à larges feuilles" "ROSACÉES" 323
+                                 "Spiraea latifolia" #f #f)
+
+    #("Stellaire à feuilles de graminée" "CARYOPHYLLACÉES" 210
+                                         "Stellaria graminea"
+                                         "Feuilles glabres lancéolées." #f)
+
+    #("Sureau blanc" "CAPRIFOLIACÉES" 530
+                     "Sambucus canadensis"
+                     "Fruit noir violacé à maturité (automne). Floraison estivale lorsque S. racemosa a déjà ses fruits." "Fruits comestibles")
+
+    #("Sureau rouge" "CAPRIFOLIACÉES" #f	
+                     "Sambucus racemosa"
+                     "Floraison printanière. Fruits écarlates à maturité (été)." "Toxique")
+
+    #("Tabouret des champs" "CRUCIFÈRES" 252
+                            "Thlapsi arvense" #f #f)
+
+    #("Tanaisie vulgaire" "COMPOSÉES" 570
+                          "Tanacetum vulgare" #f #f) 
+
+    #("Thélyptère de New-York" "POLYPODIACÉES" 129
+                               "Thelypteris noveboracensis"
+                               "Limbe doublement divisé. Sores ronds." #f)
+
+    #("Tiarelle à feuilles cordées" "SAXIFRAGACÉES" 294
+                                    "Tiarella cordiofolia" #f #f)
+
+    #("Tilleul d’Amérique" "TILIACÉES" 382
+                           "Tilia americana" #f #f)
+
+    #("Trèfle agraire" "LÉGUMINEUSES" 360
+                       "Trifolium agrarium"
+                       "Fleurs jaunes." #f)
+
+    #("Trèfle des champs (pied de lièvre)" "LÉGUMINEUSES" #f
+                                           "Trifolium arvense" #f #f)
+
+    #("Trèfle rouge" "LÉGUMINEUSES" 361
+                     "Trifolium pratense" #f #f)
+
+
+    #("Trèfle blanc" "LÉGUMINEUSES" #f
+                     "Trifolium repens" #f #f)
+
+    #("Trèfle Alsike (hybride)"  "LÉGUMINEUSES" 362
+                                 "Trifolium hybridum" #f #f)
+
+    #("Trientale boréale" "PIRMULACÉES" 428
+                          "Trientalis borealis" #f #f)
+        
+    #("Trille blanc" "LILIACÉES" 645
+                     "Trillium grandiflorum" #f #f)
+
+    #("Trille rouge" "LILIACEES" 646
+                     "Trillium erectum" #f #f)
+
+    #("Trille ondulé" "LILIACÉES" #f
+                      "Trillium undulatum" #f #f)
+
+    #("Tussilage pas-d’âne" "COMPOSÉES" 594
+                            "Tussilago Farfara" #f #f)
+
+    #("Thuya occidental" "CUPRESSACÉES" 140
+                         "Thuja occidentalis" #f #f)
+
+    #("Uvulaire grande fleur" "LILIACÉES" 653
+                              "Uvularia grandiflora"
+                              "Tige 50 cm. Fleurs (4 cm) jaune citron." #f)
+
+    #("Uvulaire petite fleur"  "LILIACÉES" 654
+                               "Uvularia sessilifolia"
+                               "Tige 20 cm. Fleurs (2 cm) jaune crème." #f)
+
+    #("Valériane officinale" "VALÉRIANACÉES" 538
+                             "Valeriana officinalis" #f #f)
+
+    #("Vélar fausse-giroflée" "CRUCIFÈRES" 270
+                              "Erysimum cheiranthoides" #f #f)
+
+    #("Vérâtre vert" "LILIACÉES" 662	
+                     "Veratrum viride" #f "Toxique")
+
+    #("Verge d’or à feuilles de graminées" "COMPOSÉES" 597
+                                           "Solidago graminifolia" #f #f)
+        
+    #("Verge d’or à tige zigzagante" "COMPOSÉES" 598
+                                     "Solidago flexicaulis" #f #f)
+
+    #("Verge d’or rugueuse" "COMPOSÉES" 600
+                            "Solidago rugosa"
+                            "Tiges et feuilles velues. Feuilles un peu plus large que S. canadensis." #f)
+
+    #("Verge d’or du Canada" "COMPOSÉES" 601
+                             "Solidago canadensis"
+                             "Velue sur les nervures inférieures de la feuille. Trois nervures caractéristiques." #f)
+
+    #("Véronique à feuilles de thym" "SCROPHULARIACÉES" 473
+                                     "Veronica serpyllifolia" #f #f)
+
+    #("Véronique de Perse" "SCROPHULARIACÉES" 474
+                           "Veronica persica" #f #f)
+
+    #("Véronique officinale" "SCROPHULARIACÉES" #f
+                             "Veronica officinalis" #f #f)
+
+    #("Véronique en écusson" "SCROPHULARIACÉES" 475
+                             "Veronica scutellata" #f #f)
+
+    #("Verveine hastée" "VERBÉNACÉES" 490
+                        "Verbena hastata" #f #f)
+
+    #("Vesce jargeau" "LÉGUMINEUSES" 349
+                      "Vicia Cracca" #f #f)
+
+    #("Vigne des rivages" "VITACÉES" 405	
+                          "Vitis raparia" #f "Fruits comestibles")
+
+    #("Vigne vierge" "VITACÉES" 406	
+                     "Parthenocissus quinquefolia" #f "Toxique")
+
+    #("Vinaigrier" "ANACARDIACÉES" 391
+                   "Rhus typhina" #f #f)
+
+    #("Violette pâle" "VIOLACÉES" 278
+                      "Viola macloskeyi pallens" #f #f)
+
+    #("Violette du Labrador" "VIOLACÉES" 280
+                             "Viola labradorica conspersa" #f #f)
+
+    #("Viorne bois-d’orignal" "CAPRIFOLIACÉES" 533
+                              "Viburnum lantanoides ou Viburnum alnifolium" #f #f)
+
+    #("Viorne trilobée" "CAPRIFOLIACÉES" #f
+                        "Viburnum trilobum" #f "Fruits comestibles")
+
+    #("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534
+                             "Viburnum Rafinesquianum" #f #f)
 
     
-
 
     ))
    
