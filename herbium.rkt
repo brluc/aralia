@@ -45,9 +45,9 @@
 
     #("Apocyn à feuilles d’Androsème" "APOCYNACÉES" 517
                                       "Apocynum androsaemifolium" #f "toxique")
-
+;; Expression grecque
     #("Aralie à grappes" "ARALIACÉES" 412
-                         "Aralia racemosa" #f "fruit comestible")
+                         "Aralia racemosa" "Racemus, i, m.: grappe. XXXX : grain de raisin" "fruit comestible")
 
     #("Aralie à tige nue" "ARALIACÉES" #f
                           "Aralia nudicaulis" #f "fruit comestible")
@@ -65,7 +65,7 @@
                                         "Aster (virgulus)  novae-angliae" #f #f)
 
     #("Aster simple" "COMPOSÉES" 609
-                     "Aster simplex Symphyotrichum lanceolatum" #f #f)
+                     "Aster simplex ou Symphyotrichum lanceolatum" #f #f)
 
     #("Athyrie fausse-thelyptère" "POLYPODIACÉES" 132
                                   "Athyrium thelypteroides (-ridoides)" "Limbe doublement divisé. Sores allongés (bâtonnets)." #f)
@@ -134,7 +134,7 @@
                              "Anthemis Cotula" "Feuilles très divisées, comme les matricaires. Ne pas confondre avec C. Leucanthemum." #f)
 
     #("Campanule fausse-raiponce" "CAMPANULACÉES" 544
-                                  "Campanula rapunculoides" #f "racines comestible")
+                                  "Campanula rapunculoides" #f "racines comestibles")
 
     #("Cardamine carcajou" "CRUCIFÈRES" 258
                            "Cardamine (dentaria) diphylla" #f "rhizome comestible")
@@ -200,13 +200,13 @@
                        "Quercus bicolor" "Feuilles très pâles et pubescentes en-dessous. Lobes peu découpés à largeur maximale au-dessus du milieu." #f)
 
     #("Chêne blanc" "FAGACÉES" #f					
-                    "Quercus alba" "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis." "Glands comestible")
+                    "Quercus alba" "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis." "glands comestibles")
 
     #("Chêne à gros fruits" "FAGACÉES" 155
                             "Quercus macrocarpa" "Feuilles pubescentes en-dessous à lobe terminal souvent grand." #f)
-
+;; expression grecque
     #("Chénopode blanc" "CHÉNOPODIACÉES" 194
-			"Chenopodium album" #f "graines comestible")
+			"Chenopodium album" "xxxx: oie" "graines comestible")
 
     #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537
                                   "Lonicera tatarica" #f #f)
@@ -236,7 +236,7 @@
                          "Coptis trifolia" #f #f)
 
     #("Cornouiller du Canada" "CORNACÉES" 407	
-                              "Cornus canadensis" #f "Fruits comestible")
+                              "Cornus canadensis" #f "fruits comestible")
 
     #("Cornouiller stolonifère (Hart rouge)" "CORNACÉES" 409
                                              "Cornus stolonifera" #f #f)
@@ -301,6 +301,9 @@
     #("Épilobe cilié (glanduleux)" "ONAGRACÉES" 372
                                    "Epilobium ciliatum" "Fleurs à quatre pétales divisés en deux." #f)
 
+    #("Épilobe hirsute" "ONAGRACÉES" #f
+                        "Epilobium hirsutum" #f #f)
+    
     #("Épinette blanche" "PINACÉES" 143
                          "Picea glauca" "Pour toutes les épinettes, coupe transversale des aiguilles en losange. Rameaux pâles et glabres. Cônes cylindriques (3-6 cm). Aiguilles vert bleuâtre." #f)
 
@@ -405,7 +408,7 @@
                            "Gnaphalium uliginosum" #f #f)
 
     #("Groseillier des chiens" "SAXIFRAGACÉES" 291
-                               "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3)." "Baies comestible")
+                               "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3)." "baies comestible")
 
     #("Glycérie striée" "GRAMINÉES" 768
                         "Glyceria striata" #f #f)
@@ -436,12 +439,15 @@
 
     #("Huperzie brillante" "LYCOPODIACÉES" 108
                            "Huperzia lucidula" "Fructification : sporanges jaunes à l’aisselle des feuilles." #f)
-
+;; expresssion grecque
+    #("Hydrocotyle d'Amérique" "OMBELLIFÈRES" 415
+                               "Hydrocotyle americana" "xxxx: écuelle" #f)
+    
     #("Impatiente du Cap" "BALSAMINACÉES" 399
                           "Impatiens capensis" #f #f)
 
     #("Iris versicolore" "IRIDACÉES" 667
-                         "Iris versicolor" #f #f)
+                         "Iris versicolor" #f "toxique")
 
     #("Julienne des dames" "CRUCIFÈRES" 256
                            "Hesperis matronalis" #f #f)
@@ -456,7 +462,7 @@
                          "Sonchus asper" "Capitules plus petits (1,5-2,5 cm). Tige 0,5-1 m. Feuilles non découpées et fortement épineuses." #f)
 
     #("Léontodon automnal" "COMPOSÉES" 552
-                           "Leontodon autumnalis" "Floraison : juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. ? Épervières (feuilles lancéolées)." #f)
+                           "Leontodon autumnalis" "Floraison : juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec: Épervières (feuilles lancéolées)." #f)
 
     #("Lenticule mineure (Lentille d’eau)" "LEMNACÉES" 848
                                            "Lemna minor" #f #f)
@@ -490,16 +496,7 @@
 
     #("Luzerne cultivée" "LÉGUMINEUSES" 358
                          "Medicago sativa" #f #f)
-
-    #("Lysimaque ponctuée" "PIRMULACÉES" 430
-                           "Lysimachia punctata" "Feuilles verticillées pubescentes. Anneau marron distinctif sur la fleur." #f)
-
-    #("Lysimaque Nummulaire" "PIRMULACÉES" 431
-                             "Lysimachia Nummularia" #f #f)
-
-    #("Lysimaque terrestre" "PIRMULACÉES" #f
-                            "Lysimachia terrestris" #f #f)
-
+;; expression grecque
     #("Lycopode claviforme (à massue)" "LYCOPODIACÉES" 109
                                        "Lycopodium clavatum" "????? : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification." #f)
 
@@ -512,6 +509,17 @@
     #("Lycopode aplati" "PIRMULACÉES" #f
                         "Diphasiastrum complanatum" #f #f)
 
+    #("Lysimaque (Stéironéma) ciliée" "PIRMULACÉES" 429
+                                      "Lysimachia ciliata" #f #f)
+    
+    #("Lysimaque ponctuée" "PIRMULACÉES" 430
+                           "Lysimachia punctata" "Feuilles verticillées pubescentes. Anneau marron distinctif sur la fleur." #f)
+
+    #("Lysimaque Nummulaire" "PIRMULACÉES" 431
+                             "Lysimachia Nummularia" #f #f)
+
+    #("Lysimaque terrestre" "PIRMULACÉES" #f
+                            "Lysimachia terrestri" "Anneau marron distinctif sur la fleur." #f)
     
     #("Maïanthème du Canada" "LILIACÉES" 649
 				"Maianthemum canadense" #f #f)
@@ -524,8 +532,7 @@
 
     #("Matricaire maritime"  "COMPOSÉES" #f
 				"Matricaria maritima"
-                                "Bractées sans poil et bordées d’une ligne brune près du capitule. 
-Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
+                                "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
     #("Matteuccie fougère-à-l’autruche" "POLYPODIACÉES" 134
 				"Matteuccia Struthiopteris ou Pteretis pensylvanica" #f #f)
@@ -534,7 +541,7 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 				"Malva moschata" #f #f)
 
     #("Médéole de Virginie" "LILIACÉES" 647
-				"Medeola virginiana" #f "Tubercule comestible")
+				"Medeola virginiana" #f "tubercule comestible")
 
     #("Mélèze laricin" "PINACÉES" 142
 				"Larix laricina" #f #f)
@@ -552,7 +559,7 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
     #("Menthe poivrée" "LABIEES" 505
 				"Mentha piperita"
-                                "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ? M. spicata." #f)
+                                "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ne pas confondre avec M. spicata." #f)
 
     #("Menthe du Canada" "LABIEES" #f
 				"Mentha canadensis"
@@ -594,16 +601,16 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 				"Nuphar microphyllum" #f #f)
 
     #("Nénuphar jaune (grand)" "NYMPHÉACÉES" 240 
-                                   "Nuphar variegatum" #f "Racine comestible")
+                                   "Nuphar variegatum" #f "racine comestible")
     
     #("Noisetier à long bec" "BÉTULACÉES" 152
-				"Corylus cornuta" #f "Noix comestibles")
+				"Corylus cornuta" #f "noix comestibles")
 
     #("Noyer cendré" "JUGLANDACÉES" 158	
-				"Juglans cinerea" #f "Noix comestibles")
+				"Juglans cinerea" #f "noix comestibles")
 
     #("Nymphéa odorant Water Lil" "NYMPHÉACÉES" 239
-				"Nymphea odorata" #f "Racine comestible")
+				"Nymphea odorata" #f "racine comestible")
 
     #("Onagre bisannuelle muriquée" "ONAGRACÉES" 376
 				"Oenothera biennis" #f #f)
@@ -613,10 +620,10 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
     #("Orme d’Amérique" "ULMACÉES" 170
 				"Ulmus americana"
-                                "Feuilles rugueuses ? papier." #f)
+                                "Feuilles rugueuses comme du papier." #f)
 
     #("Orpin pourpre" "CRASSULACÉES" 286
-				"Sedum purpureum" #f "Feuilles et bulbes comestibles")
+				"Sedum purpureum" #f "feuilles et bulbes comestibles")
 
     #("Osmonde royale" "OSMONDACÉES" 122
 				"Osmunda regalis" #f #f)
@@ -632,11 +639,14 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
     #("Oxalide des bois" "OXALIDACÉES"  384	
 				"Oxalis montana"
-                                "Fleurs blanches. Présence d’acide oxalique comme R. acetosella." "Feuilles comestibles")
+                                "Fleurs blanches. Présence d’acide oxalique comme R. acetosella." "feuilles comestibles")
 
     #("Oxalide dressée" "OXALIDACÉES" #f	
-			"Oxalis striata" #f "Feuilles comestibles")
+			"Oxalis striata" #f "feuilles comestibles")
 
+    #("Panais cultivé" "OMBELLIFÈRES" 416
+                       "Pastinaca sativa" #f #f)
+    
     #("Patience (rumex) crépue" "POLYGONACÉES" 190
 				"Rumex crispus" #f #f)
 
@@ -789,17 +799,17 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 				"Rhinanthus Crista-galli" #f #f)
 
     #("Ronce odorante" "ROSACÉES" 330		
-				"Rubus odoratus" #f "Baies comestibles")
+				"Rubus odoratus" #f "baies comestibles")
 
     #("Ronce pubescente"  "ROSACÉES" 331
-				"Rubus pubescens" #f "Baies comestibles")
+				"Rubus pubescens" #f "baies comestibles")
 
     #("Ronce du mont Ida framboisier" "ROSACÉES" #f	
-                          "Rubus idaeus" #f "Baies comestibles")
+                          "Rubus idaeus" #f "baies comestibles")
 
 
     #("Ronce alléghanienne mûrier" "ROSACÉES" 334	
-                            "Rubus allegheniensis" #f "Baies comestibles")
+                            "Rubus allegheniensis" #f "baies comestibles")
 
     #("Rorippe sylvestre" "CRUCIFÈRES" 263
                           "Rorippa sylvestris" #f #f)
@@ -807,11 +817,11 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
     #("Rosier" "ROSACÉES" 324
                "Rosa" #f #f)
 
-    #("Rudbeckie hérissée" "COMPOSÉES"  593
+    #("Rudbeckie hérissée" "COMPOSÉES" 593
                            "Rudbeckia hirta" #f #f)
 
     #("Rumex petit-oseille" "POLYGONACÉES" 188
-                            "Rumex Acetosella" #f "Feuilles comestibles")
+                            "Rumex Acetosella" #f "feuilles comestibles")
 
     #("Salicaire pourpre" "LYTHRACÉES" 366
                           "Lythrum Salicaria" #f #f)
@@ -856,18 +866,18 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
                                "Calice plus gros, fortement gonflé, à nervures rouge-vin." #f)
 
     #("Smilacine à grappes" "LILIACÉES" 650	
-                            "Smilacina racemosa" #f "Fruits comestibles")
+                            "Smilacina racemosa" #f "fruits comestibles")
 
     #("Sorbier d’Amérique" "ROSACÉES" 319
                            "Sorbus americana" 
-                           "Fruits : baies orangées (4-6 mm)." "Fruits comestibles")
+                           "Fruits : baies orangées (4-6 mm)." "fruits comestibles")
 
     #("Sorbier décoratif"  "ROSACÉES" #f
                            "Sorbus decora"
                            "Fruits : baies orangées (8-10 mm)." #f)
 
     #("Souchet comestible" "CYPÉRACÉES" 684	
-                           "Cyperus esculentus" #f "Fruits comestibles")
+                           "Cyperus esculentus" #f "fruits comestibles")
 
     #("Spirée tomenteuse" "ROSACÉES" 322
                           "Spiraea tomentosa" #f #f)
@@ -881,11 +891,11 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
     #("Sureau blanc" "CAPRIFOLIACÉES" 530
                      "Sambucus canadensis"
-                     "Fruit noir violacé à maturité (automne). Floraison estivale lorsque S. racemosa a déjà ses fruits." "Fruits comestibles")
+                     "Fruit noir violacé à maturité (automne). Floraison estivale lorsque S. racemosa a déjà ses fruits." "fruits comestibles")
 
     #("Sureau rouge" "CAPRIFOLIACÉES" #f	
                      "Sambucus racemosa"
-                     "Floraison printanière. Fruits écarlates à maturité (été)." "Toxique")
+                     "Floraison printanière. Fruits écarlates à maturité (été)." "toxique")
 
     #("Tabouret des champs" "CRUCIFÈRES" 252
                             "Thlapsi arvense" #f #f)
@@ -953,7 +963,7 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
                               "Erysimum cheiranthoides" #f #f)
 
     #("Vérâtre vert" "LILIACÉES" 662	
-                     "Veratrum viride" #f "Toxique")
+                     "Veratrum viride" #f "toxique")
 
     #("Verge d’or à feuilles de graminées" "COMPOSÉES" 597
                                            "Solidago graminifolia" #f #f)
@@ -988,30 +998,7 @@ Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
                       "Vicia Cracca" #f #f)
 
     #("Vigne des rivages" "VITACÉES" 405	
-                          "Vitis raparia" #f "Fruits comestibles")
-
-    #("Vigne vierge" "VITACÉES" 406	
-                     "Parthenocissus quinquefolia" #f "Toxique")
-
-    #("Vinaigrier" "ANACARDIACÉES" 391
-                   "Rhus typhina" #f #f)
-
-    #("Violette pâle" "VIOLACÉES" 278
-                      "Viola macloskeyi pallens" #f #f)
-
-    #("Violette du Labrador" "VIOLACÉES" 280
-                             "Viola labradorica conspersa" #f #f)
-
-    #("Viorne bois-d’orignal" "CAPRIFOLIACÉES" 533
-                              "Viburnum lantanoides ou Viburnum alnifolium" #f #f)
-
-    #("Viorne trilobée" "CAPRIFOLIACÉES" #f
-                        "Viburnum trilobum" #f "Fruits comestibles")
-
-    #("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534
-                             "Viburnum Rafinesquianum" #f #f)
-
-    
+                          "Vitis raparia" #f "fruits comestibles")  
 
     ))
    
