@@ -512,6 +512,131 @@
     #("Lycopode aplati" "PIRMULACÉES" #f
                         "Diphasiastrum complanatum" #f #f)
 
+    
+    #("Maïanthème du Canada" "LILIACÉES" 649
+				"Maianthemum canadense" #f #f)
+
+    #("Marguerite" "COMPOSÉES" 589
+				"Chrysanthemum Leucanthemum" #f #f)
+
+    #("Matricaire odorante" "COMPOSÉES" 590
+				"Matricaria matricarioides" #f #f)
+
+    #("Matricaire maritime"  "COMPOSÉES" #f
+				"Matricaria maritima"
+                                "Bractées sans poil et bordées d’une ligne brune près du capitule. 
+Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
+
+    #("Matteuccie fougère-à-l’autruche" "POLYPODIACÉES" 134
+				"Matteuccia Struthiopteris ou Pteretis pensylvanica" #f #f)
+
+    #("Mauve musquée" "MALVACÉES" 380
+				"Malva moschata" #f #f)
+
+    #("Médéole de Virginie" "LILIACÉES" 647
+				"Medeola virginiana" #f "Tubercule comestible")
+
+    #("Mélèze laricin" "PINACÉES" 142
+				"Larix laricina" #f #f)
+
+    #("Mélilot blanc" "LÉGUMINEUSES" 359
+				"Melilotus alba" #f #f)
+
+    #("Mélilot officinal" "LÉGUMINEUSES" #f
+				"Melilotus officinalis"
+                                "Inflorescence jaune." #f)
+
+    #("Menthe à épis" "LABIEES" 504
+				"Mentha spicata"
+                                "Inflorescence en épis terminal étroit."#f)
+
+    #("Menthe poivrée" "LABIEES" 505
+				"Mentha piperita"
+                                "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ? M. spicata." #f)
+
+    #("Menthe du Canada" "LABIEES" #f
+				"Mentha canadensis"
+                                "Verticilles floraux axillaires." #f)
+
+    #("Mil Phléole des prés" "GRAMINÉES" 798
+				"Phleum pratense" #f #f)
+
+    #("Millepertuis commun" "HYPÉRICACÉES" 284
+				"Hypericum perforatum" #f #f)
+
+    #("Mitchella rampant" "RUBIACÉES" 524
+				"Mitchella repens" #f #f)
+
+    #("Molène vulgaire" "SCROPHULARIACÉES" 469
+				"Verbascum Thapsus" #f #f)
+
+    #("Monotrope uniflore" "ÉRICACÉES" 434
+				"Monotropa uniflora" #f #f)
+
+    #("Morelle douce-amère" "SOLANACÉES" 464
+				"Solanum Dulcamara" #f #f)
+
+    #("Moutarde des champs" "CRUCIFÈRES" 266
+				"Brassica campestris"
+                                "Feuilles rudes avec tache rouge à l’aisselle." #f)
+
+    #("Myosotis laxiflore" "BORAGINACÉES" 458
+				"Myosotis laxa"#f #f)
+
+    #("Myosotis à tiges dressées" "BORAGINACÉES" 459
+				"Myosotis stricta"
+                                "Tige 10-20 cm, fleurs très petites." #f)
+
+    #("Myrique baumier" "MYRICACÉES" 156
+				"Myrica Gale" #f #f)
+
+    #("Nénuphar jaune (petit)" "NYMPHÉACÉES" 239
+				"Nuphar microphyllum" #f #f)
+
+    #("Nénuphar jaune (grand)" "NYMPHÉACÉES" 240 
+                                   "Nuphar variegatum" #f "Racine comestible")
+    
+    #("Noisetier à long bec" "BÉTULACÉES" 152
+				"Corylus cornuta" #f "Noix comestibles")
+
+    #("Noyer cendré" "JUGLANDACÉES" 158	
+				"Juglans cinerea" #f "Noix comestibles")
+
+    #("Nymphéa odorant Water Lil" "NYMPHÉACÉES" 239
+				"Nymphea odorata" #f "Racine comestible")
+
+    #("Onagre bisannuelle muriquée" "ONAGRACÉES" 376
+				"Oenothera biennis" #f #f)
+
+    #("Onoclée sensible" "POLYPODIACÉES" 133
+				"Onoclea sensibilis" #f #f)
+
+    #("Orme d’Amérique" "ULMACÉES" 170
+				"Ulmus americana"
+                                "Feuilles rugueuses ? papier." #f)
+
+    #("Orpin pourpre" "CRASSULACÉES" 286
+				"Sedum purpureum" #f "Feuilles et bulbes comestibles")
+
+    #("Osmonde royale" "OSMONDACÉES" 122
+				"Osmunda regalis" #f #f)
+
+    #("Osmonde cannelle" "OSMONDACÉES" #f
+				"Osmunda cinnamomea" #f #f)
+
+    #("Osmonde de Clayton" "OSMONDACÉES" 123
+				"Osmunda Claytoniana" #f #f)
+
+    #("Ostryer de Virginie" "BÉTULACÉES" 152
+				"Ostrya virginiana" #f #f)
+
+    #("Oxalide des bois" "OXALIDACÉES"  384	
+				"Oxalis montana"
+                                "Fleurs blanches. Présence d’acide oxalique comme R. acetosella." "Feuilles comestibles")
+
+    #("Oxalide dressée" "OXALIDACÉES" #f	
+			"Oxalis striata" #f "Feuilles comestibles")
+
     #("Patience (rumex) crépue" "POLYGONACÉES" 190
 				"Rumex crispus" #f #f)
 
