@@ -1,11 +1,67 @@
-\documentclass[book,12pt,a4paper,onecolumn,openany]{memoir}
-\setlrmarginsandblock{1in}{1in}{*}
-\setulmarginsandblock{1in}{1in}{*}
+\documentclass[book,10pt,a4paper,onecolumn,openany]{memoir}
+\setlrmarginsandblock{2.5in}{2.5in}{*}
+\setulmarginsandblock{3.5in}{3.5in}{*}
 \fixthelayout
 
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[LGR,T1]{fontenc} %% LGR for Greek.
 \usepackage[sc]{mathpazo}
+
+\newcommand{\textgreek}[1]{%
+  \begingroup\fontencoding{LGR}\selectfont#1\endgroup}
+
+%% Greek accents with breathing.
+\DeclareTextAccentDefault{\accdialytika}{LGR}
+\DeclareTextAccentDefault{\acctonos}{LGR}
+\DeclareTextAccentDefault{\accdasia}{LGR}
+\DeclareTextAccentDefault{\accpsili}{LGR}
+\DeclareTextAccentDefault{\accvaria}{LGR}
+\DeclareTextAccentDefault{\accperispomeni}{LGR}
+\DeclareTextAccentDefault{\accdialytikaperispomeni}{LGR}
+\DeclareTextAccentDefault{\accdialytikatonos}{LGR}
+\DeclareTextAccentDefault{\accdasiaperispomeni}{LGR}
+\DeclareTextAccentDefault{\accdasiavaria}{LGR}
+\DeclareTextAccentDefault{\accdasiaoxia}{LGR}
+\DeclareTextAccentDefault{\accpsiliperispomeni}{LGR}
+\DeclareTextAccentDefault{\accpsilioxia}{LGR}
+\DeclareTextAccentDefault{\accpsilivaria}{LGR}
+\DeclareTextAccentDefault{\accinvertedbrevebelow}{LGR}
+\DeclareTextAccentDefault{\accbrevebelow}{LGR}
+
+%% verbatim macro display.
+\newcommand{\vm}[1]{\texttt{\textbackslash #1}}
+
+%% Greek breathing/accent display.
+\newcommand{\gb}[2]{\textgreek{#1 {#2}}}
+
+%% Greek reference guide.
+\newcommand{\showgreek}{%
+  \par\noindent a b c d e f \, g h i j\: k l m n o p q r s t u w x y z
+  \par\noindent\textgreek{a b c d e f g h i j k l m n o p q r s t u w x y z}
+  \medskip
+\begin{center}
+  \begin{tabular}{ll}
+    \vm{accdialytika\{a\}} & \gb{\accdialytika}{a}\\
+    \vm{acctonos}     & \gb{\acctonos}{e}\\
+    \vm{accdasia}     & \gb{\accdasia}{o}\\
+    \vm{accpsili}     & \gb{\accpsili}{h}\\
+    \vm{accvaria}     & \gb{\accvaria}{u}\\
+    \vm{accperispomeni} & \gb{\accperispomeni}{h}\\
+    \vm{accdialytikaperispomeni} & \gb{\accdialytikaperispomeni}{w}\\
+    \vm{accdialytikatonos}       & \gb{\accdialytikatonos}{a}\\
+    \vm{accdasiaperispomeni}     & \gb{\accdasiaperispomeni}{h}\\
+    \vm{accdasiavaria}           & \gb{\accdasiavaria}{o}\\
+    \vm{accdasiaoxia}            & \gb{\accdasiaoxia}{u}\\
+    \vm{accpsiliperispomeni}     & \gb{\accpsiliperispomeni}{w}\\
+    \vm{accpsilioxia}            & \gb{\accpsilioxia}{h}\\
+    \vm{accpsilivaria}           & \gb{\accpsilivaria}{o}\\
+    \vm{accinvertedbrevebelow}   & \gb{\accinvertedbrevebelow}{e}\\
+    \vm{accbrevebelow}           & \gb{\accbrevebelow}{h}\\
+    \vm{'\{a\}}                  & \textgreek{\'{a}}\\
+    \vm{`\{o\}}                  & \textgreek{\`{o}}\\
+    \vm{\textasciitilde \{u\}}   & \textgreek{\~{o}}
+  \end{tabular}
+\end{center}}
 
 \pretitle{{\vskip 2cm} \centering\huge}
 \posttitle{\par\vskip 1.25cm}
@@ -28,7 +84,7 @@
 %% #4 => reference page
 \newcommand{\herbe}[4]{
   \noindent\textbf{\large #1}\hfill {\itshape #2}
-  \par\noindent\hfill {\scshape #3}\hskip 5pt {[#4]} 
+  \par\noindent\hfill {\scshape #3} \hskip 5pt {[#4]} 
   \par\smallskip
 }
 
