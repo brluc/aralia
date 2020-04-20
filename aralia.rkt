@@ -1,15 +1,24 @@
 #lang racket
 
-(require db
-         "dbms.rkt")
+(define herbium-database-filename (make-parameter "herbium2.rkt"))
 
 (provide (all-defined-out))
 
-(define left-margin (make-parameter 15))
-(define right-margin (make-parameter 15))
-(define upper-margin (make-parameter 20))
-(define lower-margin (make-parameter 20))
-(define font-size (make-parameter 11))
+
+
+;; (define (write-new-herbium)
+  ;; (define (read-herbium)
+  ;;   (call-with-input-file "herbium.rkt" read))
+  ;; (call-with-output-file "herbium2.rkt"
+  ;;   (lambda (out)
+  ;;     (pretty-write
+  ;;      (map vector->list (herbium-rows (read-herbium)))
+  ;;      out))))
+
+
+
+
+
 
 (define (document body)
   (string-append
@@ -23,18 +32,13 @@
 
    "\n\n\\vfill\n\\end{document}\n"))
 
-(start)
-
 (define (make-body)
   (string-join
    (map (lambda (row)
-          (match (vector-map
-                  (lambda (u)
-                    (if (sql-null->false u)
-                        (format "~a" u)
-                        ""))
-                  row)
-            ((vector uid name family ref latin-name comment edibility)
+          (match (map (lambda (u)
+                        (if u (format "~a" u) ""))
+                      row)
+            ((list name family ref latin-name comment edibility)
              (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
                      name
                      latin-name
@@ -42,8 +46,7 @@
                      ref
                      comment))
             (_ (error "make-body: match row failed: " row))))
-        (query-rows (conn)
-                    "select * from herbium order by french_name asc;"))
+        (call-with-input-file (herbium-database-filename) read))
    "\n\n"))
 
 
