@@ -1,8 +1,13 @@
-(("Achillée millefeuille" "COMPOSÉES" 592 "Achillea Millefolium" #f #f)
+(("Achillée millefeuille"
+  "COMPOSÉES"
+  592
+  ("Weedius Smokium" "Achillea Millefolium")
+  #f
+  #f)
  ("Actée blanche"
   "RENONCULACÉES"
   232
-  "Actea pachypoda"
+  ("Actea pachypoda" "Spliffius Reeferus")
   "Fruits blancs sur pédicelles épais \\emph{(pachypoda)} rouges. Revers de la feuille moins poilu que \\emph{A. rubra.}"
   "toxique")
  ("Actée rouge" "RENONCULACÉES" 233 "Actea rubra" #f "toxique")

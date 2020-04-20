@@ -1,24 +1,9 @@
 #lang racket
 
-(define herbium-database-filename (make-parameter "herbium2.rkt"))
+(define herbium-database-filename
+  (make-parameter "herbium.rkt"))
 
 (provide (all-defined-out))
-
-
-
-;; (define (write-new-herbium)
-  ;; (define (read-herbium)
-  ;;   (call-with-input-file "herbium.rkt" read))
-  ;; (call-with-output-file "herbium2.rkt"
-  ;;   (lambda (out)
-  ;;     (pretty-write
-  ;;      (map vector->list (herbium-rows (read-herbium)))
-  ;;      out))))
-
-
-
-
-
 
 (define (document body)
   (string-append
@@ -32,23 +17,38 @@
 
    "\n\n\\vfill\n\\end{document}\n"))
 
+;; Latex gets confused by #f in the database,
+;; so we transform that to an empty string.
+(define (false->blank u) (if u u ""))
+
+(define (tex-herbe name latin-name family ref comment)
+  (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
+          name
+          latin-name
+          (string-titlecase family)
+          ref
+          comment))
+
+(define (tex-herbex name latin-name-1 latin-name-2 family ref comment)
+  (format "\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
+          name
+          latin-name-1
+          latin-name-2
+          (string-titlecase family)
+          ref
+          comment))
+
 (define (make-body)
   (string-join
    (map (lambda (row)
-          (match (map (lambda (u)
-                        (if u (format "~a" u) ""))
-                      row)
-            ((list name family ref latin-name comment edibility)
-             (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
-                     name
-                     latin-name
-                     (string-titlecase family)
-                     ref
-                     comment))
-            (_ (error "make-body: match row failed: " row))))
+          (match (map false->blank row)
+            ((list name family ref (list latin-1 latin-2) comment edibility)
+             (tex-herbex name latin-1 latin-2 family ref comment))
+            ((list name family ref latin comment edibility)
+             (tex-herbe name latin family ref comment))
+            (_ (error "make-body: match herbium entry failed: " row))))
         (call-with-input-file (herbium-database-filename) read))
    "\n\n"))
-
 
 (define (write-to-tex-file body)
   (call-with-output-file "aralia.tex" #:exists 'replace
