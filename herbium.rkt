@@ -13,7 +13,7 @@
                           "Adiantum pedatum" #f #f)
     
     #("Agrostide blanche" "GRAMINÉES" 793
-                          "Agrostis stolonifera" "Taille : 50 cm. Inflorescence conique rougeâtre,teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
+                          "Agrostis stolonifera" "Taille : 50 cm. Inflorescence conique rougeâtre, teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence." #f)
 
     #("Aigremoine striée" "ROSACÉES" 344
                           "Agrimonia striata" #f #f)
@@ -33,15 +33,15 @@
     #("Ancolie du Canada" "RENONCULACÉES" 228
                           "Aquilegia canadensis" "Fleurs écarlates à éperons droits." #f)
 
-    #("Ancolie vulgaire" "RENONCULACÉES" #f
+    #("Ancolie vulgaire" "RENONCULACÉES" 228
                          "Aquilegia vulgaris" "Fleurs bleues, pourpres ou blanches à éperons fortement recourbés." #f)
 
     #("Antennaire" "COMPOSÉES" 574
                    "Antennaria howelii" #f #f)
 
 
-    #("Anthrisque des bois (persil sauvage)" "OMBELLIFÈRES" 420
-                                             "Anthriscus sylvestris" #f #f)
+    #("Anthrisque des bois" "OMBELLIFÈRES" 420
+                                             "Anthriscus sylvestris" "persil sauvage" #f)
 
     #("Apocyn à feuilles d’Androsème" "APOCYNACÉES" 517
                                       "Apocynum androsaemifolium" #f "toxique")
@@ -79,22 +79,22 @@
     #("Aulne crispé" "BÉTULACÉES" 151
                      "Alnus crispa (viridis)" "Rare au Qc (vulnérable). Cocottes persistantes sur longues queues. Feuilles avec dents fines non doublement dentées." #f)
 
-    #("Aulne rugueux" "BÉTULACÉES" #f
+    #("Aulne rugueux" "BÉTULACÉES" 151
                       "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec A. viridis. Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées." #f)
 
     #("Barbarée vulgaire" "CRUCIFÈRES" 269
                           "Barbarea vulgaris" "Floraison : mai-juillet."  #f)
 
-    #("Bardane majeure" "COMPOSÉES" 570
+    #("Bardane majeure" "COMPOSÉES" 567
                         "Arctium Lappa" "Hauteur : 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec A. minus." #f)
 
-    #("Bardane mineure" "COMPOSÉES" #f
+    #("Bardane mineure" "COMPOSÉES" 576
 			"Arctium minus" "Hauteur : 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)." #f)
 
     #("Benoîte des ruisseaux" "ROSACÉES" 344			
                               "Geum rivale" #f "rhizome tisane")
 
-    #("Benoîte du Canada" "ROSACÉES" #f
+    #("Benoîte du Canada" "ROSACÉES" 344
                           "Geum canadense" "Fleurs blanches, feuilles plus serrées, ne pas confondre avec G. aleppicum : fleurs jaunes." #f)
 
     #("Benoîte d’Alep" "ROSACÉES" 345
@@ -109,7 +109,7 @@
     #("Bleuet fausse myrtille" "ÉRICACÉES" 442
                                "Vaccinium myrtilloides" "Rameaux nettement velus, feuilles poilues sur les deux faces." "fruit comestible")
 
-    #("Bleuet (airelle) à feuille étroite" "ÉRICACÉES" #f
+    #("Bleuet (airelle) à feuille étroite" "ÉRICACÉES" 442
                                            "Vaccinium angustifolium" "Feuilles glabres." "fruit comestible")
 
     #("Bouleau gris (à feuilles de peuplier)" "BÉTULACÉES" 149
@@ -118,10 +118,10 @@
     #("Bouleau blanc" "BÉTULACÉES" 150
                       "Betula papyrifera" #f "sève comestible")
     
-    #("Bouleau jaune (merisier)" "BÉTULACÉES" #f
+    #("Bouleau jaune (merisier)" "BÉTULACÉES" 150
                                  "Betula alleghaniensis" #f #f)
 
-    #("Bouleau à feuilles cordées" "BÉTULACÉES" #f
+    #("Bouleau à feuilles cordées" "BÉTULACÉES" 150
                                    "Betula cordifolia ou Betula papyrifera var. cordifolia." #f #f)
 
     #("Bourse à pasteur" "CRUCIFÈRES" 251
@@ -166,7 +166,7 @@
     #("Centaurée noire" "COMPOSÉES" 568
                         "Centaurea nigra" "Bractées à sommet élargi, noir, finement frangé." #f)
 
-    #("Centaurée jacée" "COMPOSÉES" #f
+    #("Centaurée jacée" "COMPOSÉES" 568
 			"Centaurea Jacea" #f #f)
 
     #("Centaurée des montagnes" "COMPOSÉES" #f
@@ -196,10 +196,10 @@
     #("Chêne rouge" "FAGACÉES" 154
                     "Quercus rubra" "Feuilles lobées (7-9 lobes) à pointes acérées." #f)
 
-    #("Chêne bicolore" "FAGACÉES" #f
+    #("Chêne bicolore" "FAGACÉES" 154
                        "Quercus bicolor" "Feuilles très pâles et pubescentes en-dessous. Lobes peu découpés à largeur maximale au-dessus du milieu." #f)
 
-    #("Chêne blanc" "FAGACÉES" #f					
+    #("Chêne blanc" "FAGACÉES" 154					
                     "Quercus alba" "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis." "glands comestibles")
 
     #("Chêne à gros fruits" "FAGACÉES" 155
@@ -211,7 +211,7 @@
     #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537
                                   "Lonicera tatarica" #f #f)
 
-    #("Chèvrefeuille du Canada" "CAPRIFOLIACÉES" #f
+    #("Chèvrefeuille du Canada" "CAPRIFOLIACÉES" 537
                                 "Lonicera canadensis" #f #f) 
 
     #("Chicorée sauvage" "COMPOSÉES" 551
@@ -241,7 +241,7 @@
     #("Cornouiller stolonifère (Hart rouge)" "CORNACÉES" 409
                                              "Cornus stolonifera" #f #f)
 
-    #("Cornouiller à feuilles alternes" "CORNACÉES" #f
+    #("Cornouiller à feuilles alternes" "CORNACÉES" 409
                                         "Cornus alternifolia" #f #f)
 
     #("Cypripède rose" "ORCHIDACÉES" 820
@@ -256,13 +256,13 @@
     #("Dicentre capuchon jaune" "FUMARIACÉES" 245
 				"Dicentra cucullaria" #f #f)
 
-    #("Dicentre capuchon rose" "FUMARIACÉES" #f
+    #("Dicentre capuchon rose" "FUMARIACÉES" 245
 				"Dicentra canadensis" "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec D. cucullaria : lobes étirés." #f)
 
     #("Digitaire sanguine" "GRAMINÉES" 808
                            "Digitaria sanguinalis" #f #f)
 
-    #("Diplotaxis (drave) des murailles" "CRUCIFÈRES" #f
+    #("Diplotaxis (drave) des murailles" "CRUCIFÈRES" 249
                                          "Diplotaxis muralis" #f #F)
 
     #("Dryoptéride du hêtre (moustaches)" "POLYPODIACÉES" 129
@@ -271,7 +271,7 @@
     #("Dryoptère spinuleuse" "POLYPODIACÉES" 130
                              "Dryopteris spinulosa (intermedia)" "Limbe triplement divisé. Sores ronds. Ne pas confondre avec A. Filix-femina. Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé." #f)
 
-    #("Dryoptère à sores marginaux" "POLYPODIACÉES" #f
+    #("Dryoptère à sores marginaux" "POLYPODIACÉES" 130
                                     "Dryopteris marginalis" "Limbe triplement divisé. Sores en forme de virgules. Écailles brun noir sur la crosse." #f)
 
     #("Égopode podagraire" "OMBELLIFÈRES" 425
@@ -280,16 +280,16 @@
     #("Épervière florentine" "COMPOSÉES" 559
                              "Hieracium florentinum" "Très similaire à H. pratense. Feuilles lancéolées, peu ou pas poilues sur le dessus."#f)
 
-    #("Épervière orangée" "COMPOSÉES" #f
+    #("Épervière orangée" "COMPOSÉES" 559
                           "Hieracium aurantiacum" #f #f)
 
     #("Épervière piloselle" "COMPOSÉES" 560
                             "Hieracium Pilosella" "Un seul capitule. Fortement stolonifère (tapis)." #F)
 
-    #("Épervière des prés" "COMPOSÉES" #f
+    #("Épervière des prés" "COMPOSÉES" 560
                            "Hieracium pratense" "Plusieurs capitules. Feuilles toutes basilaires et lancéolées, poilues sur les deux faces, ne pas confondre avec H. florentinum." #f)
 
-    #("Épervière vulgaire" "COMPOSÉES" #f
+    #("Épervière vulgaire" "COMPOSÉES" 560
                            "Hieracium vulgatum" #f #f)
 
     #("Épiaire des marais" "LABIÉES" 499
@@ -301,22 +301,22 @@
     #("Épilobe cilié (glanduleux)" "ONAGRACÉES" 372
                                    "Epilobium ciliatum" "Fleurs à quatre pétales divisés en deux." #f)
 
-    #("Épilobe hirsute" "ONAGRACÉES" #f
+    #("Épilobe hirsute" "ONAGRACÉES" 369
                         "Epilobium hirsutum" #f #f)
     
     #("Épinette blanche" "PINACÉES" 143
                          "Picea glauca" "Pour toutes les épinettes, coupe transversale des aiguilles en losange. Rameaux pâles et glabres. Cônes cylindriques (3-6 cm). Aiguilles vert bleuâtre." #f)
 
-    #("Épinette noire" "PINACÉES" #f
+    #("Épinette noire" "PINACÉES" 143
                        "Picea mariana" "Rameaux rougeâtres et pubescents. Cônes sphériques (2-3 cm) dont le bord des écailles est denté." #f)
 
     #("Épinette bleue (du Colorado)" "PINACÉES" #f
                                      "Picea pungens" #f #f)
 
-    #("Épinette rouge" "PINACÉES" #f
+    #("Épinette rouge" "PINACÉES" 144
                        "Picea rubens" "Aiguilles recourbées en finale. Cônes ovoïdes (3-5 cm) à écailles lisses, ne pas confondre avec P. mariana." #f)
 
-    #("Épinette de Norvège" "PINACÉES" #f
+    #("Épinette de Norvège" "PINACÉES" 143
                             "Picea abies" #f #f)
                                 
     #("Épipacte petit-hellébore" "ORCHIDACÉES" 829
@@ -325,13 +325,13 @@
     #("Érable de Pennsylvanie" "ACÉRACÉES" 395
                                "Acer pensylvanicum" #f #f)
 
-    #("Érable à épis" "ACÉRACÉES" #f
+    #("Érable à épis" "ACÉRACÉES" 395
                       "Acer spicatum" #f #f)
 
     #("Érable argenté" "ACÉRACÉES" 396
                        "Acer saccharinum" "Feuilles simples lobées, à sinus profonds étroits et non dentés. Grandes samares (40-70 mm) dont les ailes forment un angle de 90 degrés." #f)
 
-    #("Érable rouge" "ACÉRACÉES" #f
+    #("Érable rouge" "ACÉRACÉES" 396
                      "Acer rubrum" "Feuilles lobées, grossièrement dentées à sinus peu profonds larges et anguleux. Petites samares (12-25 mm) dont l’angle des ailes est de 60 degrés." "samares comestibles")
 
     #("Érable à sucre" "ACÉRACÉES" 398
@@ -344,7 +344,7 @@
     #("Érigéron de Philadelphie" "COMPOSÉES" 604
                                  "Erigeron philadelphicus" "Fleurs rosées." #f)
 
-    #("Érigéron annuel" "COMPOSÉES" #f
+    #("Érigéron annuel" "COMPOSÉES" 604
                         "Erigeron annuus" "Fleurs blanches." #f)
 
     #("Érythrone d’Amérique" "LILIACÉES" 656
@@ -353,7 +353,7 @@
     #("Eupatoire maculée" "COMPOSÉES" 583
                           "Eupatorium maculatum" #f #f)
 
-    #("Eupatoire perfoliée" "COMPOSÉES" #f
+    #("Eupatoire perfoliée" "COMPOSÉES" 584
                             "Eupatorium perfoliatum" #f #f)
 
     #("Eupatoire rugueuse" "COMPOSÉES" 584
@@ -368,7 +368,7 @@
     #("Fraisier des bois" "ROSACÉES" 342
                           "Fragaria vesca (americana)" "Se distingue de F. virginiana surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions." "comestible")
 
-    #("Fraisier des champs" "ROSACÉES" #f
+    #("Fraisier des champs" "ROSACÉES" 342
                             "Fragaria virginiana" "Lieux ouverts et secs. Graines en surface mais dans une dépression." "comestible")
 
     #("Frêne blanc" "OLÉACÉES" 521
@@ -377,7 +377,7 @@
     #("Frêne rouge" "OLÉACÉES" 522
                     "Fraxinus pennsylvanica" "7 à 9 folioles non sessiles. Feuilles dentées du milieu à l’apex, au dessous duveteux." #f)
 
-    #("Frêne noir" "OLÉACÉES" #f
+    #("Frêne noir" "OLÉACÉES" 522
                    "Fraxinus nigra" "7 à 11 folioles. Folioles sessiles sur le pétiole central. Écorce comme du liège." #f)
 
     #("Gadellier américain" "SAXIFRAGACÉES" 290
@@ -458,7 +458,7 @@
     #("Laiteron potager" "COMPOSÉES" 558
                          "Sonchus oleraceus" "Capitules 1-3 cm. Tige 0,5-1 m. Feuilles non épineuses." #f)
 
-    #("Laiteron épineux" "COMPOSÉES" #f
+    #("Laiteron épineux" "COMPOSÉES" 558
                          "Sonchus asper" "Capitules plus petits (1,5-2,5 cm). Tige 0,5-1 m. Feuilles non découpées et fortement épineuses." #f)
 
     #("Léontodon automnal" "COMPOSÉES" 552
@@ -500,13 +500,13 @@
     #("Lycopode claviforme (à massue)" "LYCOPODIACÉES" 109
                                        "Lycopodium clavatum" "????? : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification." #f)
 
-    #("Lycopode foncé (dendroïde)" "PIRMULACÉES" #f
+    #("Lycopode foncé (dendroïde)" "PIRMULACÉES" 109
                                    "Lycopodium dendroideum (obscurum)" #f #f)
     
     #("Lycopode innovant" "PIRMULACÉES" 110
                           "Lycopodium annotinum" "Fructification: strobile terminal solitaire. Ne pas confondre avec L. clavatum." #f)
 
-    #("Lycopode aplati" "PIRMULACÉES" #f
+    #("Lycopode aplati" "PIRMULACÉES" 110
                         "Diphasiastrum complanatum" #f #f)
 
     #("Lysimaque (Stéironéma) ciliée" "PIRMULACÉES" 429
@@ -518,7 +518,7 @@
     #("Lysimaque Nummulaire" "PIRMULACÉES" 431
                              "Lysimachia Nummularia" #f #f)
 
-    #("Lysimaque terrestre" "PIRMULACÉES" #f
+    #("Lysimaque terrestre" "PIRMULACÉES" 431
                             "Lysimachia terrestri" "Anneau marron distinctif sur la fleur." #f)
     
     #("Maïanthème du Canada" "LILIACÉES" 649
@@ -530,7 +530,7 @@
     #("Matricaire odorante" "COMPOSÉES" 590
 				"Matricaria matricarioides" #f #f)
 
-    #("Matricaire maritime"  "COMPOSÉES" #f
+    #("Matricaire maritime"  "COMPOSÉES" 590
 				"Matricaria maritima"
                                 "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
 
@@ -549,7 +549,7 @@
     #("Mélilot blanc" "LÉGUMINEUSES" 359
 				"Melilotus alba" #f #f)
 
-    #("Mélilot officinal" "LÉGUMINEUSES" #f
+    #("Mélilot officinal" "LÉGUMINEUSES" 359
 				"Melilotus officinalis"
                                 "Inflorescence jaune." #f)
 
@@ -561,7 +561,7 @@
 				"Mentha piperita"
                                 "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ne pas confondre avec M. spicata." #f)
 
-    #("Menthe du Canada" "LABIEES" #f
+    #("Menthe du Canada" "LABIEES" 505
 				"Mentha canadensis"
                                 "Verticilles floraux axillaires." #f)
 
@@ -628,7 +628,7 @@
     #("Osmonde royale" "OSMONDACÉES" 122
 				"Osmunda regalis" #f #f)
 
-    #("Osmonde cannelle" "OSMONDACÉES" #f
+    #("Osmonde cannelle" "OSMONDACÉES" 122
 				"Osmunda cinnamomea" #f #f)
 
     #("Osmonde de Clayton" "OSMONDACÉES" 123
@@ -641,7 +641,7 @@
 				"Oxalis montana"
                                 "Fleurs blanches. Présence d’acide oxalique comme R. acetosella." "feuilles comestibles")
 
-    #("Oxalide dressée" "OXALIDACÉES" #f	
+    #("Oxalide dressée" "OXALIDACÉES" 384	
 			"Oxalis striata" #f "feuilles comestibles")
 
     #("Panais cultivé" "OMBELLIFÈRES" 416
@@ -660,18 +660,18 @@
     #("Peuplier blanc" "SALICACÉES" 162
 				"Populus alba" #f #f)
 
-    #("Peuplier baumie" "SALICACÉES" #f
+    #("Peuplier baumier" "SALICACÉES" 162
 				"Populus balsamifera" 
                                 "Feuilles ovales finement dentées." #f)
 
-    #("Peuplier à grandes dents" "SALICACÉES" #f
+    #("Peuplier à grandes dents" "SALICACÉES" 162
 				"Populus grandidentata" #f #f)
 
     #("Peuplier faux-tremble" "SALICACÉES" 163
 				"Populus tremuloides" 
                                 "Petites feuilles réniformes sur longs pétioles. Jeune arbre, écorce vert pâle." #f)
 
-    #("Peuplier deltoïde" "SALICACÉES" #f
+    #("Peuplier deltoïde" "SALICACÉES" 163
 				"Populus deltoides" 
                                 "Feuilles triangulaires grossièrement dentées." #f)
 
@@ -717,11 +717,11 @@
 				"Potentilla fruticosa" 
                                 "Arbustive." #f)
 
-    #("Potentille ansérine" "ROSACÉES" #f
+    #("Potentille ansérine" "ROSACÉES" 338
 				"Potentilla Anserina"
                                 "Feuilles basilaires composées de 9 à 31 folioles." #f)
 
-    #("Potentille simple" "ROSACÉES" #f
+    #("Potentille simple" "ROSACÉES" 338
 				"Potentilla simplex"
                                 "Rhizome court ressemblant à un bulbe. Ne pas confondre avec P. reptans : rhizome noirâtre presque vertical." #f)
 
@@ -732,21 +732,21 @@
     #("Potentille argentée"  "ROSACÉES" 340
 				"Potentilla argentea" #f #f)	
 
-    #("Potentille dressée" "ROSACÉES" #f
+    #("Potentille dressée" "ROSACÉES" 340
                            "Potentilla recta"
                            "Fleurs jaune-crème." #f)
 
     #("Prêle (fém.) faux-scirpe" "EQUISETACÉES" 114
 				 "Equisetum scirpoides" #f #f)
 
-    #("Prêle panachée" "EQUISETACÉES" #f
+    #("Prêle panachée" "EQUISETACÉES" 114
                        "Equisetum variegatum" #f #f)
 
-    #("Prêle des champs" "EQUISETACÉES" #f
+    #("Prêle des champs" "EQUISETACÉES" 114
                          "Equisetum arvense"
                          "Pointes libres des gaines : brunes." #f)
 
-    #("Prêle des prés" "EQUISETACÉES" #f
+    #("Prêle des prés" "EQUISETACÉES" 114
                        "Equisetum pratense"
                        "Pointes libres des gaines : blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec E. arvense : dressées."#f)
 
@@ -760,7 +760,7 @@
     #("Prunelle vulgaire" "LABIÉES" 497
 				"Prunella vulgaris" #f #f)
 
-    #("Pulmonaire officinale" #f #f
+    #("Pulmonaire officinale" "BORAGINACÉES" #f
 				"Pulmonaria officinalis" #f #f)
 
     #("Pyrole elliptique" "ÉRICACÉES" 436
@@ -778,10 +778,10 @@
     #("Renouée à nœuds ciliés" "POLYGONACÉES" 181
 				"Polygonum cilinode" #f #f)
 
-    #("Renouée liseron" "POLYGONACÉES" #f
+    #("Renouée liseron" "POLYGONACÉES" 181
 				"Polygonum Convolvulus" #f #f)
 
-    #("Renouée sagittée (gratte-cul)" "POLYGONACÉES" #f
+    #("Renouée sagittée (gratte-cul)" "POLYGONACÉES" 181
 				"Polygonum sagittatum" #f #f)
 
     #("Renouée de Pennsylvanie" "POLYGONACÉES" 185
@@ -804,7 +804,7 @@
     #("Ronce pubescente"  "ROSACÉES" 331
 				"Rubus pubescens" #f "baies comestibles")
 
-    #("Ronce du mont Ida framboisier" "ROSACÉES" #f	
+    #("Ronce du mont Ida framboisier" "ROSACÉES" 331	
                           "Rubus idaeus" #f "baies comestibles")
 
 
@@ -846,7 +846,7 @@
     #("Scirpe à gaines rouges" "CYPÉRACÉES" 696
                                "Scirpus rubrotinctus" #f #f)
 
-    #("Scirpe noirâtre" "CYPÉRACÉES" #f
+    #("Scirpe noirâtre" "CYPÉRACÉES" 696
                         "Scirpus atrovirens" #f #f)
 
     #("Scirpe souchet" "CYPÉRACÉES" 697
@@ -861,7 +861,7 @@
     #("Silène enflée" "CARYOPHYLLACÉES" 205
                       "Silene vulgaris cucubalus" #f #f)
 
-    #("Silène blanc (lychnis)" "CARYOPHYLLACÉES" #f
+    #("Silène blanc (lychnis)" "CARYOPHYLLACÉES" 205
                                "Silene latifolia"
                                "Calice plus gros, fortement gonflé, à nervures rouge-vin." #f)
 
@@ -917,14 +917,14 @@
                        "Trifolium agrarium"
                        "Fleurs jaunes." #f)
 
-    #("Trèfle des champs (pied de lièvre)" "LÉGUMINEUSES" #f
+    #("Trèfle des champs (pied de lièvre)" "LÉGUMINEUSES" 360
                                            "Trifolium arvense" #f #f)
 
     #("Trèfle rouge" "LÉGUMINEUSES" 361
                      "Trifolium pratense" #f #f)
 
 
-    #("Trèfle blanc" "LÉGUMINEUSES" #f
+    #("Trèfle blanc" "LÉGUMINEUSES" 361
                      "Trifolium repens" #f #f)
 
     #("Trèfle Alsike (hybride)"  "LÉGUMINEUSES" 362
@@ -939,7 +939,7 @@
     #("Trille rouge" "LILIACEES" 646
                      "Trillium erectum" #f #f)
 
-    #("Trille ondulé" "LILIACÉES" #f
+    #("Trille ondulé" "LILIACÉES" 646
                       "Trillium undulatum" #f #f)
 
     #("Tussilage pas-d’âne" "COMPOSÉES" 594
@@ -1015,7 +1015,7 @@
     #("Viorne bois-d’orignal" "CAPRIFOLIACÉES" 533
                               "Viburnum lantanoides ou Viburnum alnifolium" #f #f)
     
-    #("Viorne trilobée" "CAPRIFOLIACÉES" #f					
+    #("Viorne trilobée" "CAPRIFOLIACÉES" 533					
                         "Viburnum trilobum" #f "fruit comestible")
 
     #("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534
