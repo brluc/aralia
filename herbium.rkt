@@ -4,7 +4,7 @@
                               "Achillea Millefolium" #f #f)
 
     #("Actée blanche" "RENONCULACÉES" 232
-                      "Actea pachypoda" "Fruits blancs sur pédicelles épais (pachypoda) rouges. Revers de la feuille moins poilu que A. rubra." "toxique")
+                      "Actea pachypoda" "Fruits blancs sur pédicelles épais \\emph{(pachypoda)} rouges. Revers de la feuille moins poilu que \\emph{A. rubra.}" "toxique")
 
     #("Actée rouge" "RENONCULACÉES" 233
                     "Actea rubra" #f "toxique")
@@ -45,9 +45,9 @@
 
     #("Apocyn à feuilles d’Androsème" "APOCYNACÉES" 517
                                       "Apocynum androsaemifolium" #f "toxique")
-;; Expression grecque
+
     #("Aralie à grappes" "ARALIACÉES" 412
-                         "Aralia racemosa" "Racemus, i, m.: grappe. XXXX : grain de raisin" "fruit comestible")
+                         "Aralia racemosa" "\\emph{Racemus,} i, m.: grappe. \\gb{\\accdasia{r}\\'{a}z, -ag\\'{o}c, \\'{h}} : grain de raisin" "fruit comestible")
 
     #("Aralie à tige nue" "ARALIACÉES" #f
                           "Aralia nudicaulis" #f "fruit comestible")
@@ -77,16 +77,16 @@
                      "Crataegus" "Rameaux épineux." "fruit comestible")
 
     #("Aulne crispé" "BÉTULACÉES" 151
-                     "Alnus crispa (viridis)" "Rare au Qc (vulnérable). Cocottes persistantes sur longues queues. Feuilles avec dents fines non doublement dentées." #f)
+                     "Alnus crispa (viridis)" "Rare au Québec (vulnérable). Cocottes persistantes sur longues queues. Feuilles avec dents fines non doublement dentées." #f)
 
     #("Aulne rugueux" "BÉTULACÉES" 151
-                      "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec A. viridis. Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées." #f)
+                      "Alnus rugosa (incana)" "Cocottes persistantes, sans queue. ne pas confondre avec \\emph{A. viridis.} Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées." #f)
 
     #("Barbarée vulgaire" "CRUCIFÈRES" 269
                           "Barbarea vulgaris" "Floraison : mai-juillet."  #f)
 
     #("Bardane majeure" "COMPOSÉES" 567
-                        "Arctium Lappa" "Hauteur : 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec A. minus." #f)
+                        "Arctium Lappa" "Hauteur : 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec \\emph{A. minus.}" #f)
 
     #("Bardane mineure" "COMPOSÉES" 576
 			"Arctium minus" "Hauteur : 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)." #f)
@@ -95,7 +95,7 @@
                               "Geum rivale" #f "rhizome tisane")
 
     #("Benoîte du Canada" "ROSACÉES" 344
-                          "Geum canadense" "Fleurs blanches, feuilles plus serrées, ne pas confondre avec G. aleppicum : fleurs jaunes." #f)
+                          "Geum canadense" "Fleurs blanches, feuilles plus serrées, ne pas confondre avec \\emph{G. aleppicum} : fleurs jaunes." #f)
 
     #("Benoîte d’Alep" "ROSACÉES" 345
                        "Geum aleppicum" #f #f)
@@ -131,7 +131,7 @@
 		     "Bromus inermis" #f #f)
 
     #("Camomille des chiens" "COMPOSÉES" 592
-                             "Anthemis Cotula" "Feuilles très divisées, comme les matricaires. Ne pas confondre avec C. Leucanthemum." #f)
+                             "Anthemis Cotula" "Feuilles très divisées, comme les matricaires. Ne pas confondre avec \\emph{C. Leucanthemum.}" #f)
 
     #("Campanule fausse-raiponce" "CAMPANULACÉES" 544
                                   "Campanula rapunculoides" #f "racines comestibles")
@@ -173,7 +173,7 @@
                                 "Centaurea montana" #f #f)
 
     #("Céraiste vulgaire" "CARYOPHYLLACÉES" 208
-                          "Cerastium vulgatum" "Fortement pubescent. Ne pas confondre avec S. graminea." #f)
+                          "Cerastium vulgatum" "Fortement pubescent. Ne pas confondre avec \\emph{S. graminea.}" #f)
 
     #("Cerisier de Pennsylvanie" "ROSACÉES" 320
                                  "Prunus pensylvanica" #f "Comestible: fruits sans noyau")
@@ -204,9 +204,9 @@
 
     #("Chêne à gros fruits" "FAGACÉES" 155
                             "Quercus macrocarpa" "Feuilles pubescentes en-dessous à lobe terminal souvent grand." #f)
-;; expression grecque
+
     #("Chénopode blanc" "CHÉNOPODIACÉES" 194
-			"Chenopodium album" "xxxx: oie" "graines comestible")
+			"Chenopodium album" "\\gb{q\\'{h}n}: oie" "graines comestible")
 
     #("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537
                                   "Lonicera tatarica" #f #f)
@@ -221,7 +221,7 @@
                   "Agropyron repens" #f #f)
 
     #("Claytonie de Caroline" "PORTULACACÉES" 202
-                              "Claytonia caroliniana" "Ne pas confondre avec C. virginica : feuilles étroites (8 fois plus longues que larges). Rare au Qc, plus grégaire; colonies denses." "bulbe comestible")
+                              "Claytonia caroliniana" "Ne pas confondre avec \\emph{C. virginica} : feuilles étroites (8 fois plus longues que larges). Rare au Québec, plus grégaire; colonies denses." "bulbe comestible")
 
     #("Clématite de Virginie" "RENONCULACÉES" 222
                               "Clematis virginiana" #f #f)
@@ -257,7 +257,7 @@
 				"Dicentra cucullaria" #f #f)
 
     #("Dicentre capuchon rose" "FUMARIACÉES" 245
-				"Dicentra canadensis" "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec D. cucullaria : lobes étirés." #f)
+				"Dicentra canadensis" "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec \\emph{D. cucullaria} : lobes étirés." #f)
 
     #("Digitaire sanguine" "GRAMINÉES" 808
                            "Digitaria sanguinalis" #f #f)
@@ -269,7 +269,7 @@
 				"Phegopteris connectilis ou Dryopteris phegopteris" #f #f)
 
     #("Dryoptère spinuleuse" "POLYPODIACÉES" 130
-                             "Dryopteris spinulosa (intermedia)" "Limbe triplement divisé. Sores ronds. Ne pas confondre avec A. Filix-femina. Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé." #f)
+                             "Dryopteris spinulosa (intermedia)" "Limbe triplement divisé. Sores ronds. Ne pas confondre avec \\emph{A. Filix-femina.} Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé." #f)
 
     #("Dryoptère à sores marginaux" "POLYPODIACÉES" 130
                                     "Dryopteris marginalis" "Limbe triplement divisé. Sores en forme de virgules. Écailles brun noir sur la crosse." #f)
@@ -278,7 +278,7 @@
                            "Aegopodium Podagraria" #f #f)
 
     #("Épervière florentine" "COMPOSÉES" 559
-                             "Hieracium florentinum" "Très similaire à H. pratense. Feuilles lancéolées, peu ou pas poilues sur le dessus."#f)
+                             "Hieracium florentinum" "Très similaire à \\emph{H. pratense.} Feuilles lancéolées, peu ou pas poilues sur le dessus."#f)
 
     #("Épervière orangée" "COMPOSÉES" 559
                           "Hieracium aurantiacum" #f #f)
@@ -287,7 +287,7 @@
                             "Hieracium Pilosella" "Un seul capitule. Fortement stolonifère (tapis)." #F)
 
     #("Épervière des prés" "COMPOSÉES" 560
-                           "Hieracium pratense" "Plusieurs capitules. Feuilles toutes basilaires et lancéolées, poilues sur les deux faces, ne pas confondre avec H. florentinum." #f)
+                           "Hieracium pratense" "Plusieurs capitules. Feuilles toutes basilaires et lancéolées, poilues sur les deux faces, ne pas confondre avec \\emph{H. florentinum.}" #f)
 
     #("Épervière vulgaire" "COMPOSÉES" 560
                            "Hieracium vulgatum" #f #f)
@@ -314,7 +314,7 @@
                                      "Picea pungens" #f #f)
 
     #("Épinette rouge" "PINACÉES" 144
-                       "Picea rubens" "Aiguilles recourbées en finale. Cônes ovoïdes (3-5 cm) à écailles lisses, ne pas confondre avec P. mariana." #f)
+                       "Picea rubens" "Aiguilles recourbées en finale. Cônes ovoïdes (3-5 cm) à écailles lisses, ne pas confondre avec \\emph{P. mariana.}" #f)
 
     #("Épinette de Norvège" "PINACÉES" 143
                             "Picea abies" #f #f)
@@ -366,7 +366,7 @@
                               "Pteridium aquilinum" #f #f)
     
     #("Fraisier des bois" "ROSACÉES" 342
-                          "Fragaria vesca (americana)" "Se distingue de F. virginiana surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions." "comestible")
+                          "Fragaria vesca (americana)" "Se distingue de \\emph{F. virginiana} surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions." "comestible")
 
     #("Fraisier des champs" "ROSACÉES" 342
                             "Fragaria virginiana" "Lieux ouverts et secs. Graines en surface mais dans une dépression." "comestible")
@@ -408,7 +408,7 @@
                            "Gnaphalium uliginosum" #f #f)
 
     #("Groseillier des chiens" "SAXIFRAGACÉES" 291
-                               "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3)." "baies comestible")
+                               "Ribes cynosbati" "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{R. Americanum} qui est sans épines" "baies comestible")
 
     #("Glycérie striée" "GRAMINÉES" 768
                         "Glyceria striata" #f #f)
@@ -439,9 +439,9 @@
 
     #("Huperzie brillante" "LYCOPODIACÉES" 108
                            "Huperzia lucidula" "Fructification : sporanges jaunes à l’aisselle des feuilles." #f)
-;; expresssion grecque
+
     #("Hydrocotyle d'Amérique" "OMBELLIFÈRES" 415
-                               "Hydrocotyle americana" "xxxx: écuelle" #f)
+                               "Hydrocotyle americana" "\\gb{kot\\'{u}lh, hc, \\accdasia{h}}: écuelle" #f)
     
     #("Impatiente du Cap" "BALSAMINACÉES" 399
                           "Impatiens capensis" #f #f)
@@ -496,15 +496,15 @@
 
     #("Luzerne cultivée" "LÉGUMINEUSES" 358
                          "Medicago sativa" #f #f)
-;; expression grecque
+
     #("Lycopode claviforme (à massue)" "LYCOPODIACÉES" 109
-                                       "Lycopodium clavatum" "????? : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification." #f)
+                                       "Lycopodium clavatum" "\\gb{l\\'{u}koc} : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification." #f)
 
     #("Lycopode foncé (dendroïde)" "PIRMULACÉES" 109
                                    "Lycopodium dendroideum (obscurum)" #f #f)
     
     #("Lycopode innovant" "PIRMULACÉES" 110
-                          "Lycopodium annotinum" "Fructification: strobile terminal solitaire. Ne pas confondre avec L. clavatum." #f)
+                          "Lycopodium annotinum" "Fructification: strobile terminal solitaire. Ne pas confondre avec \\emph{L. clavatum.}" #f)
 
     #("Lycopode aplati" "PIRMULACÉES" 110
                         "Diphasiastrum complanatum" #f #f)
@@ -532,7 +532,7 @@
 
     #("Matricaire maritime"  "COMPOSÉES" 590
 				"Matricaria maritima"
-                                "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec Anthemis cotula : avec poil et odeur fétide." #f)
+                                "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec \\emph{Anthemis cotula} : avec poil et odeur fétide." #f)
 
     #("Matteuccie fougère-à-l’autruche" "POLYPODIACÉES" 134
 				"Matteuccia Struthiopteris ou Pteretis pensylvanica" #f #f)
@@ -559,7 +559,7 @@
 
     #("Menthe poivrée" "LABIEES" 505
 				"Mentha piperita"
-                                "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ne pas confondre avec M. spicata." #f)
+                                "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ne pas confondre avec \\emph{M. spicata.}" #f)
 
     #("Menthe du Canada" "LABIEES" 505
 				"Mentha canadensis"
@@ -639,7 +639,7 @@
 
     #("Oxalide des bois" "OXALIDACÉES"  384	
 				"Oxalis montana"
-                                "Fleurs blanches. Présence d’acide oxalique comme R. acetosella." "feuilles comestibles")
+                                "Fleurs blanches. Présence d’acide oxalique comme \\emph{R. acetosella.}" "feuilles comestibles")
 
     #("Oxalide dressée" "OXALIDACÉES" 384	
 			"Oxalis striata" #f "feuilles comestibles")
@@ -723,7 +723,7 @@
 
     #("Potentille simple" "ROSACÉES" 338
 				"Potentilla simplex"
-                                "Rhizome court ressemblant à un bulbe. Ne pas confondre avec P. reptans : rhizome noirâtre presque vertical." #f)
+                                "Rhizome court ressemblant à un bulbe. Ne pas confondre avec \\emph{P. reptans} : rhizome noirâtre presque vertical." #f)
 
     #("Potentille de Norvège" "ROSACÉES" 339
                               "Potentilla norvegica"
@@ -748,7 +748,7 @@
 
     #("Prêle des prés" "EQUISETACÉES" 114
                        "Equisetum pratense"
-                       "Pointes libres des gaines : blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec E. arvense : dressées."#f)
+                       "Pointes libres des gaines : blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{E. arvense} : dressées."#f)
 
     #("Prêle des bois" "EQUISETACÈES" 115
                        "Equisetum sylvaticum"
@@ -790,7 +790,7 @@
 
     #("Renouée persicaire"  "POLYGONACÉES" 187
                             "Polygonum Persicaria"
-                            "Inflorescence rose. Poils en bordure de la gaine, ne pas confondre avec P. pensylvanicum" #f)
+                            "Inflorescence rose. Poils en bordure de la gaine, ne pas confondre avec \\emph{P. pensylvanicum}" #f)
 
     #("Renouée du Japon" "POLYGONACÉES" #f
 				"Polygonum cuspidatum" #f #f)
@@ -891,7 +891,7 @@
 
     #("Sureau blanc" "CAPRIFOLIACÉES" 530
                      "Sambucus canadensis"
-                     "Fruit noir violacé à maturité (automne). Floraison estivale lorsque S. racemosa a déjà ses fruits." "fruits comestibles")
+                     "Fruit noir violacé à maturité (automne). Floraison estivale lorsque \\emph{S. racemosa} a déjà ses fruits." "fruits comestibles")
 
     #("Sureau rouge" "CAPRIFOLIACÉES" #f	
                      "Sambucus racemosa"
