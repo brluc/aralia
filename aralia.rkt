@@ -1,9 +1,9 @@
 #lang racket
 
+(provide (all-defined-out))
+
 (define herbium-database-filename
   (make-parameter "herbium.rkt"))
-
-(provide (all-defined-out))
 
 (define (read-herbium)
   (call-with-input-file (herbium-database-filename) read))
@@ -23,7 +23,7 @@
          (if (hash-has-key? ht ch)
              (hash-update! ht ch (lambda (v)
                                    (cons row v)))
-             (hash-set! ht ch '()))))
+             (hash-set! ht ch (list row)))))
      rows)
     (sort (hash-map ht (lambda (k v)
                          (cons k (sort v #:key car string<?))))
@@ -52,23 +52,25 @@
 (define (false->blank u) (if u u ""))
 
 ;; For the case of one Latin name.
-(define (tex-herbe name latin-name family ref comment)
-  (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
+(define (tex-herbe name latin-name family ref comment edibility)
+  (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\\par\\noindent\\hfill ~a\n\\herbskip\n\n"
           name
           latin-name
           (string-titlecase family)
           ref
-          comment))
+          comment
+          edibility))
 
 ;; For the case of two Latin names.
-(define (tex-herbex name latin-name-1 latin-name-2 family ref comment)
-  (format "\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\n\n\\herbskip\n\n"
+(define (tex-herbex name latin-name-1 latin-name-2 family ref comment edibility)
+  (format "\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\n\\par\\noindent\\hfill ~a\n\\herbskip\n\n"
           name
           latin-name-1
           latin-name-2
           (string-titlecase family)
           ref
-          comment))
+          comment
+          edibility))
 
 ;; Group herbium entries alphabetically.
 ;; Organize them into alphabetic chapters.
@@ -82,17 +84,14 @@
                    (match (map false->blank row)
                      ((list name family ref
                             (list latin-1 latin-2) comment edibility)
-                      (tex-herbex name latin-1 latin-2 family ref comment))
+                      (tex-herbex name latin-1 latin-2 family ref comment edibility))
                      ((list name family ref
                             latin comment edibility)
-                      (tex-herbe name latin family ref comment))
+                      (tex-herbe name latin family ref comment edibility))
                      (_ (error "make-body: match herbium entry failed: "
                                row))))
                  (cdr alphabetic-group)))))
         (group-by-name (read-herbium)))))
-
-
-
 
 ;; Final product.
 (define (write-to-tex-file body)
