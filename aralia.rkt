@@ -53,24 +53,32 @@
 
 ;; For the case of one Latin name.
 (define (tex-herbe name latin-name family ref comment edibility)
-  (format "\\herbe{~a}{~a}{~a}{~a}\n\n~a\n\\par\\noindent\\hfill ~a\n\\herbskip\n\n"
+  (format "\\begin{nonewpage}
+\\herbe{~a}{~a}{~a}{~a}\n\n~a\\par\\noindent\\hfill {~a}
+\\end{nonewpage}\n\n\\herbskip\n\n"
           name
           latin-name
           (string-titlecase family)
           ref
           comment
-          edibility))
+          (if (string=? "" edibility)
+              ""
+              (format "$\\bullet$ ~a" edibility))))
 
 ;; For the case of two Latin names.
 (define (tex-herbex name latin-name-1 latin-name-2 family ref comment edibility)
-  (format "\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\n\\par\\noindent\\hfill ~a\n\\herbskip\n\n"
+  (format "\\begin{nonewpage}
+\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\\par\\noindent\\hfill {~a}
+\\end{nonewpage}\n\n\\herbskip\n\n"
           name
           latin-name-1
           latin-name-2
           (string-titlecase family)
           ref
           comment
-          edibility))
+          (if (string=? "" edibility)
+              ""
+              (format "$\\bullet$ ~a" edibility))))
 
 ;; Group herbium entries alphabetically.
 ;; Organize them into alphabetic chapters.
@@ -84,7 +92,8 @@
                    (match (map false->blank row)
                      ((list name family ref
                             (list latin-1 latin-2) comment edibility)
-                      (tex-herbex name latin-1 latin-2 family ref comment edibility))
+                      (tex-herbex name latin-1 latin-2
+                                  family ref comment edibility))
                      ((list name family ref
                             latin comment edibility)
                       (tex-herbe name latin family ref comment edibility))

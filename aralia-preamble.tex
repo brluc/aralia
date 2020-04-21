@@ -2,7 +2,7 @@
 \setlrmarginsandblock{2.5in}{2.5in}{*}
 \setulmarginsandblock{3.5in}{3.5in}{*}
 \fixthelayout
-\raggedbottom
+%%\raggedbottom
 
 \usepackage[utf8]{inputenc}
 \usepackage[LGR,T1]{fontenc} %% LGR for Greek.
@@ -78,27 +78,34 @@
 \author{{\Large\scshape SBL Bushcraft Project}}
 \date{Mai 2019}
 
+\newenvironment{nonewpage}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
 \usepackage{lipsum}
 
 %% #1 => name
 %% #2 => latin name
-%% #3 => type
+%% #3 => family
 %% #4 => reference page
 \newcommand{\herbe}[4]{
-  \noindent\textbf{\large #1}\hfill {\itshape #2}
-  \par\noindent\hfill {\scshape #3} \hskip 5pt {[#4]} 
+  \noindent\textbf{\large #1}\hfill {[#4]}
+  \par\noindent\hfill {\scshape #3}
+  \par\noindent\hfill {\itshape #2}
   \par\smallskip
 }
 
 %% #1 => name
 %% #2 => latin name
 %% #3 => other latin name
-%% #4 => type
+%% #4 => family
 %% #5 => reference page
 \newcommand{\herbex}[5]{
-  \noindent\textbf{\large #1}\hfill {\itshape #2}
-  \par\hfill {\itshape #3}
-  \par\noindent\hfill {\scshape #4} \hskip 5pt {[#5]} 
+  \noindent\textbf{\large #1}\hfill {[#5]}
+  \par\noindent\hfill {\scshape #4}
+  \par\hfill {\itshape #2}\hskip2pt /\hskip2pt {\itshape #3}
   \par\smallskip
 }
 
