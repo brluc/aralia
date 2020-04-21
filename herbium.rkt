@@ -68,7 +68,7 @@
   "ARALIACÉES"
   412
   "Aralia racemosa"
-  "\\emph{Racemus,} i, m.: grappe. \\gb{\\accdasia{r}\\'{a}z, -ag\\'{o}c, \\'{h}} : grain de raisin"
+  "\\emph{Racemus,} i, m.: grappe. \\gk{\\accdasia{r}\\'{a}z, -ag\\'{o}c, \\'{h}} : grain de raisin"
   "fruit comestible")
 
  ("Aralie à tige nue"
@@ -334,7 +334,7 @@
   "CHÉNOPODIACÉES"
   194
   "Chenopodium album"
-  "\\gb{q\\'{h}n}: oie"
+  "\\gk{q\\'{h}n}: oie"
   "graines comestible")
 
  ("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537 "Lonicera tatarica" #f #f)
@@ -670,7 +670,7 @@
   "OMBELLIFÈRES"
   415
   "Hydrocotyle americana"
-  "\\gb{kot\\'{u}lh, hc, \\accdasia{h}}: écuelle"
+  "\\gk{kot\\'{u}lh, hc, \\accdasia{h}}: écuelle"
   #f)
 
  ("Impatiente du Cap" "BALSAMINACÉES" 399 "Impatiens capensis" #f #f)
@@ -743,7 +743,7 @@
   "LYCOPODIACÉES"
   109
   "Lycopodium clavatum"
-  "\\gb{l\\'{u}koc} : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification."
+  "\\gk{l\\'{u}koc} : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification."
   #f)
 
  ("Lycopode foncé (dendroïde)"
