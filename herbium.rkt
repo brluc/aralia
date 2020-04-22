@@ -72,12 +72,12 @@
   "ARALIACÉES"
   412
   "Aralia racemosa"
-  "\\emph{Racemus,} i, m.: grappe. \\gk{\\accdasia{r}\\'{a}z, -ag\\'{o}c, \\'{h}} : grain de raisin"
+  "\\emph{Racemus,} i, m.: grappe. \\gk{\\accdasia{r}\\'{a}\\accdasiaoxia{c}, -ag\\'{o}c, \\'{h}} : grain de raisin"
   "fruit comestible")
 
  ("Aralie à tige nue"
   "ARALIACÉES"
-  #f
+  412
   "Aralia nudicaulis"
   #f
   "fruit comestible")
@@ -210,7 +210,7 @@
   #f
   #f)
 
- ("Bourse à pasteur" "CRUCIFÈRES" 251 "Capsella Bursu-pastoris" #f #f)
+ ("Bourse à pasteur" "CRUCIFÈRES" 251 "Capsella Bursa-pastoris" #f #f)
 
  ("Brome inerme" "GRAMINÉES" 777 "Bromus inermis" #f #f)
 
