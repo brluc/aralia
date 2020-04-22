@@ -2,7 +2,7 @@
   "COMPOSÉES"
   592
   "Achillea Millefolium"
-  #f
+  "\\emph{Herbe à dindes;} capitules nombreus, en panicule corymbiforme; rayons blancs ou rosés."
   #f)
 
  ("Actée blanche"
@@ -12,9 +12,13 @@
   "Fruits blancs sur pédicelles épais \\emph{(pachypoda)} rouges. Revers de la feuille moins poilu que \\emph{Actea rubra.}"
   "toxique")
 
- ("Actée rouge" "RENONCULACÉES" 233 "Actea rubra" #f "toxique")
+ ("Actée rouge" "RENONCULACÉES" 233 "Actea rubra"
+  "Fruits rouges, à graines nombreuses (11-17) portés sur pédicelles grêles, creux et généralement verdâtres" "toxique")
 
- ("Adiante du Canada" "POLYPODIACÉES" 124 "Adiantum pedatum" #f #f)
+ ("Adiante du Canada"
+  "POLYPODIACÉES"
+  124 "Adiantum pedatum"
+  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères} selon Marie-Victorin." #f)
 
  ("Agrostide blanche"
   "GRAMINÉES"
