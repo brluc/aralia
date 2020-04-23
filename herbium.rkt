@@ -639,7 +639,8 @@
   #f
   #f)
 
- ("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218 "Hamamelis virginiana" #f #f)
+ ("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218 "Hamamelis virginiana"
+                          "\\emph{By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched. H. D. Thoreau}" #f)
 
  ("Hémérocalle fauve" "LILIACÉES" 654 "Hemerocalis fulva" #f #f)
 
@@ -1088,7 +1089,11 @@
 
  ("Prunelle vulgaire" "LABIÉES" 497 "Prunella vulgaris" #f #f)
 
- ("Pulmonaire officinale" "BORAGINACÉES" #f "Pulmonaria officinalis" #f #f)
+ ("Pulmonaire officinale"
+  "BORAGINACÉES"
+  454 "Pulmonaria officinalis"
+  "\\emph{Notre flore indigène est pauvre en plante de cette famille, mais plusieurs Boraginacées eurasiatiques se sont naturalisées facilement dans le Québec. Fr. Marie-Victorin.}"
+  #f)
 
  ("Pyrole elliptique" "ÉRICACÉES" 436 "Pyrola elliptica" #f #f)
 
