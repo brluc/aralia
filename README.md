@@ -1,6 +1,6 @@
 # aralia
 
-## documentation pour les noms de nos plantes
+## Documentation pour les noms de nos plantes
 
 ### première étape
 
