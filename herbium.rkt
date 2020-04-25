@@ -10,10 +10,14 @@
   232
   "Actea pachypoda"
   "Fruits blancs sur pédicelles épais \\emph{(pachypoda)} rouges. Revers de la feuille moins poilu que \\emph{Actea rubra.}"
-  "toxique")
+  "Toxique.")
 
- ("Actée rouge" "RENONCULACÉES" 233 "Actea rubra"
-  "Fruits rouges, à graines nombreuses (11-17) portés sur pédicelles grêles, creux et généralement verdâtres" "toxique")
+ ("Actée rouge"
+  "RENONCULACÉES"
+  233
+  "Actea rubra"
+  "Fruits rouges, à graines nombreuses (11-17) portés sur pédicelles grêles, creux et généralement verdâtres."
+  "Toxique.")
 
  ("Adiante du Canada"
   "POLYPODIACÉES"
@@ -29,11 +33,11 @@
 
  ("Aigremoine striée" "ROSACÉES" 344 "Agrimonia striata" #f #f)
 
- ("Ail des bois" "LILIACÉES" 660 "Allium tricoccum" #f "comestible")
+ ("Ail des bois" "LILIACÉES" 660 "Allium tricoccum" #f "Comestible.")
 
  ("Alpiste roseau" "GRAMINÉES" 804 "Phalaris arundinacea" #f #f)
 
- ("Amélanchier spp" "ROSACÉES" 315 "Amelanchier" #f "fruit comestible")
+ ("Amélanchier spp" "ROSACÉES" 315 "Amelanchier" #f "Fruit comestible.")
 
  ("Anaphale marguerite" "COMPOSÉES" 574 "Anaphalis margaritacea" #f #f)
 
@@ -66,35 +70,35 @@
   517
   "Apocynum androsaemifolium"
   #f
-  "toxique")
+  "Toxique.")
 
  ("Aralie à grappes"
   "ARALIACÉES"
   412
   "Aralia racemosa"
   "\\emph{Racemus,} i, m.: grappe. \\gk{\\accdasia{r}\\'{a}\\accdasiaoxia{c}, -ag\\'{o}c, \\'{h}} : grain de raisin"
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Aralie à tige nue"
   "ARALIACÉES"
   412
   "Aralia nudicaulis"
   #f
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Arisème petit-prêcheur"
   "ARACÉES"
   840
   "Arisaema triphyllum (atrorubens)"
   #f
-  "toxique")
+  "Toxique.")
 
  ("Asaret du Canada"
   "ARISTOLOCHIACÉES"
   219
   "Asarum canadense"
   #f
-  "rhizome comestible")
+  "Rhizome comestible.")
 
  ("Asclépiade commune" "ASCLÉPIADACÉES" 519 "Asclepias syriaca" #f #f)
 
@@ -126,7 +130,7 @@
   296
   "Crataegus"
   "Rameaux épineux."
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Aulne crispé"
   "BÉTULACÉES"
@@ -163,7 +167,12 @@
   "Hauteur : 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)."
   #f)
 
- ("Benoîte des ruisseaux" "ROSACÉES" 344 "Geum rivale" #f "rhizome tisane")
+ ("Benoîte des ruisseaux"
+  "ROSACÉES"
+  344
+  "Geum rivale"
+  #f
+  "Rhizome tisane.")
 
  ("Benoîte du Canada"
   "ROSACÉES"
@@ -183,14 +192,14 @@
   442
   "Vaccinium myrtilloides"
   "Rameaux nettement velus, feuilles poilues sur les deux faces."
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Bleuet (airelle) à feuille étroite"
   "ÉRICACÉES"
   442
   "Vaccinium angustifolium"
   "Feuilles glabres."
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Bouleau gris (à feuilles de peuplier)"
   "BÉTULACÉES"
@@ -199,7 +208,12 @@
   "Feuilles triangulaires longuement acuminées. Écorce ne s’exfoliant pas. Taches noires sous les branches."
   #f)
 
- ("Bouleau blanc" "BÉTULACÉES" 150 "Betula papyrifera" #f "eau comestible")
+ ("Bouleau blanc"
+  "BÉTULACÉES"
+  150
+  "Betula papyrifera"
+  #f
+  "Eau comestible.")
 
  ("Bouleau jaune (merisier)" "BÉTULACÉES" 150 "Betula alleghaniensis" #f #f)
 
@@ -219,21 +233,21 @@
   592
   "Anthemis Cotula"
   "Feuilles très divisées, comme les matricaires. Ne pas confondre avec \\emph{Chrysanthemum Leucanthemum.}"
-  "toxique")
+  "Toxique.")
 
  ("Campanule fausse-raiponce"
   "CAMPANULACÉES"
   544
   "Campanula rapunculoides"
   #f
-  "racines comestibles")
+  "Racines comestibles.")
 
  ("Cardamine carcajou"
   "CRUCIFÈRES"
   258
   "Cardamine (dentaria) diphylla"
   #f
-  "rhizome comestible")
+  "Rhizome comestible.")
 
  ("Carex stipité" "CYPÉRACÉES" 709 "Carex stipita" #f #f)
 
@@ -245,7 +259,7 @@
   "CYPÉRACÉES"
   730
   "Carex plantaginea"
-  "Floraison très printanière"
+  "Floraison très printanière."
   #f)
 
  ("Carex crépu" "CYPÉRACÉES" 745 "Carex crinita" #f #f)
@@ -254,7 +268,12 @@
 
  ("Carex gonflé" "CYPÉRACÉES" 756 "Carex intumescens" #f #f)
 
- ("Carotte sauvage" "OMBELLIFÈRES" 418 "Daucus Carota" #f "rhizome comestible")
+ ("Carotte sauvage"
+  "OMBELLIFÈRES"
+  418
+  "Daucus Carota"
+  #f
+  "Rhizome comestible.")
 
  ("Centaurée noire"
   "COMPOSÉES"
@@ -279,7 +298,7 @@
   320
   "Prunus pensylvanica"
   #f
-  "Comestible: fruits sans noyau")
+  "Comestible: fruit sans noyau.")
 
  ("Cerisier tardif" "ROSACÉES" 321 "Prunus serotina" #f #f)
 
@@ -325,7 +344,7 @@
   154
   "Quercus alba"
   "Feuilles glabres en-dessous, à lobe terminal jamais grand. Lobes arrondis."
-  "glands comestibles")
+  "Glands comestibles.")
 
  ("Chêne à gros fruits"
   "FAGACÉES"
@@ -339,7 +358,7 @@
   194
   "Chenopodium album"
   "\\gk{q\\'{h}n}: oie"
-  "graines comestible")
+  "Graines comestible.")
 
  ("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537 "Lonicera tatarica" #f #f)
 
@@ -354,7 +373,7 @@
   202
   "Claytonia caroliniana"
   "Ne pas confondre avec \\emph{Claytonia virginica} : feuilles étroites (8 fois plus longues que larges). Rare au Québec, plus grégaire; colonies denses."
-  "bulbe comestible")
+  "Bulbe comestible.")
 
  ("Clématite de Virginie" "RENONCULACÉES" 222 "Clematis virginiana" #f #f)
 
@@ -369,7 +388,7 @@
   407
   "Cornus canadensis"
   #f
-  "fruits comestible")
+  "Fruit comestible.")
 
  ("Cornouiller stolonifère (Hart rouge)"
   "CORNACÉES"
@@ -467,7 +486,7 @@
   499
   "Stachys palustris"
   #f
-  "tubercule comestible")
+  "Tubercule comestible.")
 
  ("Épifage de Virginie" "OROBANCHACÉES" 488 "Epifagus virginiana" #f #f)
 
@@ -523,14 +542,14 @@
   396
   "Acer rubrum"
   "Feuilles lobées, grossièrement dentées à sinus peu profonds larges et anguleux. Petites samares (12-25 mm) dont l’angle des ailes est de 60 degrés."
-  "samares comestibles")
+  "Samares comestibles.")
 
  ("Érable à sucre"
   "ACÉRACÉES"
   398
   "Acer saccharum"
   "Feuilles à sinus arrondis, non dentés."
-  "eau comestible: sirop")
+  "Eau comestible: sirop.")
 
  ("Érigéron du Canada (Vergerette)"
   "COMPOSÉES"
@@ -554,7 +573,7 @@
 
  ("Eupatoire perfoliée" "COMPOSÉES" 584 "Eupatorium perfoliatum" #f #f)
 
- ("Eupatoire rugueuse" "COMPOSÉES" 584 "Eupatorium rugosum" #f "toxique")
+ ("Eupatoire rugueuse" "COMPOSÉES" 584 "Eupatorium rugosum" #f "Toxique.")
 
  ("Fétuque rouge" "GRAMINÉES" 774 "Festuca rubra" #f #f)
 
@@ -565,14 +584,14 @@
   342
   "Fragaria vesca (americana)"
   "Se distingue de \\emph{Fragaria virginiana} surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions."
-  "comestible")
+  "Fruit comestible.")
 
  ("Fraisier des champs"
   "ROSACÉES"
   342
   "Fragaria virginiana"
   "Lieux ouverts et secs. Graines en surface mais dans une dépression."
-  "comestible")
+  "Fruit comestible.")
 
  ("Frêne blanc"
   "OLÉACÉES"
@@ -628,7 +647,7 @@
   291
   "Ribes cynosbati"
   "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épines"
-  "baies comestible")
+  "Baies comestibles.")
 
  ("Glycérie striée" "GRAMINÉES" 768 "Glyceria striata" #f #f)
 
@@ -651,7 +670,7 @@
   392
   ("Rhus toxicodendron" "Toxicodendron radicans")
   #f
-  "toxique")
+  "Toxique.")
 
  ("Herbe à poux (Ambroisie)" "COMPOSÉES" 562 "Ambrosia artemisiifolia" #f #f)
 
@@ -660,9 +679,14 @@
   156
   "Fagus grandifolia"
   #f
-  "faînes comestibles")
+  "Faînes comestibles.")
 
- ("Houx verticillé" "AQUIFOLIACÉES" 401 "Ilex verticillata" #f "toxique")
+ ("Houx verticillé"
+  "AQUIFOLIACÉES"
+  401
+  "Ilex verticillata"
+  #f
+  "Toxique.")
 
  ("Huperzie brillante"
   "LYCOPODIACÉES"
@@ -675,12 +699,12 @@
   "OMBELLIFÈRES"
   415
   "Hydrocotyle americana"
-  "\\gk{kot\\'{u}lh, hc, \\accdasia{h}}: écuelle"
+  "\\gk{kot\\'{u}lh, hc, \\accdasia{h}}: écuelle."
   #f)
 
  ("Impatiente du Cap" "BALSAMINACÉES" 399 "Impatiens capensis" #f #f)
 
- ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" #f "toxique")
+ ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" #f "Toxique.")
 
  ("Julienne des dames" "CRUCIFÈRES" 256 "Hesperis matronalis" #f #f)
 
@@ -812,7 +836,7 @@
   647
   "Medeola virginiana"
   #f
-  "tubercule comestible")
+  "Tubercule comestible.")
 
  ("Mélèze laricin" "PINACÉES" 142 "Larix laricina" #f #f)
 
@@ -883,23 +907,28 @@
   240
   "Nuphar variegatum"
   #f
-  "racine comestible")
+  "Racine comestible.")
 
  ("Noisetier à long bec"
   "BÉTULACÉES"
   152
   "Corylus cornuta"
   #f
-  "noix comestibles")
+  "Noix comestibles.")
 
- ("Noyer cendré" "JUGLANDACÉES" 158 "Juglans cinerea" #f "noix comestibles")
+ ("Noyer cendré"
+  "JUGLANDACÉES"
+  158
+  "Juglans cinerea"
+  #f
+  "Noix comestibles.")
 
  ("Nymphéa odorant Water Lil"
   "NYMPHÉACÉES"
   239
   "Nymphea odorata"
   #f
-  "racine comestible")
+  "Racine comestible.")
 
  ("Onagre bisannuelle muriquée" "ONAGRACÉES" 376 "Oenothera biennis" #f #f)
 
@@ -917,7 +946,7 @@
   286
   "Sedum purpureum"
   #f
-  "feuilles et bulbes comestibles")
+  "Feuilles et bulbes comestibles.")
 
  ("Osmonde royale" "OSMONDACÉES" 122 "Osmunda regalis" #f #f)
 
@@ -932,14 +961,14 @@
   384
   "Oxalis montana"
   "Fleurs blanches. Présence d’acide oxalique comme \\emph{Rumex acetosella.}"
-  "feuilles comestibles")
+  "Feuilles comestibles.")
 
  ("Oxalide dressée"
   "OXALIDACÉES"
   384
   "Oxalis striata"
   #f
-  "feuilles comestibles")
+  "Feuilles comestibles.")
 
  ("Panais cultivé" "OMBELLIFÈRES" 416 "Pastinaca sativa" #f #f)
 
@@ -1125,7 +1154,7 @@
   "POLYGONACÉES"
   187
   "Polygonum Persicaria"
-  "Inflorescence rose. Poils en bordure de la gaine, ne pas confondre avec \\emph{Polygonum pensylvanicum}"
+  "Inflorescence rose. Poils en bordure de la gaine, ne pas confondre avec \\emph{Polygonum pensylvanicum.}"
   #f)
 
  ("Renouée du Japon" "POLYGONACÉES" #f "Polygonum cuspidatum" #f #f)
@@ -1137,23 +1166,33 @@
   #f
   #f)
 
- ("Ronce odorante" "ROSACÉES" 330 "Rubus odoratus" #f "baies comestibles")
+ ("Ronce odorante"
+  "ROSACÉES"
+  330
+  "Rubus odoratus"
+  #f
+  "Baies comestibles.")
 
- ("Ronce pubescente" "ROSACÉES" 331 "Rubus pubescens" #f "baies comestibles")
+ ("Ronce pubescente"
+  "ROSACÉES"
+  331
+  "Rubus pubescens"
+  #f
+  "Baies comestibles.")
 
  ("Ronce du mont Ida framboisier"
   "ROSACÉES"
   331
   "Rubus idaeus"
   #f
-  "baies comestibles")
+  "Baies comestibles.")
 
  ("Ronce alléghanienne mûrier"
   "ROSACÉES"
   334
   "Rubus allegheniensis"
   #f
-  "baies comestibles")
+  "Baies comestibles.")
 
  ("Rorippe sylvestre" "CRUCIFÈRES" 263 "Rorippa sylvestris" #f #f)
 
@@ -1166,7 +1205,7 @@
   188
   "Rumex Acetosella"
   #f
-  "feuilles comestibles")
+  "Feuilles comestibles.")
 
  ("Salicaire pourpre" "LYTHRACÉES" 366 "Lythrum Salicaria" #f #f)
 
@@ -1214,14 +1253,14 @@
   650
   "Smilacina racemosa"
   #f
-  "fruits comestibles")
+  "Fruits comestibles.")
 
  ("Sorbier d’Amérique"
   "ROSACÉES"
   319
   "Sorbus americana"
   "Fruits : baies orangées (4-6 mm)."
-  "fruits comestibles")
+  "Fruits comestibles.")
 
  ("Sorbier décoratif"
   "ROSACÉES"
@@ -1235,7 +1274,7 @@
   684
   "Cyperus esculentus"
   #f
-  "fruits comestibles")
+  "Fruits comestibles.")
 
  ("Spirée tomenteuse" "ROSACÉES" 322 "Spiraea tomentosa" #f #f)
 
@@ -1253,14 +1292,14 @@
   530
   "Sambucus canadensis"
   "Fruit noir violacé à maturité (automne). Floraison estivale lorsque \\emph{Sambucus racemosa} a déjà ses fruits."
-  "fruits comestibles")
+  "Fruits comestibles.")
 
  ("Sureau rouge"
   "CAPRIFOLIACÉES"
   #f
   "Sambucus racemosa"
   "Floraison printanière. Fruits écarlates à maturité (été)."
-  "toxique")
+  "Toxique.")
 
  ("Tabouret des champs" "CRUCIFÈRES" 252 "Thlapsi arvense" #f #f)
 
@@ -1327,7 +1366,12 @@
 
  ("Vélar fausse-giroflée" "CRUCIFÈRES" 270 "Erysimum cheiranthoides" #f #f)
 
- ("Vérâtre vert" "LILIACÉES" 662 "Veratrum viride" #f "toxique")
+ ("Vérâtre vert"
+  "LILIACÉES"
+  662
+  "Veratrum viride"
+  #f
+  "Toxique.")
 
  ("Verge d’or à feuilles de graminées"
   "COMPOSÉES"
@@ -1369,9 +1413,19 @@
 
  ("Vesce jargeau" "LÉGUMINEUSES" 349 "Vicia Cracca" #f #f)
 
- ("Vigne des rivages" "VITACÉES" 405 "Vitis raparia" #f "fruits comestibles")
+ ("Vigne des rivages"
+  "VITACÉES"
+  405
+  "Vitis raparia"
+  #f
+  "Fruits comestibles.")
 
- ("Vigne vierge" "VITACÉES" 406 "Parthenocissus quinquefolia" #f "toxique")
+ ("Vigne vierge"
+  "VITACÉES"
+  406
+  "Parthenocissus quinquefolia"
+  #f
+  "Toxique.")
 
  ("Vinaigrier" "ANACARDIACÉES" 391 "Rhus typhina" #f #f)
 
@@ -1391,7 +1445,7 @@
   533
   "Viburnum trilobum"
   #f
-  "fruit comestible")
+  "Fruit comestible.")
 
  ("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534 "Viburnum Rafinesquianum" #f #f)
 
