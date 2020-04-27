@@ -21,7 +21,7 @@
 ;; Set current locale to French-France for now.
 ;; Can set it to French-Canada if you like.
 
-(current-locale "fr_FR.UTF-8")
+(current-locale "fr_CA.UTF-8")
 
 ;; Special character groups.
 ;;
