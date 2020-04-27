@@ -583,7 +583,7 @@
   "ROSACÉES"
   342
   "Fragaria vesca (americana)"
-  "Se distingue de \\emph{Fragaria virginiana} surtout par l’habitat : sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions."
+  "Se distingue de \\emph{Fragaria virginiana} surtout par l’habitat: sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions."
   "Fruit comestible.")
 
  ("Fraisier des champs"
