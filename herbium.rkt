@@ -9,7 +9,7 @@
   "RENONCULACÉES"
   232
   "Actea pachypoda"
-  "Fruits blancs sur pédicelles épais \\emph{(pachypoda)} rouges. Revers de la feuille moins poilu que \\emph{Actea rubra.}"
+  "Fruits blancs sur pédicelles épais \\latin{(pachypoda)} rouges. Revers de la feuille moins poilu que \\latin{Actea rubra.}"
   "Toxique.")
 
  ("Actée rouge"

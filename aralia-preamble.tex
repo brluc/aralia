@@ -8,6 +8,10 @@
 \usepackage[LGR,T1]{fontenc} %% LGR for Greek.
 \usepackage[sc]{mathpazo}
 
+%% Use this instead of \emph for Latin text.
+\newcommand{\latin}[1]{%
+  {\itshape #1}}
+
 \newcommand{\gk}[1]{%
   \begingroup\fontencoding{LGR}\selectfont#1\endgroup}
 
