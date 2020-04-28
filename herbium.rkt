@@ -2,7 +2,7 @@
   "COMPOSÉES"
   592
   "Achillea Millefolium"
-  "\\emph{Herbe à dindes}; capitules nombreus, en panicule corymbiforme; rayons blancs ou rosés."
+  "\\emph{Herbe à dindes}; capitules nombreux, en panicule corymbiforme; rayons blancs ou rosés."
   #f)
 
  ("Actée blanche"
@@ -162,7 +162,7 @@
 
  ("Bardane mineure"
   "COMPOSÉES"
-  576
+  567
   "Arctium minus"
   "Hauteur: 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)."
   #f)
@@ -205,7 +205,7 @@
   "BÉTULACÉES"
   149
   "Betula populifolia"
-  "Feuilles triangulaires longuement acuminées. Son écorce ne s’exfolie pas. Taches noires sous les branches."
+  "Feuilles triangulaires longuement acuminées. Son écorce ne s’exfolie pas facilement. Taches noires sous les branches."
   #f)
 
  ("Bouleau blanc"
@@ -646,7 +646,7 @@
   "SAXIFRAGACÉES"
   291
   "Ribes cynosbati"
-  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épines."
+  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épine."
   "Baies comestibles.")
 
  ("Glycérie striée" "GRAMINÉES" 768 "Glyceria striata" #f #f)
@@ -659,7 +659,7 @@
   #f)
 
  ("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218 "Hamamelis virginiana"
-                          "\\emph{By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched. H. D. Thoreau}." #f)
+                          "Feuilles asymétriques. \\emph{By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched. H. D. Thoreau}." #f)
 
  ("Hémérocalle fauve" "LILIACÉES" 654 "Hemerocalis fulva" #f #f)
 
@@ -704,8 +704,10 @@
 
  ("Impatiente du Cap" "BALSAMINACÉES" 399 "Impatiens capensis" #f #f)
 
- ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" #f "Toxique.")
+ ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" "Emblème florale du Québec." "Toxique.")
 
+ ("Jonc épars" "JONCACÉES" 671 "Juncus effusus" #f #f)
+ 
  ("Julienne des dames" "CRUCIFÈRES" 256 "Hesperis matronalis" #f #f)
 
  ("Laiteron des champs"
@@ -733,7 +735,7 @@
   "COMPOSÉES"
   552
   "Leontodon autumnalis"
-  "Floraison: juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec: Épervières (feuilles lancéolées)."
+  "Floraison: juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec l'épervières (feuilles lancéolées)."
   #f)
 
  ("Lenticule mineure (Lentille d’eau)" "LEMNACÉES" 848 "Lemna minor" #f #f)
@@ -768,6 +770,13 @@
 
  ("Luzerne cultivée" "LÉGUMINEUSES" 358 "Medicago sativa" #f #f)
 
+ ("Lychnide fleur-de-coucou"
+  "CARYOPHYLLACÉES"
+  205
+  "Lychnis flos-cuculi"
+  "Fleur rose, formant des colonies. Cinq pétales chacun finement divisé en quatre lanières."
+  #f)
+ 
  ("Lycopode claviforme (à massue)"
   "LYCOPODIACÉES"
   109
@@ -776,36 +785,40 @@
   #f)
 
  ("Lycopode foncé (dendroïde)"
-  "PIRMULACÉES"
+  "LYCOPODIACÉES"
   109
   "Lycopodium dendroideum (obscurum)"
   #f
   #f)
 
  ("Lycopode innovant"
-  "PIRMULACÉES"
+  "LYCOPODIACÉES"
   110
   "Lycopodium annotinum"
   "Fructification: strobile terminal solitaire. Ne pas confondre avec \\emph{Lycopodium clavatum.}"
   #f)
 
- ("Lycopode aplati" "PIRMULACÉES" 110 "Diphasiastrum complanatum" #f #f)
+ ("Lycopode aplati" "LYCOPODIACÉES" 110 "Diphasiastrum complanatum" #f #f)
 
- ("Lysimaque (Stéironéma) ciliée" "PIRMULACÉES" 429 "Lysimachia ciliata" #f #f)
+ ("Lysimaque (Stéironéma) ciliée"
+  "PRIMULACÉES"
+  429
+  "Lysimachia ciliata"
+  "Cils sur le pédoncule des feuilles." #f)
 
  ("Lysimaque ponctuée"
-  "PIRMULACÉES"
+  "PRIMULACÉES"
   430
   "Lysimachia punctata"
-  "Feuilles verticillées pubescentes. Anneau marron distinctif sur la fleur."
+  "Feuilles verticillées pubescentes."
   #f)
 
- ("Lysimaque Nummulaire" "PIRMULACÉES" 431 "Lysimachia Nummularia" #f #f)
+ ("Lysimaque Nummulaire" "PRIMULACÉES" 431 "Lysimachia Nummularia" #f #f)
 
  ("Lysimaque terrestre"
-  "PIRMULACÉES"
+  "PRIMULACÉES"
   431
-  "Lysimachia terrestri"
+  "Lysimachia terrestris"
   "Anneau marron distinctif sur la fleur."
   #f)
 
@@ -850,27 +863,27 @@
   #f)
 
  ("Menthe à épis"
-  "LABIEES"
+  "LABIÉES"
   504
   "Mentha spicata"
   "Inflorescence en épis terminal étroit."
   #f)
 
  ("Menthe poivrée"
-  "LABIEES"
+  "LABIÉES"
   505
   "Mentha piperita"
   "Inflorescence en épis terminal large et carré. Les feuilles sont portées sur des tiges (au moins 4 mm), ne pas confondre avec \\emph{Mentha spicata.}"
   #f)
 
  ("Menthe du Canada"
-  "LABIEES"
+  "LABIÉES"
   505
   "Mentha canadensis"
   "Verticilles floraux axillaires."
   #f)
 
- ("Mil Phléole des prés" "GRAMINÉES" 798 "Phleum pratense" #f #f)
+ ("Mil (Phléole des prés)" "GRAMINÉES" 798 "Phleum pratense" #f #f)
 
  ("Millepertuis commun" "HYPÉRICACÉES" 284 "Hypericum perforatum" #f #f)
 
@@ -923,14 +936,14 @@
   #f
   "Noix comestibles.")
 
- ("Nymphéa odorant Water Lil"
+ ("Nymphéa odorant (Water Lily)"
   "NYMPHÉACÉES"
   239
   "Nymphea odorata"
   #f
   "Racine comestible.")
 
- ("Onagre bisannuelle muriquée" "ONAGRACÉES" 376 "Oenothera biennis" #f #f)
+ ("Onagre bisannuelle (muriquée)" "ONAGRACÉES" 376 "Oenothera biennis" #f #f)
 
  ("Onoclée sensible" "POLYPODIACÉES" 133 "Onoclea sensibilis" #f #f)
 
@@ -966,7 +979,7 @@
  ("Oxalide dressée"
   "OXALIDACÉES"
   384
-  "Oxalis striata"
+  "Oxalis stricta"
   #f
   "Feuilles comestibles.")
 
@@ -1028,7 +1041,7 @@
 
  ("Pin rouge" "PINACÉES" 141 "Pinus resinosa" "Aiguilles réunies par 2." #f)
 
- ("Pin gris divariqué"
+ ("Pin gris/divariqué"
   "PINACÉES"
   142
   "Pinus banksiana"
@@ -1089,26 +1102,26 @@
   "Fleurs jaune-crème."
   #f)
 
- ("Prêle (fém.) faux-scirpe" "EQUISETACÉES" 114 "Equisetum scirpoides" #f #f)
+ ("Prêle (fém.) faux-scirpe" "ÉQUISÉTACÉES" 114 "Equisetum scirpoides" #f #f)
 
- ("Prêle panachée" "EQUISETACÉES" 114 "Equisetum variegatum" #f #f)
+ ("Prêle panachée" "ÉQUISÉTACÉES" 114 "Equisetum variegatum" #f #f)
 
  ("Prêle des champs"
-  "EQUISETACÉES"
+  "ÉQUISÉTACÉES"
   114
   "Equisetum arvense"
   "Pointes libres des gaines: brunes."
   #f)
 
  ("Prêle des prés"
-  "EQUISETACÉES"
+  "ÉQUISÉTACÉES"
   114
   "Equisetum pratense"
   "Pointes libres des gaines: blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{Equisetum arvense}: dressées."
   #f)
 
  ("Prêle des bois"
-  "EQUISETACÈES"
+  "ÉQUISÉTACÈES"
   115
   "Equisetum sylvaticum"
   "Pointes libres des gaines: rousses et très développées, à texture de papier. Ramifications elles-mêmes ramifiées (rameaux divisés)."
@@ -1180,14 +1193,14 @@
   #f
   "Baies comestibles.")
 
- ("Ronce du mont Ida framboisier"
+ ("Ronce du mont Ida (framboisier)"
   "ROSACÉES"
   331
   "Rubus idaeus"
   #f
   "Baies comestibles.")
 
- ("Ronce alléghanienne mûrier"
+ ("Ronce alléghanienne (mûrier)"
   "ROSACÉES"
   334
   "Rubus allegheniensis"
@@ -1239,7 +1252,7 @@
 
  ("Séneçon vulgaire" "COMPOSÉES" 579 "Senecio vulgaris" #f #f)
 
- ("Silène enflée" "CARYOPHYLLACÉES" 205 "Silene vulgaris cucubalus" #f #f)
+ ("Silène enflée" "CARYOPHYLLACÉES" 205 "Silene vulgaris (cucubalus)" #f #f)
 
  ("Silène blanc (lychnis)"
   "CARYOPHYLLACÉES"
@@ -1274,7 +1287,7 @@
   684
   "Cyperus esculentus"
   #f
-  "Fruits comestibles.")
+  "Bulbe comestible.")
 
  ("Spirée tomenteuse" "ROSACÉES" 322 "Spiraea tomentosa" #f #f)
 
@@ -1336,7 +1349,7 @@
 
  ("Trèfle Alsike (hybride)" "LÉGUMINEUSES" 362 "Trifolium hybridum" #f #f)
 
- ("Trientale boréale" "PIRMULACÉES" 428 "Trientalis borealis" #f #f)
+ ("Trientale boréale" "PRIMULACÉES" 428 "Trientalis borealis" #f #f)
 
  ("Trille blanc" "LILIACÉES" 645 "Trillium grandiflorum" #f #f)
 
@@ -1403,9 +1416,19 @@
   #f
   #f)
 
- ("Véronique de Perse" "SCROPHULARIACÉES" 474 "Veronica persica" #f #f)
+ ("Véronique de Perse"
+  "SCROPHULARIACÉES"
+  474
+  "Veronica persica"
+  #f
+  #f)
 
- ("Véronique officinale" "SCROPHULARIACÉES" #f "Veronica officinalis" #f #f)
+ ("Véronique officinale"
+  "SCROPHULARIACÉES"
+  474
+  "Veronica officinalis"
+  #f
+  #f)
 
  ("Véronique en écusson" "SCROPHULARIACÉES" 475 "Veronica scutellata" #f #f)
 
