@@ -2,7 +2,7 @@
   "COMPOSÉES"
   592
   "Achillea Millefolium"
-  "\\emph{Herbe à dindes;} capitules nombreus, en panicule corymbiforme; rayons blancs ou rosés."
+  "\\emph{Herbe à dindes}; capitules nombreus, en panicule corymbiforme; rayons blancs ou rosés."
   #f)
 
  ("Actée blanche"
@@ -178,7 +178,7 @@
   "ROSACÉES"
   344
   "Geum canadense"
-  "Fleurs blanches, feuilles plus serrées, ne pas confondre avec \\emph{Geum aleppicum} : fleurs jaunes."
+  "Fleurs blanches, feuilles plus serrées, ne pas confondre avec \\emph{Geum aleppicum}: fleurs jaunes."
   #f)
 
  ("Benoîte d’Alep" "ROSACÉES" 345 "Geum aleppicum" #f #f)
@@ -1104,7 +1104,7 @@
   "EQUISETACÉES"
   114
   "Equisetum pratense"
-  "Pointes libres des gaines: blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{Equisetum arvense} : dressées."
+  "Pointes libres des gaines: blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{Equisetum arvense}: dressées."
   #f)
 
  ("Prêle des bois"
@@ -1259,14 +1259,14 @@
   "ROSACÉES"
   319
   "Sorbus americana"
-  "Fruits : baies orangées (4-6 mm)."
+  "Fruits: baies orangées (4-6 mm)."
   "Fruits comestibles.")
 
  ("Sorbier décoratif"
   "ROSACÉES"
   #f
   "Sorbus decora"
-  "Fruits : baies orangées (8-10 mm)."
+  "Fruits: baies orangées (8-10 mm)."
   #f)
 
  ("Souchet comestible"
