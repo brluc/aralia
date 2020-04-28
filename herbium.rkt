@@ -22,13 +22,13 @@
  ("Adiante du Canada"
   "POLYPODIACÉES"
   124 "Adiantum pedatum"
-  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères} selon Marie-Victorin." #f)
+  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères. Fr. Marie-Victorin.}" #f)
 
  ("Agrostide blanche"
   "GRAMINÉES"
   793
   "Agrostis stolonifera"
-  "Taille : 50 cm. Inflorescence conique rougeâtre, teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence."
+  "Taille: 50 cm. Inflorescence conique rougeâtre, teintée du blanc des étamines. Épillets à une fleur. Branches courtes et très fleuries de l’inflorescence."
   #f)
 
  ("Aigremoine striée" "ROSACÉES" 344 "Agrimonia striata" #f #f)
@@ -62,7 +62,7 @@
   "OMBELLIFÈRES"
   420
   "Anthriscus sylvestris"
-  "persil sauvage"
+  "persil sauvage."
   #f)
 
  ("Apocyn à feuilles d’Androsème"
@@ -76,7 +76,7 @@
   "ARALIACÉES"
   412
   "Aralia racemosa"
-  "\\emph{Racemus,} i, m.: grappe. \\gk{\\accdasia{r}\\'{a}\\accdasiaoxia{c}, -ag\\'{o}c, \\'{h}} : grain de raisin"
+  "\\emph{Racemus, i,} m.: grappe. \\gk{\\accdasia{r}\\'{a}\\accdasiaoxia{c}, -ag\\'{o}c, \\'{h}}: grain de raisin."
   "Fruit comestible.")
 
  ("Aralie à tige nue"
@@ -150,21 +150,21 @@
   "CRUCIFÈRES"
   269
   "Barbarea vulgaris"
-  "Floraison : mai-juillet."
+  "Floraison: mai-juillet."
   #f)
 
  ("Bardane majeure"
   "COMPOSÉES"
   567
   "Arctium Lappa"
-  "Hauteur : 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec \\emph{Arctium minus.}"
+  "Hauteur: 1-2 m. Gros capitules sur un long pédoncule. La queue des feuilles du bas est pleine, ne pas confondre avec \\emph{Arctium minus.}"
   #f)
 
  ("Bardane mineure"
   "COMPOSÉES"
   576
   "Arctium minus"
-  "Hauteur : 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)."
+  "Hauteur: 1-1,5 m. Feuilles teintées de blanc au-dessous. Petits capitules (1,5-3 cm)."
   #f)
 
  ("Benoîte des ruisseaux"
@@ -358,7 +358,7 @@
   194
   "Chenopodium album"
   "\\gk{q\\'{h}n}: oie"
-  "Graines comestible.")
+  "Graines comestibles.")
 
  ("Chèvrefeuille de Tartarie" "CAPRIFOLIACÉES" 537 "Lonicera tatarica" #f #f)
 
@@ -372,7 +372,7 @@
   "PORTULACACÉES"
   202
   "Claytonia caroliniana"
-  "Ne pas confondre avec \\emph{Claytonia virginica} : feuilles étroites (8 fois plus longues que larges). Rare au Québec, plus grégaire; colonies denses."
+  "Ne pas confondre avec \\emph{Claytonia virginica}: feuilles étroites (8 fois plus longues que larges). Rare au Québec, plus grégaire; colonies denses."
   "Bulbe comestible.")
 
  ("Clématite de Virginie" "RENONCULACÉES" 222 "Clematis virginiana" #f #f)
@@ -421,7 +421,7 @@
   "FUMARIACÉES"
   245
   "Dicentra canadensis"
-  "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec \\emph{Dicentra cucullaria} : lobes étirés."
+  "Fleur rosée. Lobes courts et arrondis de la fleur. Ne pas confondre avec \\emph{Dicentra cucullaria}: lobes étirés."
   #f)
 
  ("Digitaire sanguine" "GRAMINÉES" 808 "Digitaria sanguinalis" #f #f)
@@ -444,7 +444,7 @@
   "POLYPODIACÉES"
   130
   "Dryopteris spinulosa (intermedia)"
-  "Limbe triplement divisé. Sores ronds. Ne pas confondre avec \\emph{Athyrium Filix-femina.} Écailles brun pâle sur la crosse. Spinule : petite pointe sur chaque dent du limbe. Limbe vert plus foncé."
+  "Limbe triplement divisé. Sores ronds. Ne pas confondre avec \\emph{Athyrium Filix-femina.} Écailles brun pâle sur la crosse. Spinule: petite pointe sur chaque dent du limbe. Limbe vert plus foncé."
   #f)
 
  ("Dryoptère à sores marginaux"
@@ -618,7 +618,7 @@
   "SAXIFRAGACÉES"
   290
   "Ribes americanum"
-  "Fruits : baies noires sans piquant."
+  "Fruits: baies noires sans piquant."
   #f)
 
  ("Gaillet piquant" "RUBIACÉES" 528 "Galium asprellum" #f #f)
@@ -636,7 +636,7 @@
   411
   "Panax trifolius"
   #f
-  "tubercule comestible")
+  "Tubercule comestible.")
 
  ("Glécome lierre-terrestre" "LABIÉES" 495 "Glecoma hederacea" #f #f)
 
@@ -646,7 +646,7 @@
   "SAXIFRAGACÉES"
   291
   "Ribes cynosbati"
-  "Fruits : baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épines"
+  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épines."
   "Baies comestibles.")
 
  ("Glycérie striée" "GRAMINÉES" 768 "Glyceria striata" #f #f)
@@ -659,7 +659,7 @@
   #f)
 
  ("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218 "Hamamelis virginiana"
-                          "\\emph{By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched. H. D. Thoreau}" #f)
+                          "\\emph{By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched. H. D. Thoreau}." #f)
 
  ("Hémérocalle fauve" "LILIACÉES" 654 "Hemerocalis fulva" #f #f)
 
@@ -692,7 +692,7 @@
   "LYCOPODIACÉES"
   108
   "Huperzia lucidula"
-  "Fructification : sporanges jaunes à l’aisselle des feuilles."
+  "Fructification: sporanges jaunes à l’aisselle des feuilles."
   #f)
 
  ("Hydrocotyle d'Amérique"
@@ -733,7 +733,7 @@
   "COMPOSÉES"
   552
   "Leontodon autumnalis"
-  "Floraison : juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec: Épervières (feuilles lancéolées)."
+  "Floraison: juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec: Épervières (feuilles lancéolées)."
   #f)
 
  ("Lenticule mineure (Lentille d’eau)" "LEMNACÉES" 848 "Lemna minor" #f #f)
@@ -757,7 +757,7 @@
   "CONVOLVULACÉES"
   451
   "Convolvulus sepium"
-  "Présence de bractées. Ne pas confondrE avec C. arvensis : sans bractée."
+  "Présence de bractées. Ne pas confondre avec \\emph{C. arvensis}: sans bractée."
   #f)
 
  ("Lobélie gonflée (Indian Tobacco)" "LOBÉLIACÉES" 546 "Lobelia inflata" #f #f)
@@ -772,7 +772,7 @@
   "LYCOPODIACÉES"
   109
   "Lycopodium clavatum"
-  "\\gk{l\\'{u}koc} : loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification."
+  "\\gk{l\\'{u}koc}: loup. Plusieurs fructifications (strobiles) au bout d’une tige sans ramification. Soie blanche qui coiffe l’extrémité de chaque ramification."
   #f)
 
  ("Lycopode foncé (dendroïde)"
@@ -820,7 +820,7 @@
   "COMPOSÉES"
   590
   "Matricaria maritima"
-  "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec \\emph{Anthemis cotula} : avec poil et odeur fétide."
+  "Bractées sans poil et bordées d’une ligne brune près du capitule. Ne pas confondre avec \\emph{Anthemis cotula}: avec poil et odeur fétide."
   #f)
 
  ("Matteuccie fougère-à-l’autruche"
@@ -978,7 +978,7 @@
   "GRAMINÉES"
   771
   "Poa pratensis"
-  "Taille : 30 cm. Inflorescence verte teintée de rouge. Feuilles basilaires pliées en 2 sur le long avec une nervure centrale rappelant une piste de ski. Nombreux épillets contenant 3 à 5 fleurs."
+  "Taille: 30 cm. Inflorescence verte teintée de rouge. Feuilles basilaires pliées en 2 sur le long avec une nervure centrale rappelant une piste de ski. Nombreux épillets contenant 3 à 5 fleurs."
   #f)
 
  ("Pervenche mineure" "APOCYNACÉES" 516 "Vinca minor" #f #f)
@@ -1070,7 +1070,7 @@
   "ROSACÉES"
   338
   "Potentilla simplex"
-  "Rhizome court ressemblant à un bulbe. Ne pas confondre avec \\emph{Potentilla reptans} : rhizome noirâtre presque vertical."
+  "Rhizome court ressemblant à un bulbe. Ne pas confondre avec \\emph{Potentilla reptans}: rhizome noirâtre presque vertical."
   #f)
 
  ("Potentille de Norvège"
@@ -1097,21 +1097,21 @@
   "EQUISETACÉES"
   114
   "Equisetum arvense"
-  "Pointes libres des gaines : brunes."
+  "Pointes libres des gaines: brunes."
   #f)
 
  ("Prêle des prés"
   "EQUISETACÉES"
   114
   "Equisetum pratense"
-  "Pointes libres des gaines : blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{Equisetum arvense} : dressées."
+  "Pointes libres des gaines: blanches, d’où effet de roue de charriot. Ramifications à l’horizontale, ne pas confondre avec \\emph{Equisetum arvense} : dressées."
   #f)
 
  ("Prêle des bois"
   "EQUISETACÈES"
   115
   "Equisetum sylvaticum"
-  "Pointes libres des gaines : rousses et très développées, à texture de papier. Ramifications elles-mêmes ramifiées (rameaux divisés)."
+  "Pointes libres des gaines: rousses et très développées, à texture de papier. Ramifications elles-mêmes ramifiées (rameaux divisés)."
   #f)
 
  ("Pruche du Canada" "PINACÉES" 145 "Tsuga canadensis" #f #f)
@@ -1449,4 +1449,4 @@
 
  ("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534 "Viburnum Rafinesquianum" #f #f)
 
- ("Zizia doré" "OMBELLIFÈRES" 417 "Zizia aurea" "Ziz: botaniste alleamand" #f))
+ ("Zizia doré" "OMBELLIFÈRES" 417 "Zizia aurea" "Ziz: botaniste alleamand." #f))
