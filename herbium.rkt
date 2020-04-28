@@ -510,7 +510,7 @@
   "PINACÉES"
   143
   "Picea mariana"
-  "Rameaux rougeâtres et pubescents. Cônes sphériques (2-3 cm) dont le bord des écailles est denté."
+  "Rameaux rougeâtres et pubescents. Cônes (2-3 cm) sphériques, dont le bord des écailles est denté."
   #f)
 
  ("Épinette bleue (du Colorado)" "PINACÉES" #f "Picea pungens" #f #f)
@@ -583,7 +583,7 @@
   "ROSACÉES"
   342
   "Fragaria vesca (americana)"
-  "Se distingue de \\emph{Fragaria virginiana} surtout par l’habitat: sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions."
+  "Se distingue de \\emph{Fragaria virginiana} surtout par son habitat: sites ombragés ou semi-ombragés, souvent rocheux. Graines à la surface de la fraise et non en dépressions."
   "Fruit comestible.")
 
  ("Fraisier des champs"
@@ -1070,7 +1070,7 @@
   "ROSACÉES"
   338
   "Potentilla simplex"
-  "Rhizome court ressemblant à un bulbe. Ne pas confondre avec \\emph{Potentilla reptans}: rhizome noirâtre presque vertical."
+  "Rhizome court ressemblant à un bulbe. Ne pas confondre avec \\emph{Potentilla reptans}: le rhizome de teinte noirâtre et presque vertical."
   #f)
 
  ("Potentille de Norvège"
