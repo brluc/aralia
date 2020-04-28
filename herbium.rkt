@@ -205,7 +205,7 @@
   "BÉTULACÉES"
   149
   "Betula populifolia"
-  "Feuilles triangulaires longuement acuminées. Écorce ne s’exfoliant pas. Taches noires sous les branches."
+  "Feuilles triangulaires longuement acuminées. Son écorce ne s’exfolie pas. Taches noires sous les branches."
   #f)
 
  ("Bouleau blanc"
@@ -1245,7 +1245,7 @@
   "CARYOPHYLLACÉES"
   205
   "Silene latifolia"
-  "Calice plus gros, fortement gonflé, à nervures rouge-vin."
+  "Calice plus gros, fortement gonflé, ses nervures sont de couleur rouge-vin."
   #f)
 
  ("Smilacine à grappes"
