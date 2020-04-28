@@ -91,10 +91,8 @@
 (define (document body)
   (string-append
    "\\input aralia-preamble\n"
-   "\\begin{document}\n\n"
-   "\\begin{titlingpage}\n"
-   "\\maketitle\n"
-   "\\end{titlingpage}\n"
+   "\\begin{document}\n"
+   "\\mytitlepage\n\n"
    
    body
 

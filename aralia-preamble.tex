@@ -27,7 +27,6 @@
 \newcommand{\latin}[1]{%
   {\itshape #1}}
 
-
 \newcommand{\gk}[1]{%
   \begingroup\fontencoding{LGR}\selectfont#1\endgroup}
 
@@ -62,6 +61,27 @@
   {\Large 5e edition}}
 \author{{\Large\scshape SBL Bushcraft Project}}
 \date{Mai 2020}
+
+%% Turn off page numbering for the title page
+%% and other side of title page. Then turn it
+%% back on. Put backside of title page text
+%% here.
+%%
+%% I will replace this with a plain-TeX title
+%% page and backtitle page. the use of 'titlingpage'
+%% environment is not recommended in Memoir.
+\newcommand{\mytitlepage}{%
+  \pagenumbering{gobble}
+   \begin{titlingpage}
+
+     \maketitle
+    \thispagestyle{plain}
+     \clearpage 
+     {\itshape Foo Goo Soo, 1981}
+     Copyright Zarf Industries, CQ
+   \end{titlingpage}
+   \pagenumbering{arabic}
+}
 
 \newenvironment{nonewpage}
   {\par\nobreak\vfil\penalty0\vfilneg
