@@ -22,7 +22,7 @@
  ("Adiante du Canada"
   "POLYPODIACÉES"
   124 "Adiantum pedatum"
-  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères. Fr. Marie-Victorin.}" #f)
+  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères.} ---Fr. Marie-Victorin." #f)
 
  ("Agrostide blanche"
   "GRAMINÉES"
