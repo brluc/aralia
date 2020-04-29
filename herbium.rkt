@@ -215,7 +215,11 @@
   #f
   "Eau comestible.")
 
- ("Bouleau jaune (merisier)" "BÉTULACÉES" 150 "Betula alleghaniensis" #f #f)
+ ("Bouleau jaune"
+  "BÉTULACÉES"
+  150
+  "Betula alleghaniensis"
+  "Communément appelé merisier." #f)
 
  ("Bouleau à feuilles cordées"
   "BÉTULACÉES"
