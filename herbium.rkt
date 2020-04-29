@@ -551,21 +551,21 @@
   "Feuilles à sinus arrondis, non dentés."
   "Eau comestible: sirop.")
 
- ("Érigéron du Canada (Vergerette)"
+ ("Érigéron du Canada"
   "COMPOSÉES"
   603
   "Erigeron canadensis"
-  "Capitules très petits (2-4 mm). Rayons peu apparents."
+  "Nom commun: Vergerette. Capitules très petits (2-4 mm). Rayons peu apparents."
   #f)
 
  ("Érigéron de Philadelphie"
   "COMPOSÉES"
   604
   "Erigeron philadelphicus"
-  "Fleurs rosées."
+  "Nom commun: Vergerette. Fleurs rosées."
   #f)
 
- ("Érigéron annuel" "COMPOSÉES" 604 "Erigeron annuus" "Fleurs blanches." #f)
+ ("Érigéron annuel" "COMPOSÉES" 604 "Erigeron annuus" "Nom commun: Vergerette. Fleurs blanches." #f)
 
  ("Érythrone d’Amérique" "LILIACÉES" 656 "Erythronium americanum" #f #f)
 
@@ -646,7 +646,7 @@
   "SAXIFRAGACÉES"
   291
   "Ribes cynosbati"
-  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec Gadelier \\emph{Ribes Americanum} qui est sans épine."
+  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec \\emph{Ribes Americanum} qui est sans épine."
   "Baies comestibles.")
 
  ("Glycérie striée" "GRAMINÉES" 768 "Glyceria striata" #f #f)
@@ -951,7 +951,7 @@
   "ULMACÉES"
   170
   "Ulmus americana"
-  "Feuilles rugueuses comme du papier."
+  "Feuilles asymétrique, rugueuses comme du papier."
   #f)
 
  ("Orpin pourpre"
