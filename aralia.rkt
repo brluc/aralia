@@ -1,5 +1,7 @@
 #lang racket
 
+(require "dict-sort.rkt")
+
 (provide (all-defined-out))
 
 (define herbium-database-filename
@@ -21,7 +23,7 @@
 ;; Set current locale to French-France for now.
 ;; Can set it to French-Canada if you like.
 
-(current-locale "fr_CA.UTF-8")
+;; (current-locale "fr_CA.UTF-8")
 
 ;; Special character groups.
 ;;
@@ -84,9 +86,9 @@
                     (lambda (k v)
                       (cons k (sort v
                                     #:key car
-                                    string-locale-ci<?))))
+                                    string-base<?))))
           #:key car
-          string-locale-ci<?)))
+          string-ci<?)))
 
 (define (document body)
   (string-append

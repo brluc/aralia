@@ -50,11 +50,12 @@
         #\Ù #\U #\Û #\U #\Ü #\U))
 
 (define (eliminate-diacritics my-string)
-  (list->string (map (lambda (c)
-                       (if (hash-has-key? base-form-table c)
-                           (hash-ref base-form-table c)
-                           c))
-                     (string->list my-string))))
+  (list->string
+   (map (lambda (c)
+          (if (hash-has-key? base-form-table c)
+              (hash-ref base-form-table c)
+              c))
+        (string->list my-string))))
 
 (check-equal?
  (eliminate-diacritics "AÀÂÄCÇEÈÉÊËIÎÏOÔUÙÛÜ")
@@ -81,11 +82,24 @@
 
 (define (prepare-string my-string)
   (eliminate-diacritics
-   (expand-ligatures
-    (keep-alphabetic my-string))))
+   (string-upcase
+    (expand-ligatures
+     (keep-alphabetic my-string)))))
 
 (define (string-base<? s1 s2)
-  (string<? (prepare-string s1) (prepare-string s2)))
+  (string-ci<? (prepare-string s1)
+               (prepare-string s2)))
+
+;; For testing.
+(define vs
+  (list "Valériane officinale"
+        "Verge d’or du Canada"
+        "Verge d’or rugueuse"
+        "Verge d’or à feuilles de graminées"
+        "Verge d’or à tige zigzagante"
+        "Verveine hastée"
+        "Vesce jargeau"
+        "Vigne des rivages"))
 
 ;; To do:
 ;;
