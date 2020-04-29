@@ -6,6 +6,8 @@
 
 (require rackunit)
 
+(provide (all-defined-out))
+
 ;; May want to test our french string sorting
 ;; against racket's fr locale sorting. So set
 ;; the locale to French.
@@ -16,11 +18,11 @@
 ;;   Æ 0198 ==> AE
 ;;   Œ 0140 ==> OE
 
-(define (expand-ligatures cs)
-  (let loop ((cs cs)
+(define (expand-ligatures my-string)
+  (let loop ((cs (string->list my-string))
              (result empty))
     (cond ((null? cs)
-           (reverse result))
+           (list->string (reverse result)))
           ((char-ci=? (car cs) #\Æ)
            (loop (cdr cs)
                  (cons #\E (cons #\A result))))
@@ -32,7 +34,7 @@
                  (cons (car cs) result))))))
 
 (check-equal?
- (list->string (expand-ligatures (string->list "ŒÆÆŒ")))
+ (expand-ligatures "ŒÆÆŒ")
  "OEAEAEOE"
  "ligatures should be expanded properly")
 
@@ -47,45 +49,51 @@
         #\Ô #\O
         #\Ù #\U #\Û #\U #\Ü #\U))
 
-(define (eliminate-diacritics cs)
-  (map (lambda (c)
-         (if (hash-has-key? base-form-table c)
-             (hash-ref base-form-table c)
-             c))
-       cs))
+(define (eliminate-diacritics my-string)
+  (list->string (map (lambda (c)
+                       (if (hash-has-key? base-form-table c)
+                           (hash-ref base-form-table c)
+                           c))
+                     (string->list my-string))))
 
 (check-equal?
- (list->string
-  (eliminate-diacritics
-   (string->list "AÀÂÄCÇEÈÉÊËIÎÏOÔUÙÛÜ")))
+ (eliminate-diacritics "AÀÂÄCÇEÈÉÊËIÎÏOÔUÙÛÜ")
  "AAAACCEEEEEIIIOOUUUU"
  "should eliminate diacritics and leave base forms")
 
 (check-equal?
- (list->string
-  (eliminate-diacritics
-   (string->list "ABCDEFGHIJKLMNOPQRSTUVWXYZ")))
+ (eliminate-diacritics "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
  "should have no effect on base forms")
 
-;; First do a regular diacritic-free ligature-free comparison.
-;; If the two strings are different, we are done.
-;; If they are the same, go to next step: comparison
-;; of diacritic characters.
+;; Ignore non-alphanumeric characters.
 
-(define (base-form-sort cs)
+(define (keep-alphabetic my-string)
+  (list->string (filter char-alphabetic? (string->list my-string))))
+
+(check-equal?
+ (keep-alphabetic "ŒÆÆŒÂÄ~*&CÇEÈÉBC D E _ - F123G;H:IJ@K0.Z")
+ "ŒÆÆŒÂÄCÇEÈÉBCDEFGHIJKZ"
+ "should keep only alphabetical characters")
+
+;; Do a diacritic-free ligature-free comparison,
+;; ignoring non-alphabetic symbols.
+
+(define (prepare-string my-string)
   (eliminate-diacritics
-   (expand-ligatures cs)))
+   (expand-ligatures
+    (keep-alphabetic my-string))))
 
+(define (string-base<? s1 s2)
+  (string<? (prepare-string s1) (prepare-string s2)))
 
-
+;; To do:
+;;
 ;; Secondary ordering of diacritics:
 ;;
 ;;    vowel -- grave -- aigu -- circonflex -- trema
 ;;
 ;;    C -- C cedille
-
-
 
 ;; "AÀÂÄ"
 ;; "CÇ"
