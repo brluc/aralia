@@ -76,7 +76,7 @@
   "ARALIACÉES"
   412
   "Aralia racemosa"
-  "\\emph{Racemus, i,} m.: grappe. \\gk{\\accdasia{r}\\'{a}\\accdasiaoxia{c}, -ag\\'{o}c, \\'{h}}: grain de raisin."
+  "\\emph{Racemus, i,} m.: grappe. \\gk{\\accdasia{r}\\'{a}x, -ag\\'{o}c, \\'{h}}: grain de raisin."
   "Fruit comestible.")
 
  ("Aralie à tige nue"
