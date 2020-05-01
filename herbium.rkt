@@ -22,7 +22,7 @@
  ("Adiante du Canada"
   "POLYPODIACÉES"
   124 "Adiantum pedatum"
-  "Frondes à pétiole bifurqué, à limbe réniforme; \\emph{La plus belle de nos fougères.} ---Fr. Marie-Victorin." #f)
+  "Frondes à pétiole bifurqué, à limbe réniforme; ``La plus belle de nos fougères''. ---Fr. Marie-Victorin." #f)
 
  ("Agrostide blanche"
   "GRAMINÉES"
@@ -663,7 +663,7 @@
   #f)
 
  ("Hamamélis de Virginie" "HAMAMÉLIDACÉES" 218 "Hamamelis virginiana"
-                          "Feuilles asymétriques. \"By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched.\" ---H. D. Thoreau." #f)
+                          "Feuilles asymétriques. ``By their color as well as fragrance they belong to the saffron dawn of the year, suggesting amid all these signs of autumn, falling leaves, and frost, that the life of nature by which she eternally flourishes is untouched.'' ---H. D. Thoreau." #f)
 
  ("Hémérocalle fauve" "LILIACÉES" 654 "Hemerocalis fulva" #f #f)
 
