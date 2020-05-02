@@ -1,3 +1,14 @@
+;;;
+;;; herbium-gen-tex.rkt
+;;;
+;;; Generates latex herbium.tex from herbium.rkt database.
+;;; herbium.tex contains all the typeset plant entries.
+;;; It is then input into aralia.tex via
+;;;
+;;;   \input herbium.tex
+;;;
+;;;
+
 #lang racket
 
 (require "dict-sort.rkt")
@@ -90,16 +101,6 @@
           #:key car
           string-ci<?)))
 
-(define (document body)
-  (string-append
-   "\\input preamble\n"
-   "\\begin{document}\n"
-   "\\mytitlepage\n\n"
-   
-   body
-
-   "\n\n\\vfill\n\\end{document}\n"))
-
 ;; We frequently have to join lists of strings which
 ;; are lines of tex code.
 (define (join-tex list-of-strings)
@@ -163,10 +164,10 @@
 
 ;; Final product.
 (define (write-to-tex-file body)
-  (call-with-output-file "aralia.tex" #:exists 'replace
+  (call-with-output-file "herbium.tex" #:exists 'replace
     (lambda (out)
       (display
-       (document body)
+       body
        out))))
 
 (write-to-tex-file (make-body))

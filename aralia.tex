@@ -4,6 +4,10 @@
 \fixthelayout
 %%\raggedbottom
 
+\usepackage[utf8]{inputenc}
+\usepackage[LGR,T1]{fontenc} %% LGR for Greek.
+\usepackage[sc]{mathpazo}
+
 %%\chapterstyle{demo}
 %%\chapterstyle{demo2}
 \chapterstyle{bianchi}
@@ -17,19 +21,20 @@
 %% Default is usually 50pt.
 \renewcommand*{\chapterheadstart}{\vspace*{1pt}}
 
-\usepackage[utf8]{inputenc}
-\usepackage[LGR,T1]{fontenc} %% LGR for Greek.
-\usepackage[sc]{mathpazo}
-%%\usepackage[french]{babel}
-
 %% Use this instead of \emph for Latin text.
 \newcommand{\latin}[1]{%
   {\itshape #1}}
 
 \input greek
-
 \input title
-
 \input herbe
-
 \input hyphenation
+
+\begin{document}
+
+\mytitlepage
+
+\input herbium.tex
+
+\vfill
+\end{document}
