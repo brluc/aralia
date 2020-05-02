@@ -39,8 +39,14 @@
 %% Show the titlepage and inner titlepage.
 \mytitlepage
 
+%% Comment these two lines out if you don't want
+%% to see the preface:
+\frontmatter
+\input preface
+
 %% Now we input all the computer-generated entries
 %% created from herbium.rkt by herbium-gen-latex.rkt.
+\mainmatter
 \input herbium
 
 \vfill

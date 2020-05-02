@@ -5,6 +5,8 @@
 
 #lang racket
 
+(require "alpha-sort.rkt")
+
 (provide (all-defined-out))
 
 (define herbium-database-filename

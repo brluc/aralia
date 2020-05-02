@@ -11,7 +11,7 @@
 
 #lang racket
 
-(require "dict-sort.rkt")
+(require "alpha-sort.rkt")
 
 (provide (all-defined-out))
 
