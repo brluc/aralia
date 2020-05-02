@@ -124,21 +124,6 @@
               ""
               (format "$\\bullet$ ~a" edibility))))
 
-;; For the case of two Latin names.
-(define (tex-herbex name latin-name-1 latin-name-2 family ref comment edibility)
-  (format "\\begin{nonewpage}
-\\herbex{~a}{~a}{~a}{~a}{~a}\n\n~a\\par\\noindent\\hfill {~a}
-\\end{nonewpage}\n\n\\herbskip\n\n"
-          name
-          latin-name-1
-          latin-name-2
-          (string-titlecase family)
-          ref
-          comment
-          (if (string=? "" edibility)
-              ""
-              (format "$\\bullet$ ~a" edibility))))
-
 ;; Group herbium entries alphabetically.
 ;; Organize them into alphabetic chapters.
 ;; car of chapter is chapter name. cdr of chapter
@@ -151,12 +136,7 @@
             (join-tex
              (map (lambda (row)
                     (match (map false->blank row)
-                      ((list name family ref
-                             (list latin-1 latin-2) comment edibility)
-                       (tex-herbex name latin-1 latin-2
-                                   family ref comment edibility))
-                      ((list name family ref
-                             latin comment edibility)
+                      ((list name family ref latin comment edibility)
                        (tex-herbe name latin family ref comment edibility))
                       (_ (error "make-body: cannot match row: " row))))
                   (cdr chapter)))))
