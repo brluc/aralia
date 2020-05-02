@@ -1,4 +1,4 @@
-TARGET1=herbium-gen-latex
+TARGET1=main
 TARGET2=aralia
 TARGET3=greek-table
 
