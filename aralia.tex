@@ -1,3 +1,8 @@
+%% aralia.tex
+%%
+%% The structure and layout of the Aralia book
+%% happens here!
+
 \documentclass[book,10pt,a4paper,onecolumn,openany]{memoir}
 \setlrmarginsandblock{2.5in}{2.5in}{*}
 \setulmarginsandblock{3.5in}{3in}{*}
@@ -22,8 +27,7 @@
 \renewcommand*{\chapterheadstart}{\vspace*{1pt}}
 
 %% Use this instead of \emph for Latin text.
-\newcommand{\latin}[1]{%
-  {\itshape #1}}
+\newcommand{\latin}[1]{{\itshape #1}}
 
 \input greek
 \input title
@@ -32,8 +36,11 @@
 
 \begin{document}
 
+%% Show the titlepage and inner titlepage.
 \mytitlepage
 
+%% Now we input all the computer-generated entries
+%% created from herbium.rkt by herbium-gen-latex.rkt.
 \input herbium
 
 \vfill
