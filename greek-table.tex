@@ -1,0 +1,54 @@
+\documentclass[book,14pt,a4paper,onecolumn,openany]{memoir}
+\setlrmarginsandblock{1in}{1in}{*}
+\setulmarginsandblock{1in}{1in}{*}
+\fixthelayout
+
+\usepackage[LGR,T1]{fontenc} %% LGR for Greek.
+
+\input greek
+
+%% verbatim macro display.
+\newcommand{\vm}[1]{\texttt{\textbackslash #1}}
+
+%% Greek breathing/accent display.
+\newcommand{\gb}[2]{\gk{#1 {#2}}}
+
+%% Greek reference guide.
+\newcommand{\showgreek}{%
+  \par\noindent a b c d e f  g h i j\: k l m n o p q r s t u w x y z
+  \par\noindent\gk{a b c d e f g h i j k l m n o p q r s t u w x y z}
+  \medskip
+\begin{center}
+  \begin{tabular}{ll}
+    \vm{accdialytika\{a\}} & \gb{\accdialytika}{a}\\
+    \vm{acctonos}     & \gb{\acctonos}{e}\\
+    \vm{accdasia}     & \gb{\accdasia}{o}\\
+    \vm{accpsili}     & \gb{\accpsili}{h}\\
+    \vm{accvaria}     & \gb{\accvaria}{u}\\
+    \vm{accperispomeni} & \gb{\accperispomeni}{h}\\
+    \vm{accdialytikaperispomeni} & \gb{\accdialytikaperispomeni}{w}\\
+    \vm{accdialytikatonos}       & \gb{\accdialytikatonos}{a}\\
+    \vm{accdasiaperispomeni}     & \gb{\accdasiaperispomeni}{h}\\
+    \vm{accdasiavaria}           & \gb{\accdasiavaria}{o}\\
+    \vm{accdasiaoxia}            & \gb{\accdasiaoxia}{u}\\
+    \vm{accpsiliperispomeni}     & \gb{\accpsiliperispomeni}{w}\\
+    \vm{accpsilioxia}            & \gb{\accpsilioxia}{h}\\
+    \vm{accpsilivaria}           & \gb{\accpsilivaria}{o}\\
+    \vm{accinvertedbrevebelow}   & \gb{\accinvertedbrevebelow}{e}\\
+    \vm{accbrevebelow}           & \gb{\accbrevebelow}{h}\\
+    \vm{'\{a\}}                  & \gk{\'{a}}\\
+    \vm{`\{o\}}                  & \gk{\`{o}}\\
+    \vm{\textasciitilde \{u\}}   & \gk{\~{o}}
+  \end{tabular}
+\end{center}}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+%% Greek alphabet and accent guide.
+
+\showgreek
+
+\vfill\eject
+\end{document}
