@@ -1,0 +1,38 @@
+\pretitle{{\vskip 2cm} \centering\huge}
+\posttitle{\par\vskip 1.25cm}
+\preauthor{\centering\large}
+\postauthor{\par}
+\predate{\par\centering\vskip 0.5cm}
+\postdate{\par\vskip 1cm\vfill}
+
+\title{%
+  {\bfseries Les Noms de Nos Plantes}\\[.25em]
+  {\large Répertoire progressif d'identification}\\[.25em]
+  {\Large 5e edition}}
+\author{{\Large\scshape SBL Bushcraft Project}}
+\date{Mai 2020}
+
+%% Turn off page numbering for the title page
+%% and other side of title page. Then turn it
+%% back on. Put backside of title page text
+%% here.
+%%
+%% I will replace this with a plain-TeX title
+%% page and backtitle page. the use of 'titlingpage'
+%% environment is not recommended in Memoir.
+\newcommand{\mytitlepage}{%
+  \pagenumbering{gobble}
+   \begin{titlingpage}
+     \maketitle
+    \thispagestyle{plain}
+     \clearpage 
+         {\centering
+           {\par\noindent\large\itshape
+             Nomina si nescis, perit et cognitio rerum.}
+           \medskip
+               {\par\hfill ---Linné 1775}}
+         \vfill
+             {\par\noindent\large © SBL Bushcraft Project 2020}
+   \end{titlingpage}
+   \pagenumbering{arabic}
+}

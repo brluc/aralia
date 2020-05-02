@@ -1,0 +1,30 @@
+\newenvironment{nonewpage}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+%% #1 => name
+%% #2 => latin name
+%% #3 => family
+%% #4 => reference page
+\newcommand{\herbe}[4]{
+  \noindent\textbf{\large #1}\hfill {[#4]}
+  \par\noindent\hfill {\scshape #3}
+  \par\noindent\hfill {\itshape #2}
+  \par\smallskip
+}
+
+%% #1 => name
+%% #2 => latin name
+%% #3 => other latin name
+%% #4 => family
+%% #5 => reference page
+\newcommand{\herbex}[5]{
+  \noindent\textbf{\large #1}\hfill {[#5]}
+  \par\noindent\hfill {\scshape #4}
+  \par\hfill {\itshape #2}\hskip2pt /\hskip2pt {\itshape #3}
+  \par\smallskip
+}
+
+\newcommand{\herbskip}{\vskip 0,6cm}

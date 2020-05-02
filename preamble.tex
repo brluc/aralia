@@ -21,7 +21,6 @@
 \usepackage[LGR,T1]{fontenc} %% LGR for Greek.
 \usepackage[sc]{mathpazo}
 %%\usepackage[french]{babel}
-\usepackage{hyphenat}
 
 %% Use this instead of \emph for Latin text.
 \newcommand{\latin}[1]{%
@@ -29,88 +28,8 @@
 
 \input greek
 
-\pretitle{{\vskip 2cm} \centering\huge}
-\posttitle{\par\vskip 1.25cm}
-\preauthor{\centering\large}
-\postauthor{\par}
-\predate{\par\centering\vskip 0.5cm}
-\postdate{\par\vskip 1cm\vfill}
+\input title
 
-\title{%
-  {\bfseries Les Noms de Nos Plantes}\\[.25em]
-  {\large Répertoire progressif d'identification}\\[.25em]
-  {\Large 5e edition}}
-\author{{\Large\scshape SBL Bushcraft Project}}
-\date{Mai 2020}
+\input herbe
 
-%% Turn off page numbering for the title page
-%% and other side of title page. Then turn it
-%% back on. Put backside of title page text
-%% here.
-%%
-%% I will replace this with a plain-TeX title
-%% page and backtitle page. the use of 'titlingpage'
-%% environment is not recommended in Memoir.
-\newcommand{\mytitlepage}{%
-  \pagenumbering{gobble}
-   \begin{titlingpage}
-     \maketitle
-    \thispagestyle{plain}
-     \clearpage 
-         {\centering
-           {\par\noindent\large\itshape
-             Nomina si nescis, perit et cognitio rerum.}
-           \medskip
-               {\par\hfill ---Linné 1775}}
-         \vfill
-             {\par\noindent\large © SBL Bushcraft Project 2020}
-   \end{titlingpage}
-   \pagenumbering{arabic}
-}
-
-\newenvironment{nonewpage}
-  {\par\nobreak\vfil\penalty0\vfilneg
-   \vtop\bgroup}
-  {\par\xdef\tpd{\the\prevdepth}\egroup
-   \prevdepth=\tpd}
-
-\usepackage{lipsum}
-
-%% #1 => name
-%% #2 => latin name
-%% #3 => family
-%% #4 => reference page
-\newcommand{\herbe}[4]{
-  \noindent\textbf{\large #1}\hfill {[#4]}
-  \par\noindent\hfill {\scshape #3}
-  \par\noindent\hfill {\itshape #2}
-  \par\smallskip
-}
-
-%% #1 => name
-%% #2 => latin name
-%% #3 => other latin name
-%% #4 => family
-%% #5 => reference page
-\newcommand{\herbex}[5]{
-  \noindent\textbf{\large #1}\hfill {[#5]}
-  \par\noindent\hfill {\scshape #4}
-  \par\hfill {\itshape #2}\hskip2pt /\hskip2pt {\itshape #3}
-  \par\smallskip
-}
-
-\newcommand{\herbskip}{\vskip 0,6cm}
-
-%% Example of hyphenation rule.
-\hyphenation{écor-ce}
-\hyphenation{confon-dre}
-\hyphenation{rou-ges}
-\hyphenation{bran-ches}
-\hyphenation{Lo-bes}
-\hyphenation{lancéo-lées}
-\hyphenation{sphé-rique}
-\hyphenation{ha-bitat}
-\hyphenation{pré-sence}
-\hyphenation{épineu-ses}
-\hyphenation{jeu-ne}
-\hyphenation{natura-lisées}
+\input hyphenation
