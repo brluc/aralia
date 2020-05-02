@@ -112,7 +112,7 @@
  ("Aster simple"
   "COMPOSÉES"
   609
-  ("Aster simplex" "Symphyotrichum lanceolatum")
+  "Aster simplex \\lns Symphyotrichum lanceolatum"
   #f
   #f)
 
@@ -224,7 +224,7 @@
  ("Bouleau à feuilles cordées"
   "BÉTULACÉES"
   150
-  ("Betula cordifolia" "Betula papyrifera var. cordifolia.")
+  "Betula cordifolia \\lns Betula papyrifera var. cordifolia."
   #f
   #f)
 
@@ -440,7 +440,7 @@
  ("Dryoptéride du hêtre (moustaches)"
   "POLYPODIACÉES"
   129
-  ("Phegopteris connectilis" "Dryopteris phegopteris")
+  "Phegopteris connectilis \\lns Dryopteris phegopteris"
   #f
   #f)
 
@@ -672,7 +672,7 @@
  ("Herbe à la puce"
   "ANACARDIACÉES"
   392
-  ("Rhus toxicodendron" "Toxicodendron radicans")
+  "Rhus toxicodendron \\lns Toxicodendron radicans"
   #f
   "Toxique.")
 
@@ -843,7 +843,7 @@
  ("Matteuccie fougère-à-l’autruche"
   "POLYPODIACÉES"
   134
-  ("Matteuccia Struthiopteris" "Pteretis pensylvanica")
+  "Matteuccia Struthiopteris \\lns Pteretis pensylvanica"
   #f
   #f)
  ("Mauve musquée" "MALVACÉES" 380 "Malva moschata" #f #f)
@@ -1463,7 +1463,7 @@
  ("Viorne bois-d’orignal"
   "CAPRIFOLIACÉES"
   533
-  ("Viburnum lantanoides" "Viburnum alnifolium")
+  "Viburnum lantanoides \\lns Viburnum alnifolium"
   #f
   #f)
 
