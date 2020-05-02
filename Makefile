@@ -1,13 +1,16 @@
-TARGET1=herbium
+TARGET1=herbium-gen-latex
 TARGET2=aralia
 TARGET3=greek-table
 
-aralia: $(TARGET1).rkt 
+book: $(TARGET1).rkt $(TARGET2).tex 
 	racket $(TARGET1).rkt
 	pdflatex $(TARGET2)
 	pdflatex $(TARGET2)
 
-gk: $(TARGET3).tex
+herbium: $(TARGET1).rkt
+	racket $(TARGET1).rkt
+
+greek: $(TARGET3).tex
 	pdflatex $(TARGET3)
 	pdflatex $(TARGET3)
 
