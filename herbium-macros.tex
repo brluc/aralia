@@ -2,12 +2,33 @@
 %%
 %% Macros for typesetting individual plant entries.
 
+%% Latin name separator. Use this when you have
+%% two (or more) Latin names. Like so:
+%%
+%%   Cafe Folgerensis \lns Java Maxwellhousium
+%%
+%% Don't forget to escape backslash in a string!
+\newcommand{\lns}{\hskip2pt /\hskip2pt}
+
+%% Vertical space between herbium entries when they
+%% appear on the same page.
+\newcommand{\herbskip}{\vskip 0,6cm}
+
+%% Un-pagebreakable environment for wrapping herbium entries.
+%% We don't want an entry to be spread out over two pages.
 \newenvironment{nonewpage}
   {\par\nobreak\vfil\penalty0\vfilneg
    \vtop\bgroup}
   {\par\xdef\tpd{\the\prevdepth}\egroup
    \prevdepth=\tpd}
 
+%% This macro typesets the header for a herbium entry.
+%%
+%%   \herbe{My name is}{And my Latin name}{My Family}{991}
+%%
+%% The descriptive comments and the edibility comments are
+%% added seperately.
+%%
 %% #1 => name
 %% #2 => latin name
 %% #3 => family
@@ -18,6 +39,12 @@
   \par\noindent\hfill {\itshape #2}
   \par\smallskip
 }
+
+
+
+%% ===========================================
+%% MACRO BELOW IS DEPRECATED !!!
+%% ===========================================
 
 %% #1 => name
 %% #2 => latin name
@@ -31,4 +58,4 @@
   \par\smallskip
 }
 
-\newcommand{\herbskip}{\vskip 0,6cm}
+
