@@ -18,6 +18,70 @@
 ;; Æ 0198  Ê 0202  Ô 0212
 ;;         Ë 0203  Œ 0140
 
+(define A-group (list #\A #\À #\Â #\Ä #\Æ))
+(define C-group (list #\C #\Ç))
+(define E-group (list #\E #\È #\É #\Ê #\Ë))
+(define IJK-group (list #\I #\Î #\Ï #\J #\K))
+(define O-group (list #\O #\Ô #\Œ))
+(define U-group (list #\U #\Ù #\Û #\Ü))
+(define XYZ-group (list #\X #\Y #\Z))
+(define normal-group (list #\B #\D #\F #\G #\H #\L
+                           #\M #\N #\P #\Q #\R #\S
+                           #\T #\V #\W))
+
+
+
+;;; need to test this
+
+
+;; Reduce a diacritic symbol to its base form.
+(define base-form-table
+  (hash #\À #\A #\Â #\A #\Ä #\A
+        #\Ç #\C
+        #\È #\E #\É #\E #\Ê #\E #\Ë #\E
+        #\Î #\I #\Ï #\I
+        #\Ô #\O
+        #\Ù #\U #\Û #\U #\Ü #\U))
+
+;; The chapter to which an herbium entry belongs is
+;; determined from the first letter of the plant name.
+;; Special characters must be handled, diacritics
+;; eliminated, and rare letters combined. This gives
+;; us the chapter key. Chapter keys are used as keys
+;; in hash tables and also as LaTeX chapter headings.
+;;
+;; First character of the name is upcased. If it is
+;; not alphabetic, error. If it's in the base-form table,
+;; replace it with its base form. If it's part of a group,
+;; return the group key (I J K, X Y Z).
+(define (get-chapter-key name)
+  (let ((cc (char-upcase (string-ref (string-trim name) 0))))
+    (if (char-alphabetic? cc)
+        (let ((c (if (hash-has-key? base-form-table cc)
+                 (hash-ref base-form-table cc)
+                 cc)))
+          (cond ((char=? #\Æ c) "A")
+                ((char=? #\Œ c) "O")
+                ((or (char=? #\I c)
+                     (char=? #\J c)
+                     (char=? #\K c)) "I J K")
+                ((or (char=? #\X c)
+                     (char=? #\Y c)
+                     (char=? #\Z c)) "X Y Z")
+                (else (format "~a" c))))
+        (error "get-chapter-key: failed on name: " name))))
+
+
+
+
+
+
+
+
+
+
+
+
 
 ;; We expand ligatures.
 ;;
@@ -43,15 +107,6 @@
  "OEAEAEOE"
  "ligatures should be expanded properly")
 
-;; Map out all the diacritic symbols into their
-;; plain base forms. 
-(define base-form-table
-  (hash #\À #\A #\Â #\A #\Ä #\A
-        #\Ç #\C
-        #\È #\E #\É #\E #\Ê #\E #\Ë #\E
-        #\Î #\I #\Ï #\I
-        #\Ô #\O
-        #\Ù #\U #\Û #\U #\Ü #\U))
 
 (define (eliminate-diacritics my-string)
   (list->string
@@ -95,35 +150,6 @@
   (string-ci<? (prepare-string s1)
                (prepare-string s2)))
 
-(define A-group (list #\A #\À #\Â #\Ä #\Æ))
-(define C-group (list #\C #\Ç))
-(define E-group (list #\E #\È #\É #\Ê #\Ë))
-(define IJK-group (list #\I #\Î #\Ï #\J #\K))
-(define O-group (list #\O #\Ô #\Œ))
-(define U-group (list #\U #\Ù #\Û #\Ü))
-(define XYZ-group (list #\X #\Y #\Z))
-(define normal-group (list #\B #\D #\F #\G #\H #\L
-                           #\M #\N #\P #\Q #\R #\S
-                           #\T #\V #\W))
-
-;; Classify name under a chapter heading
-;; by its first character. Left-trim the name
-;; to be sure. Some chapters are grouped together,
-;; e.g., IJK.
-(define (get-chapter-key name)
-  (let ((c (string-ref
-            (string-locale-upcase
-             (string-trim name)) 0)))
-    (cond ((member c normal-group) (format "~a" c))
-          ((member c A-group) "A")
-          ((member c C-group) "C")
-          ((member c E-group) "E")
-          ((member c IJK-group) "I J K")
-          ((member c O-group) "O")
-          ((member c U-group) "U")
-          ((member c XYZ-group) "X Y Z")
-          (else
-           (error "get-chapter-key: failed on name: " name)))))
 
 (define (collect-into-chapters rows)
   (let ((hash-table (make-hash)))
