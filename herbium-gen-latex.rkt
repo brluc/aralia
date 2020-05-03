@@ -15,12 +15,6 @@
 
 (provide (all-defined-out))
 
-;; (define herbium-database-filename
-;;   (make-parameter "herbium.rkt"))
-
-;; (define (read-herbium)
-;;   (call-with-input-file (herbium-database-filename) read))
-
 ;; We frequently have to join lists of strings which
 ;; are lines of tex code.
 (define (join-tex list-of-strings)

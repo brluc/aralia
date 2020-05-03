@@ -3,7 +3,7 @@ TARGET2=aralia
 TARGET3=greek-table
 
 book: $(TARGET1).rkt $(TARGET2).tex 
-	racket $(TARGET1).rkt
+	racket -e '(require "$(TARGET1).rkt") (build-herbium)'
 	pdflatex $(TARGET2)
 	pdflatex $(TARGET2)
 

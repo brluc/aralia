@@ -16,16 +16,6 @@
 (define (read-herbium)
   (call-with-input-file (herbium-database-filename) read))
 
-(define herbium (read-herbium))
-
-(define (find-latin-pairs)
-  (filter
-   (lambda (row)
-     (match row
-       ((list _ _ _ latin _ _ )
-        (list? latin))))
-   herbium))
-
 ;; Final product.
 (define (write-to-tex-file body)
   (call-with-output-file "xherbiumx.tex" #:exists 'replace
@@ -36,5 +26,22 @@
       (displayln "%% the x...x means this is Racket-generated\n%%\n" out)
       (displayln body out))))
 
-(write-to-tex-file (make-body herbium))
+(define (build-herbium)
+  (write-to-tex-file
+   (make-body
+    (read-herbium))))
+
+
+
+;;; Experiments.
+
+(define herbium (read-herbium))
+
+(define (find-latin-pairs)
+  (filter
+   (lambda (row)
+     (match row
+       ((list _ _ _ latin _ _ )
+        (list? latin))))
+   herbium))
 
