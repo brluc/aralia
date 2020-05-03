@@ -1,6 +1,6 @@
-;; Portable French language string sort.
-;; Racket's locale string comparison
-;; works in Ubuntu but not in OSX.
+;;; alpha-sort.rkt
+;;;
+;;;
 
 #lang racket
 
@@ -17,18 +17,6 @@
 ;; Ä 0196  É 0201  O 0079
 ;; Æ 0198  Ê 0202  Ô 0212
 ;;         Ë 0203  Œ 0140
-
-(define A-group (list #\A #\À #\Â #\Ä #\Æ))
-(define C-group (list #\C #\Ç))
-(define E-group (list #\E #\È #\É #\Ê #\Ë))
-(define IJK-group (list #\I #\Î #\Ï #\J #\K))
-(define O-group (list #\O #\Ô #\Œ))
-(define U-group (list #\U #\Ù #\Û #\Ü))
-(define XYZ-group (list #\X #\Y #\Z))
-(define normal-group (list #\B #\D #\F #\G #\H #\L
-                           #\M #\N #\P #\Q #\R #\S
-                           #\T #\V #\W))
-
 
 
 ;;; need to test this
