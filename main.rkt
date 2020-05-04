@@ -16,6 +16,11 @@
 (define (read-herbium)
   (call-with-input-file (herbium-database-filename) read))
 
+
+;; Test congruence of herbium rows.
+;; Generate some stats on chapter contents.
+
+
 ;; Final product.
 (define (write-to-tex-file body)
   (call-with-output-file "xherbiumx.tex" #:exists 'replace

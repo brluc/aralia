@@ -4,7 +4,7 @@
 
 #lang racket
 
-(require rackunit)
+;(require rackunit)
 
 (provide (all-defined-out))
 
@@ -17,10 +17,6 @@
 ;; Ä 0196  É 0201  O 0079
 ;; Æ 0198  Ê 0202  Ô 0212
 ;;         Ë 0203  Œ 0140
-
-
-;;; need to test this
-
 
 ;; Reduce a diacritic symbol to its base form.
 (define base-form-table
@@ -59,22 +55,11 @@
                 (else (format "~a" c))))
         (error "get-chapter-key: failed on name: " name))))
 
-
-
-
-
-
-
-
-
-
-
-
-
-;; We expand ligatures.
+;; Expand ligatures.
 ;;
 ;;   Æ 0198 ==> AE
 ;;   Œ 0140 ==> OE
+;;
 (define (expand-ligatures my-string)
   (let loop ((cs (string->list my-string))
              (result empty))
@@ -89,12 +74,12 @@
           (else
            (loop (cdr cs)
                  (cons (car cs) result))))))
-
-(check-equal?
- (expand-ligatures "ŒÆÆŒ")
- "OEAEAEOE"
- "ligatures should be expanded properly")
-
+(module+ test
+  (require rackunit)
+  (check-equal?
+   (expand-ligatures "ŒÆÆŒ")
+   "OEAEAEOE"
+   "ligatures should be expanded properly"))
 
 (define (eliminate-diacritics my-string)
   (list->string
@@ -104,15 +89,15 @@
               c))
         (string->list my-string))))
 
-(check-equal?
- (eliminate-diacritics "AÀÂÄCÇEÈÉÊËIÎÏOÔUÙÛÜ")
- "AAAACCEEEEEIIIOOUUUU"
- "should eliminate diacritics and leave base forms")
-
-(check-equal?
- (eliminate-diacritics "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
- "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
- "should have no effect on base forms")
+(module+ test
+  (check-equal?
+   (eliminate-diacritics "AÀÂÄCÇEÈÉÊËIÎÏOÔUÙÛÜ")
+   "AAAACCEEEEEIIIOOUUUU"
+   "should eliminate diacritics and leave base forms")
+  (check-equal?
+   (eliminate-diacritics "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+   "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+   "should have no effect on base forms"))
 
 ;; Ignore non-alphanumeric characters.
 (define (keep-alphabetic my-string)
@@ -120,13 +105,14 @@
    (filter char-alphabetic?
            (string->list my-string))))
 
-(check-equal?
- (keep-alphabetic "ŒÆÆŒÂÄ~*&CÇEÈÉBC D E _ - F123G;H:IJ@K0.Z")
- "ŒÆÆŒÂÄCÇEÈÉBCDEFGHIJKZ"
- "should keep only alphabetical characters")
+(module+ test
+  (check-equal?
+   (keep-alphabetic "ŒÆÆŒÂÄ~*&CÇEÈÉBC D E _ - F123G;H:IJ@K0.Z")
+   "ŒÆÆŒÂÄCÇEÈÉBCDEFGHIJKZ"
+   "should keep only alphabetical characters"))
 
 ;; Do a diacritic-free ligature-free comparison,
-;; ignoring non-alphabetic symbols.
+;; ignoring non-alphabetic symbols and case.
 
 (define (prepare-string my-string)
   (eliminate-diacritics
@@ -134,9 +120,18 @@
     (expand-ligatures
      (keep-alphabetic my-string)))))
 
+
+
+
 (define (string-base<? s1 s2)
   (string-ci<? (prepare-string s1)
                (prepare-string s2)))
+
+
+
+
+
+
 
 
 (define (collect-into-chapters rows)
