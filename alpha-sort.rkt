@@ -114,49 +114,71 @@
 ;; Do a diacritic-free ligature-free comparison,
 ;; ignoring non-alphabetic symbols and case.
 
-(define (prepare-string my-string)
+;; Transform string into uppercase base forms.
+;; Expanded ligatures, no diacritics.
+(define (alpha-base-form my-string)
   (eliminate-diacritics
    (string-upcase
     (expand-ligatures
      (keep-alphabetic my-string)))))
 
+(module+ test
+  (check-equal?
+   (alpha-base-form "Verge d’or à feuilles de graminées")
+   "VERGEDORAFEUILLESDEGRAMINEES"
+   "should keep alpha base-form characters only."))
 
+;; Comparison function for use in sorting.
+(define (alpha-base-form<? s1 s2)
+  (string<? (alpha-base-form s1)
+            (alpha-base-form s2)))
 
+(module+ test
+  (check-true
+   (alpha-base-form<? "Verge d’or du Canada"
+                      "Véronique à feuilles de thym")
+   "should put Verge before Véronique")
+  (check-true
+   (alpha-base-form<? "Véronique à feuilles de thym"
+                      "Violette du Labrador")
+   "should put Véronique before Violette"))
 
-(define (string-base<? s1 s2)
-  (string-ci<? (prepare-string s1)
-               (prepare-string s2)))
-
-
-
-
-
-
-
-
-(define (collect-into-chapters rows)
-  (let ((hash-table (make-hash)))
+;; Rows is a list of lists that are accessed by an
+;; accessor function to build hash keys. Rows having
+;; the same hash key are consed onto a list corresponding
+;; to that key in the hash table. This is a classic hash
+;; table method for classifying things. The hash table is
+;; converted to a list and the list is returned. This list
+;; is the chapter table.
+(define (classify rows accessor get-hash-key)
+  (let ((ht (make-hash)))
     (for-each
      (lambda (row)
-       (match row
-         ((list name _ _ _ _ _)
-          (let ((chapter-key (get-chapter-key name)))
-            (if (hash-has-key? hash-table chapter-key)
-                (hash-update! hash-table
-                              chapter-key
-                              (lambda (v)
-                                (cons row v)))
-                (hash-set! hash-table
-                           chapter-key
-                           (list row)))))
-         (__ (error "collect-into-chapters: cannot match row: " row))))
+       (let ((hk (get-hash-key (accessor row))))
+         (if (hash-has-key? ht hk)
+             (hash-update! ht hk (lambda (v) (cons row v)))
+             (hash-set! ht hk (list row)))))
      rows)
-    (sort (hash-map hash-table
-                    (lambda (k v)
-                      (cons k (sort v
-                                    #:key car
-                                    string-base<?))))
-          #:key car
-          string-ci<?)))
+    (hash->list ht)))
+
+;; Sorts chapter table by chapter key.
+(define (sort-chapter-keys chapters)
+  (sort chapters string<? #:key car))
+
+;; Sorts the entries in each chapter.
+(define (alpha-sort-chapter-entries chapters)
+  (map (lambda (chapter)
+         (cons (car chapter)
+               (sort (cdr chapter)
+                     alpha-base-form<?
+                     #:key car)))
+       chapters))
+
+;; Collects herbium entries (rows) into sorted chapters.
+(define (collect-into-chapters rows)
+  (sort-chapter-keys
+   (alpha-sort-chapter-entries
+    (classify rows car get-chapter-key))))
+
 
 

@@ -15,6 +15,7 @@ greek: $(TARGET3).tex
 	pdflatex $(TARGET3)
 
 check: alpha-sort.rkt
+	racket -e '(require "main.rkt") (stats)'
 	raco test alpha-sort.rkt
 
 

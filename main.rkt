@@ -3,6 +3,9 @@
 ;;; User interface. Use this module to debug
 ;;; and hack around with herbium.
 
+;; To do:
+;; Test congruence of herbium rows.
+
 #lang racket
 
 (require "alpha-sort.rkt"
@@ -15,11 +18,6 @@
 
 (define (read-herbium)
   (call-with-input-file (herbium-database-filename) read))
-
-
-;; Test congruence of herbium rows.
-;; Generate some stats on chapter contents.
-
 
 ;; Final product.
 (define (write-to-tex-file body)
@@ -36,9 +34,7 @@
    (make-body
     (read-herbium))))
 
-
-
-;;; Experiments.
+;;; ============================================
 
 (define herbium (read-herbium))
 
@@ -50,3 +46,21 @@
         (list? latin))))
    herbium))
 
+(define (herbium-stats)
+  (length herbium))
+
+(define (chapter-stats)
+  (map (lambda (chapter)
+         (cons (car chapter)
+               (length (cdr chapter))))
+       (collect-into-chapters herbium)))
+
+(define (stats)
+  (printf "~a entries in herbium\n" (herbium-stats))
+  (printf "~a\n" (chapter-stats)))
+
+(define (chapters-short)
+  (map (lambda (chapter)
+         (cons (car chapter)
+               (map car (cdr chapter))))
+       (collect-into-chapters herbium)))
