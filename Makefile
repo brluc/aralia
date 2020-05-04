@@ -14,7 +14,7 @@ greek: $(TARGET3).tex
 	pdflatex $(TARGET3)
 	pdflatex $(TARGET3)
 
-test: alpha-sort.rkt
+check: alpha-sort.rkt
 	raco test alpha-sort.rkt
 
 
