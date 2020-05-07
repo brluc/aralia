@@ -16,7 +16,7 @@
   "RENONCULACÉES"
   233
   "Actea rubra"
-  "Fruits rouges, à graines nombreuses (11-17) portés sur pédicelles grêles, creux et généralement verdâtres."
+  "Fruits rouges, à graines nombreuses (11-17), portés sur pédicelles grêles, creux et généralement verdâtres."
   "Toxique.")
 
  ("Adiante du Canada"
@@ -62,7 +62,7 @@
   "OMBELLIFÈRES"
   420
   "Anthriscus sylvestris"
-  "persil sauvage."
+  "Persil sauvage."
   #f)
 
  ("Apocyn à feuilles d’Androsème"
@@ -143,7 +143,7 @@
   "BÉTULACÉES"
   151
   "Alnus rugosa (incana)"
-  "Cocottes persistantes, sans queue. ne pas confondre avec \\emph{Alnus viridis.} Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées."
+  "Cocottes persistantes, sans queue. Ne pas confondre avec \\emph{Alnus viridis.} Feuilles épaisses, plissées, vert foncé, rugueuses, pubescentes sur les deux faces, doublement dentées."
   #f)
 
  ("Barbarée vulgaire"
@@ -448,7 +448,7 @@
   "POLYPODIACÉES"
   130
   "Dryopteris spinulosa (intermedia)"
-  "Limbe triplement divisé. Sores ronds. Ne pas confondre avec \\emph{Athyrium Filix-femina.} Écailles brun pâle sur la crosse. Spinule: petite pointe sur chaque dent du limbe. Limbe vert plus foncé."
+  "Limbe doublement divisé. Sores ronds. Ne pas confondre avec \\emph{Athyrium Filix-femina.} Écailles brun pâle sur la crosse. Spinule: petite pointe sur chaque dent du limbe. Limbe vert plus foncé."
   #f)
 
  ("Dryoptère à sores marginaux"
@@ -650,7 +650,7 @@
   "SAXIFRAGACÉES"
   291
   "Ribes cynosbati"
-  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec \\emph{Ribes Americanum} qui est sans épine."
+  "Fruits: baies vertes (immatures) piquantes. Présence d’épines aux nœuds (2-3). Ne pas confondre avec \\emph{Ribes americanum} qui est sans épine."
   "Baies comestibles.")
 
  ("Glycérie striée" "GRAMINÉES" 768 "Glyceria striata" #f #f)
@@ -708,7 +708,7 @@
 
  ("Impatiente du Cap" "BALSAMINACÉES" 399 "Impatiens capensis" #f #f)
 
- ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" "Emblème florale du Québec." "Toxique.")
+ ("Iris versicolore" "IRIDACÉES" 667 "Iris versicolor" "Emblème floral du Québec." "Toxique.")
 
  ("Jonc épars" "JONCACÉES" 671 "Juncus effusus" #f #f)
  
@@ -739,7 +739,7 @@
   "COMPOSÉES"
   552
   "Leontodon autumnalis"
-  "Floraison: juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec l'épervières (feuilles lancéolées)."
+  "Floraison: juin-octobre. Feuilles toutes basilaires semblables en forme à celles du pissenlit, mais plus petites. Ne pas confondre avec les épervières (feuilles lancéolées)."
   #f)
 
  ("Lenticule mineure (Lentille d’eau)" "LEMNACÉES" 848 "Lemna minor" #f #f)
@@ -955,7 +955,7 @@
   "ULMACÉES"
   170
   "Ulmus americana"
-  "Feuilles asymétrique, rugueuses comme du papier."
+  "Feuilles asymétriques, rugueuses comme du papier."
   #f)
 
  ("Orpin pourpre"
@@ -1262,7 +1262,7 @@
   "CARYOPHYLLACÉES"
   205
   "Silene latifolia"
-  "Calice plus gros, fortement gonflé, ses nervures sont de couleur rouge-vin."
+  "Calice plus gros que \\emph{Silene vulgaris}, fortement gonflé, ses nervures sont de couleur rouge-vin."
   #f)
 
  ("Smilacine à grappes"
@@ -1313,7 +1313,7 @@
 
  ("Sureau rouge"
   "CAPRIFOLIACÉES"
-  #f
+  530
   "Sambucus racemosa"
   "Floraison printanière. Fruits écarlates à maturité (été)."
   "Toxique.")
@@ -1476,4 +1476,4 @@
 
  ("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534 "Viburnum Rafinesquianum" #f #f)
 
- ("Zizia doré" "OMBELLIFÈRES" 417 "Zizia aurea" "Ziz: botaniste alleamand." #f))
+ ("Zizia doré" "OMBELLIFÈRES" 417 "Zizia aurea" "Ziz: botaniste allemand." #f))
