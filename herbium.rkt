@@ -852,8 +852,8 @@
   "LILIACÉES"
   647
   "Medeola virginiana"
-  #f
-  "Tubercule comestible.")
+  "Fruits juteux, noir."
+  "Fruit et tubercule comestible.")
 
  ("Mélèze laricin" "PINACÉES" 142 "Larix laricina" #f #f)
 
