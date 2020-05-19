@@ -22,7 +22,7 @@
  ("Adiante du Canada"
   "POLYPODIACÉES"
   124 "Adiantum pedatum"
-  "Frondes à pétiole bifurqué, à limbe réniforme; ``La plus belle de nos fougères''. ---Fr. Marie-Victorin." #f)
+  "Frondes à pétiole bifurqué, à limbe réniforme; ``La plus belle de nos fougères.'' ---Fr. Marie-Victorin." #f)
 
  ("Agrostide blanche"
   "GRAMINÉES"
@@ -76,7 +76,7 @@
   "ARALIACÉES"
   412
   "Aralia racemosa"
-  "\\emph{Racemus, i,} m.: grappe. \\gk{\\accdasia{r}\\'{a}x, -ag\\'{o}c, \\'{h}}: grain de raisin."
+  "\\emph{Racemus, i,} m.: grappe. \\gk{\\accdasia{r}\\'{a}x, -ag\\'{o}c, \\'{h}}: grain de raisin. Fruit rouge foncé poussant en grappes de formes arrondies. Présente en un seul endroit sur le terrain."
   "Fruit comestible.")
 
  ("Aralie à tige nue"
@@ -327,7 +327,12 @@
   "Petits capitules (2-2,5 cm) non épineux."
   #f)
 
- ("Chélidoine majeure" "PAPAVÉRACÉES" 248 "Chelidonium majus" #f #f)
+ ("Chélidoine majeure"
+  "PAPAVÉRACÉES"
+  248
+  "Chelidonium majus"
+  "Latex de couleur jaune-orangé. Fleur jaune à quatre pétales."
+  #f)
 
  ("Chêne rouge"
   "FAGACÉES"
@@ -383,7 +388,12 @@
 
  ("Clintonie boréale" "LILIACÉES" 647 "Clintonia borealis" #f #f)
 
- ("Cohosh bleu" "BERBÉRIDACÉES" 237 "Caulophyllum thalictroides" #f #f)
+ ("Cohosh bleu"
+  "BERBÉRIDACÉES"
+  237
+  "Caulophyllum thalictroides"
+  "Très petite fleur brunatre à cinq pétales et coeur jaune"
+  #f)
 
  ("Coptide savoyane" "RENONCULACÉES" 230 "Coptis trifolia" #f #f)
 
@@ -408,7 +418,12 @@
   #f
   #f)
 
- ("Cypripède rose" "ORCHIDACÉES" 820 "Cypripedium acaule" #f #f)
+ ("Cypripède rose"
+  "ORCHIDACÉES"
+  820
+  "Cypripedium acaule"
+  "Spectaculaire fleur rose. Ne pousse qu'en un seul endroit sur le terrain."
+  #f)
 
  ("Dalibarde rampante" "ROSACÉES" 342 "Dalibarda repens" #f #f)
 
@@ -571,7 +586,12 @@
 
  ("Érigéron annuel" "COMPOSÉES" 604 "Erigeron annuus" "Nom commun: Vergerette. Fleurs blanches." #f)
 
- ("Érythrone d’Amérique" "LILIACÉES" 656 "Erythronium americanum" #f #f)
+ ("Érythrone d’Amérique"
+  "LILIACÉES"
+  656
+  "Erythronium americanum"
+  "Feuilles tachetées. Fleur jaune à cinq pétales, inclinée vers le bas."
+  #f)
 
  ("Eupatoire maculée" "COMPOSÉES" 583 "Eupatorium maculatum" #f #f)
 
@@ -594,7 +614,7 @@
   "ROSACÉES"
   342
   "Fragaria virginiana"
-  "Lieux ouverts et secs. Graines en surface mais dans une dépression."
+  "Lieux ouverts et secs. Graines en surface mais dans une dépression. Fleur blanche à cinq pétales."
   "Fruit comestible.")
 
  ("Frêne blanc"
@@ -998,7 +1018,12 @@
   "Taille: 30 cm. Inflorescence verte teintée de rouge. Feuilles basilaires pliées en 2 sur le long avec une nervure centrale rappelant une piste de ski. Nombreux épillets contenant 3 à 5 fleurs."
   #f)
 
- ("Pervenche mineure" "APOCYNACÉES" 516 "Vinca minor" #f #f)
+ ("Pervenche mineure"
+  "APOCYNACÉES"
+  516
+  "Vinca minor"
+  "Plante rampante. Fleur bleu-mauve à cinq pétales."
+  #f)
 
  ("Peuplier blanc" "SALICACÉES" 162 "Populus alba" #f #f)
 
@@ -1067,7 +1092,12 @@
 
  ("Pommier" "ROSACÉES" 318 "Malus" #f #f)
 
- ("Populage des marais" "RENONCULACÉES" 222 "Caltha palustris" #f #f)
+ ("Populage des marais"
+  "RENONCULACÉES"
+  222
+  "Caltha palustris"
+  "En des lieux très humide. Fleur d'un jaune éclatant."
+  #f)
 
  ("Potentille frutescente"
   "ROSACÉES"
@@ -1138,14 +1168,24 @@
  ("Pulmonaire officinale"
   "BORAGINACÉES"
   454 "Pulmonaria officinalis"
-  "\\emph{Notre flore indigène est pauvre en plante de cette famille, mais plusieurs Boraginacées eurasiatiques se sont naturalisées facilement dans le Québec. Fr. Marie-Victorin.}"
+  "``Notre flore indigène est pauvre en plante de cette famille, mais plusieurs Boraginacées eurasiatiques se sont naturalisées facilement dans le Québec.'' ---Fr. Marie-Victorin."
   #f)
 
  ("Pyrole elliptique" "ÉRICACÉES" 436 "Pyrola elliptica" #f #f)
 
- ("Quenouille à feuilles étroites" "TYPHACÉES" 854 "Typha angustifolia" #f #f)
+ ("Quenouille à feuilles étroites"
+  "TYPHACÉES"
+  854
+  "Typha angustifolia"
+  #f
+  "Feuilles et rhizomes comestibles")
 
- ("Quenouille à feuilles larges" "TYPHACÉES" 855 "Typha latifolia" #f #f)
+ ("Quenouille à feuilles larges"
+  "TYPHACÉES"
+  855
+  "Typha latifolia"
+  #f
+  "Feuilles et rhizomes comestibles")
 
  ("Renoncule âcre" "RENONCULACÉES" 227 "Ranunculus acris" #f #f)
 
@@ -1228,7 +1268,12 @@
 
  ("Salsifis des prés" "COMPOSÉES" 552 "Tragopogon pratensis" #f #f)
 
- ("Sanguinaire du Canada" "PAPAVÉRACÉES" 248 "Sanguinaria canadensis" #f #f)
+ ("Sanguinaire du Canada"
+  "PAPAVÉRACÉES"
+  248
+  "Sanguinaria canadensis"
+  "Latex rouge-orangé, bien visible en contre-jour de la feuille. Grande fleur blanche à cinq pétales."
+  #f)
 
  ("Sapin baumier"
   "PINACÉES"
@@ -1361,7 +1406,12 @@
 
  ("Trille ondulé" "LILIACÉES" 646 "Trillium undulatum" #f #f)
 
- ("Tussilage pas-d’âne" "COMPOSÉES" 594 "Tussilago Farfara" #f #f)
+ ("Tussilage pas-d’âne"
+  "COMPOSÉES"
+  594
+  "Tussilago Farfara"
+  "L'une des premières fleurs du printemps, jaune."
+  "Fleur comestible")
 
  ("Thuya occidental" "CUPRESSACÉES" 140 "Thuja occidentalis" #f #f)
 
@@ -1471,7 +1521,7 @@
   "CAPRIFOLIACÉES"
   533
   "Viburnum trilobum"
-  #f
+  "Le nom Algonquin de la baie est Pimbina"
   "Fruit comestible.")
 
  ("Viorne de Rafinesque" "CAPRIFOLIACÉES" 534 "Viburnum Rafinesquianum" #f #f)
