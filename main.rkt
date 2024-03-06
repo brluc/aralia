@@ -5,6 +5,8 @@
 
 ;; To do:
 ;; Test congruence of herbium rows.
+;;
+;; (small change to test git push/pull.)
 
 #lang racket
 
