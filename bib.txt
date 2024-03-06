@@ -1,3 +1,5 @@
+\chapter*{Préface}
+
 Sources Bibliographiques
 
 Marie-Victorin Fr. (1964). Flore Laurentienne. Montréal, Québec:  Les presses de l’université de Montréal.

@@ -3,9 +3,9 @@
 %% The structure and layout of the Aralia book
 %% happens here!
 
-\documentclass[book,10pt,a4paper,onecolumn,openany]{memoir}
-\setlrmarginsandblock{2.5in}{2.5in}{*}
-\setulmarginsandblock{3.5in}{3in}{*}
+\documentclass[book,4pt,letterpaper,onecolumn,openany]{memoir}
+\setlrmarginsandblock{75mm}{75mm}{*}
+\setulmarginsandblock{90mm}{80mm}{*}
 \fixthelayout
 %%\raggedbottom
 
@@ -15,7 +15,7 @@
 
 %%\chapterstyle{demo}
 %%\chapterstyle{demo2}
-\chapterstyle{bianchi}
+\chapterstyle{veelo}
 %%\chapterstyle{chappell}
 %%\chapterstyle{lyhne}
 %%\chapterstyle{southall}
@@ -24,7 +24,7 @@
 
 %% Vertical space before chapter heading.
 %% Default is usually 50pt.
-\renewcommand*{\chapterheadstart}{\vspace*{1pt}}
+\renewcommand*{\chapterheadstart}{\vspace*{0pt}}
 
 %% Use this instead of \emph for Latin text.
 \newcommand{\latin}[1]{{\itshape #1}}
@@ -41,13 +41,17 @@
 
 %% Comment these two lines out if you don't want
 %% to see the preface:
-\frontmatter
-\input preface
+%%\frontmatter
+%%\input preface
 
 %% Now we input all the computer-generated entries
 %% created from herbium.rkt by herbium-gen-latex.rkt.
 \mainmatter
 \input xherbiumx
+
+%% essai d'entrer bibliographie
+\input bib
+\input notes
 
 \vfill
 \end{document}
